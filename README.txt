@@ -1,6 +1,6 @@
 Kazakh UD treebank
 
-BAISC STATISTICS
+BASIC STATISTICS
 Tree count:  402
 Word count:  4516
 Token count: 4341
