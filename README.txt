@@ -12,8 +12,8 @@ Category=value feature pairs: 0
 
 === Machine-readable metadata =================================================
 Documentation status: partial
-Data source: unknown
-Data available since:
-License:
+Data source: wiki fiction
+Data available since: UD v1.3
+License: CC BY-NC-SA 4.0
 Contributors: Makazhanov, Aibek; Washington, Jonathan North; Tyers, Francis
 ===============================================================================
