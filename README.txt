@@ -39,7 +39,7 @@ Please, cite the following papers if you use Kazakh UD treebank:
   Yessenbayev, Zhandos},
   title = {Syntactic Annotation of Kazakh: Following the Universal Dependencies Guidelines. A report},
   booktitle = {3rd International Conference on Turkic Languages Processing,
-  TurkLang 2015, Kazan, Tatarstan, Russia, September 17-19, 2015},
+  (TurkLang 2015)},
   pages = {338--350},
   year = {2015},
 }
