@@ -1,6 +1,8 @@
 Kazakh UD treebank
 
+
 BASIC STATISTICS
+
 Tree count:  450
 Word count:  5072
 Token count: 4874
@@ -17,6 +19,11 @@ The tokenization in the Kazakh UD treebank follows the principles of [Turkic lex
 MORPHOLOGY
 
 There is currently no morphological annotation in the Kazakh UD treebank.  This is planned for a future release.
+
+
+DATA SETS
+
+The treebank was randomly split into training (80%), testing (10%), and development (10%) sets.
 
 
 CITATIONS
