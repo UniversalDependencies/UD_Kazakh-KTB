@@ -1,9 +1,9 @@
 Kazakh UD treebank
 
 BASIC STATISTICS
-Tree count:  402
-Word count:  4516
-Token count: 4341
+Tree count:  450
+Word count:  5072
+Token count: 4874
 Dep. relations: 29 of which 1 language specific
 POS tags: 16
 Category=value feature pairs: 0
