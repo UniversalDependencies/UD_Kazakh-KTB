@@ -1,178 +1,161 @@
-#ID: 7 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Әр	әр	DET	det	_	2	det	_	_
-2	адам	адам	NOUN	n	_	13	nsubj	_	_
-3	өмір__сүруге	өмір__сүр	VERB	v	_	12	conj	_	_
-4	,	,	PUNCT	cm	_	12	punct	_	_
-5	бостандықта	бостандық	NOUN	n	_	6	nmod	_	_
-6	болуға	бол	VERB	v	_	12	conj	_	_
-7	және	және	CONJ	cnjcoo	_	12	cc	_	_
-8	оның	ол	PRON	prn	_	10	nmod:poss	_	_
-9	жеке	жеке	ADJ	adj	_	10	amod	_	_
-10	басына	бас	NOUN	n	_	12	nmod	_	_
-11	қол	қол	NOUN	n	_	12	nsubj	_	_
-12	сұғылмауына	сұқ	VERB	v	_	13	advcl	_	_
-13-14	құқылы	_	_	_	_	_	_	_	_
-13	_	құқылы	ADJ	adj	_	0	root	_	_
-14	_	е	VERB	cop	_	13	cop	_	_
-15	.	.	PUNCT	sent	_	13	punct	_	_
-
-#ID: 18 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Неке	неке	NOUN	n	_	13	nsubj	_	_
-2	,	,	PUNCT	cm	_	1	punct	_	_
-3	тек	тек	ADV	adv	_	13	advmod	_	_
-4	екі	екі	NUM	num	_	5	nummod	_	_
-5	жақтың	жақ	NOUN	n	_	10	nmod:poss	_	_
-6	өзара	өзара	ADJ	adj	_	10	amod	_	_
-7	еркін	еркін	ADJ	adj	_	9	conj	_	_
-8	және	және	CONJ	cnjcoo	_	9	cc	_	_
-9	толық	толық	ADJ	adj	_	10	amod	_	_
-10	келісімі	келісім	NOUN	n	_	13	nmod	_	_
-11-12	бойынша__ғана	_	_	_	_	_	_	_	_
-11	_	бойынша	ADP	post	_	10	case	_	_
-12	_	ғана	PART	postadv	_	10	advmod	_	_
-13	қиылады	қи	VERB	v	_	0	root	_	_
-14	.	.	PUNCT	sent	_	13	punct	_	_
-
-#ID: 19 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Отбасы	отбасы	NOUN	n	_	16	nsubj	_	_
-2	қоғамның	қоғам	NOUN	n	_	6	nmod:poss	_	_
-3	табиғи	табиғи	ADJ	adj	_	5	conj	_	_
-4	және	және	CONJ	cnjcoo	_	5	cc	_	_
-5	негізгі	негізгі	ADJ	adj	_	6	amod	_	_
-6	ұясы	ұя	NOUN	n	_	8	advcl	_	_
-7	болып	бол	VERB	v	_	6	cop	_	_
-8	табылады	тап	VERB	v	_	16	conj	_	_
-9	,	,	PUNCT	cm	_	16	punct	_	_
-10	және	және	CONJ	cnjcoo	_	16	cc	_	_
-11	қоғам	қоғам	NOUN	n	_	13	conj	_	_
-12	мен	мен	CONJ	cnjcoo	_	13	cc	_	_
-13	мемлекет	мемлекет	NOUN	n	_	14	nmod:poss	_	_
-14	тарапынан	тарап	NOUN	n	_	15	nmod	_	_
-15	қорғалуға	қорға	VERB	v	_	16	advcl	_	_
-16-17	құқылы	_	_	_	_	_	_	_	_
-16	_	құқылы	ADJ	adj	_	0	root	_	_
-17	_	е	VERB	cop	_	16	cop	_	_
-18	.	.	PUNCT	sent	_	16	punct	_	_
-
-#ID: 25 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Әр	әр	DET	det	_	2	det	_	_
-2	адамның	адам	NOUN	n	_	5	nmod:poss	_	_
-3	білім	білім	NOUN	n	_	4	dobj	_	_
-4	алуға	ал	VERB	v	_	5	nmod	_	_
-5	құқығы	құқық	NOUN	n	_	6	nsubj	_	_
-6-7	бар	_	_	_	_	_	_	_	_
-6	_	бар	ADJ	adj	_	0	root	_	_
+#ID: 26 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Бастауыш	бастауыш	ADJ	adj	_	2	amod	_	_
+2	білім	білім	NOUN	n	_	4	nsubj	_	_
+3	баршаға	барша	PRON	prn	_	4	nmod	_	_
+4	міндетті	міндетті	ADJ	adj	_	6	nsubj	_	_
+5	болуы	бол	VERB	v	_	4	cop	_	_
+6-7	тиіс	_	_	_	_	_	_	_	_
+6	_	тиіс	ADJ	adj	_	0	root	_	_
 7	_	е	VERB	cop	_	6	cop	_	_
 8	.	.	PUNCT	sent	_	6	punct	_	_
 
-#ID: 27 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Ата-аналардың	ата-ана	NOUN	n	_	9	nmod:poss	_	_
-2	өздерінің	өз	PRON	prn	_	4	nmod:poss	_	_
-3	жас	жас	ADJ	adj	_	4	amod	_	_
-4	балаларына	бала	NOUN	n	_	6	nmod	_	_
-5	білім	білім	NOUN	n	_	6	dobj	_	_
-6	беру	бер	VERB	v	_	7	acl	_	_
-7	түрін	түр	NOUN	n	_	8	dobj	_	_
-8	таңдауда	таңда	VERB	v	_	9	advcl	_	_
-9	құқығы	құқық	NOUN	n	_	10	nsubj	_	_
-10-11	басымды	_	_	_	_	_	_	_	_
-10	_	басымды	ADJ	adj	_	0	root	_	_
-11	_	е	VERB	cop	_	10	cop	_	_
-12	.	.	PUNCT	sent	_	10	punct	_	_
+#ID: 41 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Мен	мен	PRON	prn	_	2	nsubj	_	_
+2	адасып	адас	VERB	v	_	0	root	_	_
+3	кеттім	кет	AUX	vaux	_	2	aux	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
 
-#ID: 30 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Рақмет	рақмет	INTJ	ij	_	3	discourse	_	_
-2	,	,	PUNCT	cm	_	1	punct	_	_
-3-4	жақсы	_	_	_	_	_	_	_	_
-3	_	жақсы	ADJ	adj	_	0	root	_	_
-4	_	е	VERB	cop	_	3	cop	_	_
-5	.	.	PUNCT	sent	_	3	punct	_	_
+#ID: 50 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Мына	мына	DET	det	_	2	det	_	_
+2	пойыз	пойыз	NOUN	n	_	4	nsubj	_	_
+3	қайда	қайда	ADV	adv	_	4	advmod	_	_
+4	барады	бар	VERB	v	_	0	root	_	_
+5	?	?	PUNCT	sent	_	4	punct	_	_
 
-#ID: 47 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Сізден	сіз	PRON	prn	_	2	nmod	_	_
-2	қоңырау__шалуға	қоңырау__шал	VERB	v	_	3	ccomp	_	_
-3-4	бола__ма	_	_	_	_	_	_	_	_
-3	_	бол	VERB	v	_	0	root	_	_
-4	_	ма	PART	qst	_	3	discourse	_	_
-5	?	?	PUNCT	sent	_	3	punct	_	_
+#ID: 51 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Астанаға	Астана	PROPN	np	_	2	nmod	_	_
+2	баратын	бар	VERB	v	_	3	acl	_	_
+3	пойыз	пойыз	NOUN	n	_	4	nsubj	_	_
+4-5	қайда	_	_	_	_	_	_	_	_
+4	_	қайда	ADV	adv	_	0	root	_	_
+5	_	е	VERB	cop	_	4	cop	_	_
+6	?	?	PUNCT	sent	_	4	punct	_	_
 
-#ID: 63 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Таңғы__ас	таңғы__ас	NOUN	n	_	2	nsubj	_	_
-2-3	енгізілген__бе	_	_	_	_	_	_	_	_
-2	_	енгіз	VERB	v	_	0	root	_	_
-3	_	ма	PART	qst	_	2	discourse	_	_
-4	?	?	PUNCT	sent	_	2	punct	_	_
+#ID: 102 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Әлем	әлем	NOUN	n	_	2	nmod:poss	_	_
+2	чемпионаттары	чемпионат	NOUN	n	_	5	nmod	_	_
+3	үшін	үшін	ADP	post	_	2	case	_	_
+4	құрлықтарды	құрлық	NOUN	n	_	5	dobj	_	_
+5	ротациялау	ротацияла	VERB	v	_	6	acl	_	_
+6	қағидасына	қағида	NOUN	n	_	13	nmod	_	_
+7	байланысты	байланысты	ADP	post	_	6	case	_	_
+8	,	,	PUNCT	cm	_	7	punct	_	_
+9	2014	2014	NUM	num	_	10	amod	_	_
+10	жылдың	жыл	NOUN	n	_	11	nmod:poss	_	_
+11	чемпионаты	чемпионат	NOUN	n	_	13	nsubj	_	_
+12	Оңтүстік__Америкада	Оңтүстік__Америка	PROPN	np	_	13	nmod	_	_
+13	өту	өт	VERB	v	_	14	csubj	_	_
+14	керек	керек	ADJ	adj	_	25	conj	_	_
+15	болды	бол	VERB	v	_	14	cop	_	_
+16	және	және	CONJ	cnjcoo	_	25	cc	_	_
+17	Бразилия	Бразилия	PROPN	np	_	20	nsubj	_	_
+18	сол	сол	DET	det	_	19	det	_	_
+19	чемпионатты	чемпионат	NOUN	n	_	20	dobj	_	_
+20	өткізуге	өткіз	VERB	v	_	22	xcomp	_	_
+21	ниет	ниет	NOUN	n	_	22	dobj	_	_
+22	білдірген	білдір	VERB	v	_	25	acl	_	_
+23-24	жалғыз__ғана	_	_	_	_	_	_	_	_
+23	_	жалғыз	ADJ	adj	_	25	amod	_	_
+24	_	ғана	PART	postadv	_	23	advmod	_	_
+25	ел	ел	NOUN	n	_	0	root	_	_
+26	еді	е	VERB	cop	_	25	cop	_	_
+27	.	.	PUNCT	sent	_	25	punct	_	_
 
-#ID: 77 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Әрбіреудің	әрбіреу	PRON	prn	_	2	nmod:poss	_	_
-2	тілін	тіл	NOUN	n	_	4	conj	_	_
-3	өнерін	өнер	NOUN	n	_	4	dobj	_	_
-4	білген	біл	VERB	v	_	5	acl	_	_
-5	кісі	кісі	NOUN	n	_	9	nsubj	_	_
-6	соныменен	сол	PRON	prn	_	9	nmod	_	_
-7	бірдейлік	бірдейлік	NOUN	n	_	8	nmod:poss	_	_
-8	дағуасына	дағуа	NOUN	n	_	9	nmod	_	_
-9	кіреді	кір	VERB	v	_	13	conj	_	_
-10	,	,	PUNCT	cm	_	13	punct	_	_
-11	аса	аса	ADJ	adj	_	12	advmod	_	_
-12	арсыздана	арсыздан	VERB	v	_	13	advcl	_	_
-13	жалынбайды	жалын	VERB	v	_	0	root	_	_
+#ID: 104 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Кейінірек	кейін	ADV	adv	_	6	advmod	_	_
+2	ФИФА	ФИФА	PROPN	np	_	6	nsubj	_	_
+3	ротация	ротация	NOUN	n	_	4	nmod:poss	_	_
+4	принципі	принцип	NOUN	n	_	5	nsubj	_	_
+5	өзгеретінін	өзгер	VERB	v	_	6	ccomp	_	_
+6	жариялады	жарияла	VERB	v	_	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
+
+#ID: 106 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Бразилия	Бразилия	PROPN	np	_	9	nsubj	_	_
+2	өз	өз	DET	det	_	3	det	_	_
+3	жерінде	жер	NOUN	n	_	7	nmod	_	_
+4	чемпионатты	чемпионат	NOUN	n	_	7	dobj	_	_
+5	екі	екі	NUM	num	_	6	nummod	_	_
+6	рет	рет	NOUN	n	_	7	nmod	_	_
+7	өткізген	өткіз	VERB	v	_	9	acl	_	_
+8	бесінші	бес	NUM	num	_	9	amod	_	_
+9	ел	ел	NOUN	n	_	0	root	_	_
+10	болды	бол	VERB	v	_	9	cop	_	_
+11	(	(	PUNCT	lpar	_	18	punct	_	_
+12	Мексика	Мексика	PROPN	np	_	18	conj	_	_
+13	,	,	PUNCT	cm	_	18	punct	_	_
+14	Италия	Италия	PROPN	np	_	18	conj	_	_
+15	,	,	PUNCT	cm	_	18	punct	_	_
+16	Франция	Франция	PROPN	np	_	18	conj	_	_
+17	және	және	CONJ	cnjcoo	_	18	cc	_	_
+18	Германиядан	Германия	PROPN	np	_	9	nmod	_	_
+19	кейін	кейін	ADP	post	_	18	case	_	_
+20	)	)	PUNCT	rpar	_	18	punct	_	_
+21	.	.	PUNCT	sent	_	9	punct	_	_
+
+#ID: 121 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Иран	Иран	PROPN	np	_	4	nsubj	_	_
+2	—	—	PUNCT	guio	_	1	punct	_	_
+3	діни	діни	ADJ	adj	_	4	amod	_	_
+4-5	мемлекет	_	_	_	_	_	_	_	_
+4	_	мемлекет	NOUN	n	_	0	root	_	_
+5	_	е	VERB	cop	_	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
+
+#ID: 123 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Президент	президент	NOUN	n	_	16	nsubj	_	_
+2	(	(	PUNCT	lpar	_	8	punct	_	_
+3	1997	1997	NUM	num	_	4	amod	_	_
+4	жылдан	жыл	NOUN	n	_	8	nmod	_	_
+5	бастап	баста	ADP	post	_	4	case	_	_
+6	Сейд	Сейд	PROPN	np	_	7	name	_	_
+7	Мохаммед	Мохаммед	PROPN	np	_	8	name	_	_
+8	Хатами	Хатами	PROPN	np	_	1	appos	_	_
+9	)	)	PUNCT	rpar	_	8	punct	_	_
+10	4	4	NUM	num	_	11	nummod	_	_
+11	жылға	жыл	NOUN	n	_	12	nmod	_	_
+12	сайланады	сайла	VERB	v	_	16	conj	_	_
+13	және	және	CONJ	cnjcoo	_	16	cc	_	_
+14	Министр	министр	NOUN	n	_	15	nmod:poss	_	_
+15	Кабинетін	кабинет	NOUN	n	_	16	dobj	_	_
+16	басқарады	басқар	VERB	v	_	0	root	_	_
+17	.	.	PUNCT	sent	_	16	punct	_	_
+
+#ID: 125 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	1981	1981	NUM	num	_	2	amod	_	_
+2-3	жылғы	_	_	_	_	_	_	_	_
+2	_	жыл	NOUN	n	_	4	nmod	_	_
+3	_	ғы	ADP	post	_	2	case	_	_
+4	конституциясы	конституция	NOUN	n	_	13	nmod	_	_
+5	бойынша	бойынша	ADP	post	_	4	case	_	_
+6	,	,	PUNCT	cm	_	5	punct	_	_
+7	елде	ел	NOUN	n	_	13	nmod	_	_
+8	саяси	саяси	ADJ	adj	_	10	conj	_	_
+9	және	және	CONJ	cnjcoo	_	10	cc	_	_
+10	діни	діни	ADJ	adj	_	12	amod	_	_
+11	емес	емес	PART	postadv	_	10	advmod	_	_
+12	ұйымдарға	ұйым	NOUN	n	_	13	nmod	_	_
+13	тыйым__салынған	тыйым__сал	VERB	v	_	0	root	_	_
 14	.	.	PUNCT	sent	_	13	punct	_	_
 
-#ID: 79 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Жорғалықпенен	жорғалық	NOUN	n	_	3	nmod	_	_
-2	көңілін	көңіл	NOUN	n	_	3	dobj	_	_
-3	алсам__екен	ал	VERB	v	_	5	ccomp	_	_
-4	деген	де	VERB	v	_	11	acl	_	_
-5	надан	надан	ADJ	adj	_	11	amod	_	_
-6	әке-шешесін	әке-шеше	NOUN	n	_	11	conj	_	_
-7	,	,	PUNCT	cm	_	11	punct	_	_
-8	ағайын-жұртын	ағайын-жұртын	NOUN	n	_	11	conj	_	_
-9	,	,	PUNCT	cm	_	11	punct	_	_
-10	дінін	дін	NOUN	n	_	11	conj	_	_
-11	адамшылығын	адамшылық	NOUN	n	_	15	dobj	_	_
-12	жаурыннан	жаурын	NOUN	n	_	14	nmod	_	_
-13	бір	бір	NUM	num	_	14	advmod	_	_
-14	қаққанға	қақ	VERB	v	_	15	advcl	_	_
-15	сатады	сат	VERB	v	_	0	root	_	_
-16	.	.	PUNCT	sent	_	15	punct	_	_
+#ID: 127 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Ұлттық	ұлттық	ADJ	adj	_	2	amod	_	_
+2	ақша	ақша	NOUN	n	_	3	nmod:poss	_	_
+3	бірлігі	бірлік	NOUN	n	_	5	nsubj	_	_
+4	—	—	PUNCT	guio	_	3	punct	_	_
+5-6	риал	_	_	_	_	_	_	_	_
+5	_	риал	NOUN	n	_	0	root	_	_
+6	_	е	VERB	cop	_	5	cop	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
 
-#ID: 82 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Ләкин	ләкин	CONJ	cnjcoo	_	15	cc	_	_
-2	осы	осы	DET	det	_	3	det	_	_
-3	күнде	күн	NOUN	n	_	7	nmod	_	_
-4	орыс	орыс	NOUN	n	_	5	nmod:poss	_	_
-5	ғылымын	ғылым	NOUN	n	_	7	dobj	_	_
-6	баласына	бала	NOUN	n	_	7	nmod	_	_
-7	үйреткен	үйрет	VERB	v	_	8	acl	_	_
-8	жандар	жан	NOUN	n	_	14	nsubj	_	_
-9	соның	сол	PRON	prn	_	10	nsubj	_	_
-10	қаруымен	қары	VERB	v	_	13	nmod	_	_
-11	тағы	тағы	PART	postadv	_	10	advmod	_	_
-12	қазақты	қазақ	NOUN	n	_	13	dobj	_	_
-13	аңдысам__екен	аңды	VERB	v	_	14	ccomp	_	_
-14	дейді	де	VERB	v	_	0	root	_	_
-15	.	.	PUNCT	sent	_	14	punct	_	_
-
-#ID: 86 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Себебі	себебі	SCONJ	cnjadv	_	8	advmod	_	_
-2	:	:	PUNCT	sent	_	8	punct	_	_
-3	ата-анасы	ата-ана	NOUN	n	_	5	conj	_	_
-4	,	,	PUNCT	cm	_	5	punct	_	_
-5	ағайын-туғаны	ағайын-туғаны	NOUN	n	_	8	nsubj	_	_
-6	бір	бір	NUM	num	_	7	nummod	_	_
-7	жағынан	жақ	NOUN	n	_	8	nmod	_	_
-8	бұзып	бұз	VERB	v	_	0	root	_	_
-9	жатыр	жат	AUX	vaux	_	8	aux	_	_
-10	.	.	PUNCT	sent	_	8	punct	_	_
-
-#ID: 116 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Қала	қала	NOUN	n	_	2	nmod:poss	_	_
-2	халқы	халық	NOUN	n	_	3	nsubj	_	_
-3-4	58,3%	_	_	_	_	_	_	_	_
-3	_	58,3	NUM	num	_	0	root	_	_
-4	_	е	VERB	cop	_	3	cop	_	_
-5	.	.	PUNCT	sent	_	3	punct	_	_
+#ID: 133 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Жер	жер	NOUN	n	_	2	nmod:poss	_	_
+2	беті	бет	NOUN	n	_	3	nmod:poss	_	_
+3	суы	су	NOUN	n	_	4	nsubj	_	_
+4-5	аз	_	_	_	_	_	_	_	_
+4	_	аз	ADJ	adj	_	0	root	_	_
+5	_	е	VERB	cop	_	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
 #ID: 134 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
 1	Таулы	таулы	ADJ	adj	_	2	amod	_	_
@@ -182,297 +165,450 @@
 5	кездеседі	кездес	VERB	v	_	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
-#ID: 137 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Б.з.б.	б.з.б.	NOUN	abbr	_	4	compound	_	_
-2	3	3	NUM	num	_	4	amod	_	_
-3	-	-	PUNCT	guio	_	4	punct	_	_
-4	мыңжылдықта	мыңжылдық	NOUN	n	_	10	nmod	_	_
-5	қазіргі	қазір	ADV	adv	_	6	amod	_	_
-6	Иранның	Иран	PROPN	np	_	7	nmod:poss	_	_
-7	оңтүстік-батысында	оңтүстік-батыс	NOUN	n	_	10	nmod	_	_
-8	алғашқы	алғашқы	ADJ	adj	_	9	amod	_	_
-9	мемлекеттер	мемлекет	NOUN	n	_	10	nsubj	_	_
-10	құрыла	құр	VERB	v	_	0	root	_	_
-11	бастады	баста	AUX	vaux	_	10	aux	_	_
-12	.	.	PUNCT	sent	_	10	punct	_	_
+#ID: 142 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	224	224	NUM	num	_	2	amod	_	_
+2	ж.	ж.	NOUN	abbr	_	5	nmod	_	_
+3	Парфия	Парфия	PROPN	np	_	4	nmod:poss	_	_
+4	мемлекеті	мемлекет	NOUN	n	_	5	nsubj	_	_
+5	құлап	құла	VERB	v	_	11	advcl	_	_
+6	,	,	PUNCT	cm	_	5	punct	_	_
+7	орнына	орын	NOUN	n	_	11	nmod	_	_
+8	Сасани	Сасани	PROPN	np	_	9	nmod:poss	_	_
+9	әулеті	әулет	NOUN	n	_	10	nmod:poss	_	_
+10	мемлекеті	мемлекет	NOUN	n	_	11	nsubj	_	_
+11	құрылды	құр	VERB	v	_	0	root	_	_
+12	.	.	PUNCT	sent	_	11	punct	_	_
 
-#ID: 139 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Б.з.б.	б.з.б.	NOUN	abbr	_	3	compound	_	_
-2	550	550	NUM	num	_	3	amod	_	_
-3	ж.	ж.	NOUN	abbr	_	9	nmod	_	_
-4	өкімет	өкімет	NOUN	n	_	5	nmod:poss	_	_
-5	билігі	билік	NOUN	n	_	9	nsubj	_	_
-6	парсылық	парсылық	ADJ	adj	_	7	amod	_	_
-7	Ахемен	Ахемен	PROPN	np	_	8	nmod:poss	_	_
-8	әулетіне	әулет	NOUN	n	_	9	nmod	_	_
-9	көшті	көш	VERB	v	_	0	root	_	_
-10	.	.	PUNCT	sent	_	9	punct	_	_
+#ID: 146 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	8	8	NUM	num	_	2	amod	_	_
+2	ғасырда	ғасыр	NOUN	n	_	12	nmod	_	_
+3	Араб	араб	NOUN	n	_	4	nmod:poss	_	_
+4	халифатының	халифат	NOUN	n	_	5	nmod:poss	_	_
+5	билеушісі	билеуші	NOUN	n	_	12	nsubj	_	_
+6	Әбу	Әбу	PROPN	np	_	8	name	_	_
+7	әл-Аббас	әл-Аббас	PROPN	np	_	8	name	_	_
+8	әс-Саффах	әс-Саффах	PROPN	np	_	5	appos	_	_
+9	халифат	халифат	NOUN	n	_	10	nmod:poss	_	_
+10	астанасын	астана	NOUN	n	_	12	dobj	_	_
+11	Бағдадқа	Бағдад	PROPN	np	_	12	nmod	_	_
+12	көшірді	көшір	VERB	v	_	0	root	_	_
+13	.	.	PUNCT	sent	_	12	punct	_	_
 
-#ID: 144 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Византияға	Византия	PROPN	np	_	3	nmod	_	_
-2	қауіп	қауіп	NOUN	n	_	3	nsubj	_	_
-3	төндірді	төндір	VERB	v	_	8	parataxis	_	_
-4	,	,	PUNCT	cm	_	3	punct	_	_
-5	Түрік	түрік	NOUN	n	_	6	nmod:poss	_	_
-6	қағанатымен	қағанат	NOUN	n	_	8	nmod	_	_
-7	соғыс	соғыс	NOUN	n	_	8	dobj	_	_
-8	жүргізді	жүргіз	VERB	v	_	0	root	_	_
-9	.	.	PUNCT	sent	_	8	punct	_	_
-
-#ID: 151 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	11	11	NUM	num	_	2	amod	_	_
-2	ғасырда	ғасыр	NOUN	n	_	11	nmod	_	_
-3	Иранға	Иран	PROPN	np	_	11	nmod	_	_
-4	түрік	түрік	NOUN	n	_	6	compound	_	_
-5	-	-	PUNCT	guio	_	6	punct	_	_
-6	оғыздар	оғыз	NOUN	n	_	11	nsubj	_	_
-7	(	(	PUNCT	lpar	_	8	punct	_	_
-8	салжұқ	салжұқ	NOUN	n	_	6	appos	_	_
-9	)	)	PUNCT	rpar	_	8	punct	_	_
-10	басып	бас	VERB	v	_	11	advcl	_	_
-11	кіре	кір	VERB	v	_	0	root	_	_
-12	бастады	баста	AUX	vaux	_	11	aux	_	_
-13	.	.	PUNCT	sent	_	11	punct	_	_
-
-#ID: 178 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Ол	ол	DET	det	_	2	det	_	_
-2	толқулар	толқу	NOUN	n	_	4	nsubj	_	_
-3	күшпен	күш	NOUN	n	_	4	nmod	_	_
-4	басылып	бас	VERB	v	_	0	root	_	_
-5	отырды	отыр	AUX	vaux	_	4	aux	_	_
-6	.	.	PUNCT	sent	_	4	punct	_	_
-
-#ID: 185 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+#ID: 147 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
 1	Иран	Иран	PROPN	np	_	2	nmod:poss	_	_
-2	шаһы	шаһ	NOUN	n	_	5	appos	_	_
-3	М.	М.	NOUN	abbr	_	5	name	_	_
-4	Р.	Р.	NOUN	abbr	_	5	name	_	_
-5	Пехлевидің	Пехлеви	PROPN	np	_	6	nmod:poss	_	_
-6	көмегімен	көмек	NOUN	n	_	12	nmod	_	_
-7	АҚШ	АҚШ	PROPN	np	_	12	nsubj	_	_
-8	елдің	ел	NOUN	n	_	9	nmod:poss	_	_
-9	ішкі	ішкі	ADJ	adj	_	10	amod	_	_
-10	өміріне	өмір	NOUN	n	_	12	nmod	_	_
-11	белсене	белсене	ADV	adv	_	12	advmod	_	_
-12	араласа	арала	VERB	v	_	0	root	_	_
-13	бастады	баста	AUX	vaux	_	12	aux	_	_
-14	.	.	PUNCT	sent	_	12	punct	_	_
+2	аумағы	аумақ	NOUN	n	_	19	nsubj	_	_
+3	ұзақ	ұзақ	ADJ	adj	_	4	amod	_	_
+4	жылдар	жыл	NOUN	n	_	11	nmod	_	_
+5	бойы	бойы	ADP	post	_	4	case	_	_
+6	Аббас	Аббас	PROPN	np	_	7	nmod:poss	_	_
+7	әулеті	әулет	NOUN	n	_	8	nsubj	_	_
+8	билеген	биле	VERB	v	_	10	acl	_	_
+9	Бағдад	Бағдад	PROPN	np	_	10	nmod:poss	_	_
+10	халифаты	халифат	NOUN	n	_	11	nsubj	_	_
+11	құрамында	құрам	NOUN	n	_	19	advcl	_	_
+12	болып	бол	VERB	v	_	11	cop	_	_
+13	,	,	PUNCT	cm	_	12	punct	_	_
+14	мәдени	мәдени	ADJ	adj	_	16	conj	_	_
+15	және	және	CONJ	cnjcoo	_	16	cc	_	_
+16	экономикалық	экономикалық	ADJ	adj	_	17	amod	_	_
+17	дамуды	даму	NOUN	n	_	19	dobj	_	_
+18	басынан	бас	NOUN	n	_	19	nmod	_	_
+19	кешірді	кешір	VERB	v	_	0	root	_	_
+20	.	.	PUNCT	sent	_	19	punct	_	_
 
-#ID: 186 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Ел	ел	NOUN	n	_	7	nsubj	_	_
-2	1955	1955	NUM	num	_	3	amod	_	_
-3	ж.	ж.	NOUN	abbr	_	7	nmod	_	_
-4	АҚШ-пен	АҚШ	PROPN	np	_	7	nmod	_	_
-5	әскери	әскери	ADJ	adj	_	6	amod	_	_
-6	келісімдер	келісім	NOUN	n	_	7	dobj	_	_
-7	жасасты	жаса	VERB	v	_	14	conj	_	_
-8	,	,	PUNCT	cm	_	14	punct	_	_
-9	1960	1960	NUM	num	_	10	amod	_	_
-10	жылдан	жыл	NOUN	n	_	11	nmod	_	_
-11	бастап	баста	VERB	v	_	14	advcl	_	_
-12	Батыс	батыс	NOUN	n	_	13	nmod:poss	_	_
-13	үлгісінде	үлгі	NOUN	n	_	14	nmod	_	_
-14	дами	дамы	VERB	v	_	0	root	_	_
-15	бастады	баста	AUX	vaux	_	14	aux	_	_
-16	.	.	PUNCT	sent	_	14	punct	_	_
-
-#ID: 188 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Оны	ол	PRON	prn	_	5	dobj	_	_
-2	елдегі	ел	NOUN	n	_	4	amod	_	_
-3	шиит	шиит	NOUN	n	_	4	nmod:poss	_	_
-4	дінбасылары	дінбасы	NOUN	n	_	5	nsubj	_	_
-5	басқарды	басқар	VERB	v	_	0	root	_	_
-6	.	.	PUNCT	sent	_	5	punct	_	_
-
-#ID: 192 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Ел	ел	NOUN	n	_	2	nmod:poss	_	_
-2	экономикасының	экономика	NOUN	n	_	3	nmod:poss	_	_
-3	негізі	негіз	NOUN	n	_	10	nsubj	_	_
-4	мұнай	мұнай	NOUN	n	_	9	conj	_	_
-5	және	және	CONJ	cnjcoo	_	9	cc	_	_
-6	мұнай	мұнай	NOUN	n	_	8	conj	_	_
-7	мен	мен	CONJ	cnjcoo	_	8	cc	_	_
-8	газ	газ	NOUN	n	_	9	dobj	_	_
-9	өңдеу	өңде	VERB	v	_	10	acl	_	_
-10-11	өнеркәсіптері	_	_	_	_	_	_	_	_
-10	_	өнеркәсіп	NOUN	n	_	0	root	_	_
-11	_	е	VERB	cop	_	10	cop	_	_
-12	.	.	PUNCT	sent	_	10	punct	_	_
-
-#ID: 213 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	14	14	NUM	num	_	2	amod	_	_
-2	ғасырдан	ғасыр	NOUN	n	_	10	nmod	_	_
+#ID: 157 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Әмір__Темір	Әмір__Темір	PROPN	np	_	2	nsubj	_	_
+2	өлгеннен	өл	VERB	v	_	15	advcl	_	_
 3	кейін	кейін	ADP	post	_	2	case	_	_
-4	қолжазба	қолжазба	NOUN	n	_	5	dobj	_	_
-5	көркемдеу	көркемдеу	VERB	v	_	9	conj	_	_
-6	,	,	PUNCT	cm	_	9	punct	_	_
-7	қабырғаға	қабырға	NOUN	n	_	9	nmod	_	_
-8	сурет	сурет	NOUN	n	_	9	dobj	_	_
-9	салу	сал	VERB	v	_	10	csubj	_	_
-10	дамыды	дамы	VERB	v	_	0	root	_	_
-11	.	.	PUNCT	sent	_	10	punct	_	_
-
-#ID: 221 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	9	9	NUM	num	_	2	amod	_	_
-2	ғасырдан	ғасыр	NOUN	n	_	3	nmod	_	_
-3	бастап	баста	VERB	v	_	6	advcl	_	_
-4	сарай	сарай	NOUN	n	_	5	nmod:poss	_	_
-5	өнері	өнер	NOUN	n	_	6	nsubj	_	_
-6	дамып	дамы	VERB	v	_	15	advcl	_	_
-7	,	,	PUNCT	cm	_	6	punct	_	_
-8	халық	халық	NOUN	n	_	9	nmod:poss	_	_
-9	арасында	ара	NOUN	n	_	15	nmod	_	_
-10	мутребтердің	мутреб	NOUN	n	_	14	nmod:poss	_	_
-11	(	(	PUNCT	lpar	_	12	punct	_	_
-12	әнші-бишілер	әнші-биші	NOUN	n	_	10	appos	_	_
-13	)	)	PUNCT	rpar	_	12	punct	_	_
-14	даңқы	даңқ	NOUN	n	_	15	nsubj	_	_
-15	жойылды	жой	VERB	v	_	0	root	_	_
+4	Шығыс	шығыс	ADJ	adj	_	5	amod	_	_
+5	Иран	Иран	PROPN	np	_	9	nsubj	_	_
+6	Темір	Темір	PROPN	np	_	7	nmod:poss	_	_
+7	әулетінің	әулет	NOUN	n	_	8	nmod:poss	_	_
+8	билігінде	билік	NOUN	n	_	9	nmod	_	_
+9	қалып	қал	VERB	v	_	15	advcl	_	_
+10	,	,	PUNCT	cm	_	9	punct	_	_
+11	Батыс	батыс	ADJ	adj	_	12	amod	_	_
+12	Иранда	Иран	PROPN	np	_	15	nmod	_	_
+13	Қарақойлы	Қарақойлы	PROPN	np	_	14	nmod:poss	_	_
+14	мемлекеті	мемлекет	NOUN	n	_	15	nsubj	_	_
+15	құрылды	құр	VERB	v	_	0	root	_	_
 16	.	.	PUNCT	sent	_	15	punct	_	_
 
-#ID: 276 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Орыс	орыс	NOUN	n	_	3	conj	_	_
-2	және	және	CONJ	cnjcoo	_	3	cc	_	_
-3	украин	украин	NOUN	n	_	4	nmod:poss	_	_
-4	тілдерін	тіл	NOUN	n	_	5	dobj	_	_
-5	біледі	біл	VERB	v	_	0	root	_	_
-6	.	.	PUNCT	sent	_	5	punct	_	_
+#ID: 158 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	16	16	NUM	num	_	2	amod	_	_
+2	ғасырда	ғасыр	NOUN	n	_	26	nmod	_	_
+3	Кіші	кіші	ADJ	adj	_	4	amod	_	_
+4	Азиядан	Азия	PROPN	np	_	5	nmod	_	_
+5	шыққан	шық	VERB	v	_	7	acl	_	_
+6	түркі	түркі	ADJ	adj	_	7	nmod:poss	_	_
+7	тайпалары	тайпа	NOUN	n	_	26	nsubj	_	_
+8	(	(	PUNCT	lpar	_	9	punct	_	_
+9	қызылбастар	қызылбас	NOUN	n	_	7	appos	_	_
+10	)	)	PUNCT	rpar	_	9	punct	_	_
+11	Иранға	Иран	PROPN	np	_	13	nmod	_	_
+12	басып	бас	VERB	v	_	13	advcl	_	_
+13	кіріп	кір	VERB	v	_	26	advcl	_	_
+14	,	,	PUNCT	cm	_	13	punct	_	_
+15	1501	1501	NUM	num	_	17	conj	_	_
+16	—	—	PUNCT	guio	_	17	punct	_	_
+17	1610	1610	NUM	num	_	18	amod	_	_
+18	ж.	ж.	NOUN	abbr	_	21	nmod	_	_
+19	елді	ел	NOUN	n	_	21	dobj	_	_
+20	толығымен	толығымен	ADJ	adj	_	21	advmod	_	_
+21	бағындырып	бағындыр	VERB	v	_	26	advcl	_	_
+22	,	,	PUNCT	cm	_	21	punct	_	_
+23	Сефеви	Сефеви	PROPN	np	_	24	nmod:poss	_	_
+24	әулеті	әулет	NOUN	n	_	25	nmod:poss	_	_
+25	мемлекетін	мемлекет	NOUN	n	_	26	dobj	_	_
+26	құрды	құр	VERB	v	_	0	root	_	_
+27	.	.	PUNCT	sent	_	26	punct	_	_
 
-#ID: 288 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Сөйтіп	сөйт	VERB	v	_	7	advcl	_	_
-2	сүйек	сүйек	NOUN	n	_	3	nsubj	_	_
-3	бұзылып	бұз	VERB	v	_	7	advcl	_	_
-4	,	,	PUNCT	cm	_	3	punct	_	_
-5	аяқ	аяқ	NOUN	n	_	6	nmod:poss	_	_
-6	формасы	форма	NOUN	n	_	7	nsubj	_	_
-7	өзгереді	өзгер	VERB	v	_	0	root	_	_
-8	.	.	PUNCT	sent	_	7	punct	_	_
+#ID: 171 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	1921	1921	NUM	num	_	2	amod	_	_
+2	ж.	ж.	NOUN	abbr	_	4	nmod	_	_
+3	21	21	NUM	num	_	4	amod	_	_
+4	ақпанда	ақпан	NOUN	n	_	11	nmod	_	_
+5	әскерилер	әскери	ADJ	adj	_	11	nsubj	_	_
+6	Реза	Реза	PROPN	np	_	7	name	_	_
+7	ханның	хан	NOUN	n	_	8	nmod:poss	_	_
+8	басшылығымен	басшылық	NOUN	n	_	11	nmod	_	_
+9	мемлекеттік	мемлекеттік	ADJ	adj	_	10	amod	_	_
+10	төңкеріс	төңкеріс	NOUN	n	_	11	nsubj	_	_
+11	ұйымдастырып	ұйымдастыр	VERB	v	_	15	advcl	_	_
+12	,	,	PUNCT	cm	_	11	punct	_	_
+13	жаңа	жаңа	ADJ	adj	_	14	amod	_	_
+14	үкімет	үкімет	NOUN	n	_	15	nsubj	_	_
+15	құрды	кұр	VERB	v	_	0	root	_	_
+16	.	.	PUNCT	sent	_	15	punct	_	_
 
-#ID: 307 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Баяғыда	баяғыда	ADV	adv	_	4	advmod	_	_
-2	біреу	біреу	PRON	prn	_	4	nsubj	_	_
-3	той	той	NOUN	n	_	4	dobj	_	_
-4	жасапты	жаса	VERB	v	_	13	conj	_	_
-5	,	,	PUNCT	cm	_	13	punct	_	_
-6	тойға	той	NOUN	n	_	9	nmod	_	_
-7	көп	көп	DET	det	_	8	det	_	_
-8	кісі	кісі	NOUN	n	_	9	nsubj	_	_
-9	жиналыпты	жина	VERB	v	_	13	conj	_	_
-10	,	,	PUNCT	cm	_	13	punct	_	_
-11-12	Қожа__да	_	_	_	_	_	_	_	_
-11	_	Қожа	PROPN	np	_	13	nsubj	_	_
-12	_	да	PART	postadv	_	11	advmod	_	_
-13	келіпті	кел	VERB	v	_	0	root	_	_
+#ID: 172 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Жаңа	жаңа	ADJ	adj	_	2	amod	_	_
+2	үкімет	үкімет	NOUN	n	_	13	nsubj	_	_
+3	халықтың	халық	NOUN	n	_	4	nmod:poss	_	_
+4	қысымымен	қысым	NOUN	n	_	11	nmod	_	_
+5	1919	1919	NUM	num	_	6	amod	_	_
+6	ж.	ж.	NOUN	abbr	_	11	nmod	_	_
+7	ағылшын	ағылшын	NOUN	n	_	9	compound	_	_
+8	-	-	PUNCT	guio	_	9	punct	_	_
+9	парсы	парсы	NOUN	n	_	10	nmod:poss	_	_
+10	шартын	шарт	NOUN	n	_	11	dobj	_	_
+11	жойылды	жой	VERB	v	_	12	ccomp	_	_
+12	деп	де	VERB	v	_	13	advcl	_	_
+13	жариялады	жарияла	VERB	v	_	0	root	_	_
 14	.	.	PUNCT	sent	_	13	punct	_	_
 
-#ID: 308 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Қожанасырдың	Қожанасыр	PROPN	np	_	3	nmod:poss	_	_
-2	үстіндегі	үст	NOUN	n	_	3	amod	_	_
-3	киімі	киім	NOUN	n	_	4	nsubj	_	_
-4	жаман	жаман	ADJ	adj	_	0	root	_	_
-5	екен	е	VERB	cop	_	4	cop	_	_
-6	.	.	PUNCT	sent	_	4	punct	_	_
+#ID: 179 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	1941	1941	NUM	num	_	2	amod	_	_
+2	ж.	ж.	NOUN	abbr	_	4	nmod	_	_
+3	16	16	NUM	num	_	4	amod	_	_
+4	қыркүйекте	қыркүйек	NOUN	n	_	10	nmod	_	_
+5	Реза	Реза	PROPN	np	_	6	name	_	_
+6	шаһ	шаһ	NOUN	n	_	10	nsubj	_	_
+7	тақтан	тақ	NOUN	n	_	10	nmod	_	_
+8	өз	өз	DET	det	_	10	det	_	_
+9	еркімен	еркімен	ADJ	adj	_	10	amod	_	_
+10	бас	бас	NOUN	n	_	11	dobj	_	_
+11	тартып	тарт	VERB	v	_	18	advcl	_	_
+12	,	,	PUNCT	cm	_	11	punct	_	_
+13	орнына	орын	NOUN	n	_	18	nmod	_	_
+14	баласы	бала	NOUN	n	_	18	nsubj	_	_
+15	Мұхаммед	Мұхаммед	PROPN	np	_	17	name	_	_
+16	Реза	Реза	PROPN	np	_	17	name	_	_
+17	Пехлеви	Пехлеви	PROPN	np	_	18	name	_	_
+18	шаһ	шаһ	NOUN	n	_	0	root	_	_
+19	болды	бол	VERB	v	_	18	cop	_	_
+20	.	.	PUNCT	sent	_	18	punct	_	_
 
-#ID: 317 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Азамат	Азамат	PROPN	np	_	3	conj	_	_
-2	пен	мен	CONJ	cnjcoo	_	3	cc	_	_
-3	Айгүл	Айгүл	PROPN	np	_	4	nsubj	_	_
-4-5	бақшада	_	_	_	_	_	_	_	_
-4	_	бақша	NOUN	n	_	0	root	_	_
-5	_	е	VERB	cop	_	4	cop	_	_
-6	.	.	PUNCT	sent	_	4	punct	_	_
+#ID: 209 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Иран	Иран	PROPN	np	_	2	nmod	_	_
+2	жерінде	жер	NOUN	n	_	3	nmod:poss	_	_
+3	сақтар	сақ	NOUN	n	_	4	nmod:poss	_	_
+4	тарихына	тарих	NOUN	n	_	7	nmod	_	_
+5	қатысты	қатысты	ADP	post	_	4	case	_	_
+6	мәдени	мәдени	ADJ	adj	_	7	amod	_	_
+7-8	ескерткіштер__де	_	_	_	_	_	_	_	_
+7	_	ескерткіш	NOUN	n	_	10	nsubj	_	_
+8	_	да	PART	postadv	_	7	advmod	_	_
+9	мол	мол	ADJ	adj	_	10	advmod	_	_
+10	сақталған	сақта	VERB	v	_	0	root	_	_
+11	.	.	PUNCT	sent	_	10	punct	_	_
 
-#ID: 325 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Күшік	күшік	NOUN	n	_	4	nsubj	_	_
-2	балалармен	бала	NOUN	n	_	3	nmod	_	_
-3	ойнағанды	ойна	VERB	v	_	4	ccomp	_	_
-4	жақсы__көреді	жақсы__көр	VERB	v	_	0	root	_	_
-5	.	.	PUNCT	sent	_	4	punct	_	_
-
-#ID: 343 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Демек	демек	SCONJ	cnjadv	_	6	cc	_	_
-2	,	,	PUNCT	cm	_	1	punct	_	_
-3	Айгүл	Айгүл	PROPN	np	_	6	nsubj	_	_
-4	өз	өз	DET	det	_	5	det	_	_
-5	сұрағына	сұрақ	NOUN	n	_	6	nmod	_	_
-6	жауап__ала	жауап__ал	VERB	v	_	0	root	_	_
-7	алмайды	ал	AUX	vaux	_	6	aux	_	_
-8	.	.	PUNCT	sent	_	6	punct	_	_
-
-#ID: 356 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Ол	ол	DET	det	_	2	det	_	_
-2	дыбыс	дыбыс	NOUN	n	_	4	nsubj	_	_
-3	қайта	қайта	ADV	adv	_	4	advmod	_	_
-4	естіледі	есіт	VERB	v	_	0	root	_	_
-5	!	!	PUNCT	sent	_	4	punct	_	_
-
-#ID: 357 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Айгүл	Айгүл	PROPN	np	_	4	nsubj	_	_
-2	оны	ол	PRON	prn	_	4	dobj	_	_
-3	ақырын	ақырын	ADJ	adj	_	4	advmod	_	_
-4	тыңдайды	тыңда	VERB	v	_	0	root	_	_
-5	.	.	PUNCT	sent	_	4	punct	_	_
-
-#ID: 360 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Бұл	бұл	PRON	prn	_	2	nsubj	_	_
-2	Азамат	Азамат	PROPN	np	_	4	nsubj	_	_
-3	болу	бол	VERB	v	_	2	cop	_	_
-4-5	керек	_	_	_	_	_	_	_	_
-4	_	керек	ADJ	adj	_	0	root	_	_
-5	_	е	VERB	cop	_	4	cop	_	_
-6	!	!	PUNCT	sent	_	4	punct	_	_
-
-#ID: 374 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	30-шы	30	NUM	num	_	2	amod	_	_
-2	жылдары	жыл	NOUN	n	_	6	nmod	_	_
-3	Шымкентте	Шымкент	PROPN	np	_	6	nmod	_	_
-4	қорғасын	қорғасын	NOUN	n	_	5	nmod:poss	_	_
-5	зауыты	зауыт	NOUN	n	_	6	nsubj	_	_
-6	салынды	сал	VERB	v	_	0	root	_	_
+#ID: 237 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Ауылда	ауыл	NOUN	n	_	6	nmod	_	_
+2	клуб	клуб	NOUN	n	_	3	nmod:poss	_	_
+3	директоры	директор	NOUN	n	_	6	advcl	_	_
+4	болып	бол	VERB	v	_	3	cop	_	_
+5	қызмет	қызмет	NOUN	n	_	6	dobj	_	_
+6	атқарды	атқар	VERB	v	_	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
-#ID: 376 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Қалада	қала	NOUN	n	_	9	nmod	_	_
-2	май	май	NOUN	n	_	3	nmod:poss	_	_
-3	комбинаты	комбинат	NOUN	n	_	7	conj	_	_
-4	,	,	PUNCT	cm	_	7	punct	_	_
-5	шұлық	шұлық	NOUN	n	_	7	conj	_	_
-6	және	және	CONJ	cnjcoo	_	7	cc	_	_
-7	айна	айна	NOUN	n	_	8	nmod:poss	_	_
-8	фабрикалары	фабрика	NOUN	n	_	9	nsubj	_	_
-9	іске__қосылды	іске__қос	VERB	v	_	0	root	_	_
-10	.	.	PUNCT	sent	_	9	punct	_	_
+#ID: 243 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Жалғыз	жалғыз	ADJ	adj	_	6	advcl	_	_
+2	болсаң	бол	VERB	v	_	1	cop	_	_
+3	–	–	PUNCT	guio	_	2	punct	_	_
+4	топқа	топ	NOUN	n	_	6	nmod	_	_
+5	басың	бас	NOUN	n	_	6	nsubj	_	_
+6	кіре	кір	VERB	v	_	0	root	_	_
+7	алмас	ал	AUX	vaux	_	6	aux	_	_
+8	.	.	PUNCT	sent	_	6	punct	_	_
 
-#ID: 382 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Келе-келе	келе-кел	ADV	adv	_	3	advmod	_	_
-2	түйелері	түйе	NOUN	n	_	3	nsubj	_	_
-3	болыпты	бол	VERB	v	_	0	root	_	_
+#ID: 249 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Жүрек	жүрек	NOUN	n	_	2	nmod:poss	_	_
+2	тұсына	тұс	NOUN	n	_	5	nmod	_	_
+3	массаж	массаж	NOUN	n	_	5	nsubj	_	_
+4	былай	бұл	PRON	prn	_	5	nmod	_	_
+5	жасалады	жаса	VERB	v	_	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+#ID: 251 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Инфляция	инфляция	NOUN	n	_	2	nmod:poss	_	_
+2	қарқыны	қарқын	NOUN	n	_	10	nsubj	_	_
+3	статистикалық	статистикалық	ADJ	adj	_	4	amod	_	_
+4	көрсеткіш	көрсеткіш	NOUN	n	_	9	nmod	_	_
+5	—	—	PUNCT	guio	_	4	punct	_	_
+6	тұтыну	тұтыну	NOUN	n	_	7	nmod:poss	_	_
+7	бағаларының	баға	NOUN	n	_	8	nmod:poss	_	_
+8	индексі	индекс	NOUN	n	_	4	appos	_	_
+9	көмегімен	көмек	NOUN	n	_	10	nmod	_	_
+10	анықталады	анықта	VERB	v	_	0	root	_	_
+11	.	.	PUNCT	sent	_	10	punct	_	_
+
+#ID: 283 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Соғыстан	соғыс	NOUN	n	_	6	nmod	_	_
+2	кейін	кейін	ADP	post	_	1	case	_	_
+3	Федор	Федор	PROPN	np	_	5	name	_	_
+4	Федорович	Федорович	PROPN	np	_	6	nsubj	_	_
+5	Қарағандыда	Қарағанды	PROPN	np	_	6	nmod	_	_
+6	тұрды	тұр	VERB	v	_	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
+
+#ID: 284 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Михайлов	Михайлов	PROPN	np	_	2	nmod:poss	_	_
+2	зиратына	зират	NOUN	n	_	3	nmod	_	_
+3	жерленген	жерле	VERB	v	_	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
-#ID: 388 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+#ID: 286 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Сөйтіп	сөйт	VERB	v	_	7	advcl	_	_
+2	,	,	PUNCT	cm	_	1	punct	_	_
+3	Алашордасының	Алашорда	PROPN	np	_	4	nmod:poss	_	_
+4	бастығына	бастық	NOUN	n	_	7	nmod	_	_
+5	Ғ.	Ғ.	NOUN	abbr	_	6	name	_	_
+6	Бөкейхан	Бөкейхан	PROPN	np	_	7	nsubj	_	_
+7	сайланды	сайла	VERB	v	_	0	root	_	_
+8	.	.	PUNCT	sent	_	7	punct	_	_
+
+#ID: 309 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Қожанасырды	Қожанасыр	PROPN	np	_	3	dobj	_	_
+2	ешкім	ешкім	PRON	prn	_	3	nsubj	_	_
+3	елемепті	еле	VERB	v	_	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+#ID: 313 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Қожа	Қожа	PROPN	np	_	3	nsubj	_	_
+2	етті	ет	NOUN	n	_	3	dobj	_	_
+3	жемей	же	VERB	v	_	20	advcl	_	_
+4	,	,	PUNCT	cm	_	3	punct	_	_
+5	табаққа	табақ	NOUN	n	_	8	nmod	_	_
+6	шапанының	шапан	NOUN	n	_	7	nmod:poss	_	_
+7	жеңін	жең	NOUN	n	_	8	dobj	_	_
+8	малып	мал	VERB	v	_	20	advcl	_	_
+9	:	:	PUNCT	sent	_	8	punct	_	_
+10	-	-	PUNCT	guio	_	8	punct	_	_
+11	Же	же	VERB	v	_	15	conj	_	_
+12	,	,	PUNCT	cm	_	15	punct	_	_
+13	шапаным	шапан	NOUN	n	_	15	vocative	_	_
+14	,	,	PUNCT	cm	_	13	punct	_	_
+15	же	же	VERB	v	_	18	ccomp	_	_
+16	!	!	PUNCT	sent	_	15	punct	_	_
+17	-	-	PUNCT	guio	_	15	punct	_	_
+18	деп	де	VERB	v	_	20	advcl	_	_
+19	,	,	PUNCT	cm	_	18	punct	_	_
+20	отыра	отыр	VERB	v	_	0	root	_	_
+21	береді	бер	AUX	vaux	_	20	aux	_	_
+22	.	.	PUNCT	sent	_	20	punct	_	_
+
+#ID: 316 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	АЗАМАТ	Азамат	PROPN	np	_	2	nsubj	_	_
+2-3	ҚАЙДА	_	_	_	_	_	_	_	_
+2	_	қайда	ADV	adv	_	0	root	_	_
+3	_	е	VERB	cop	_	2	cop	_	_
+4	?	?	PUNCT	sent	_	2	punct	_	_
+
+#ID: 329 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Бірақ	бірақ	CONJ	cnjcoo	_	5	cc	_	_
+2	мысығы	мысық	NOUN	n	_	5	nsubj	_	_
+3	үйде	үй	NOUN	n	_	5	nmod	_	_
+4	,	,	PUNCT	cm	_	5	punct	_	_
+5	ұйықтап	ұйықта	VERB	v	_	0	root	_	_
+6	жатыр	жат	AUX	vaux	_	5	aux	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
+
+#ID: 331 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Азамат	Азамат	PROPN	np	_	9	nsubj	_	_
+2	ескі	ескі	ADJ	adj	_	9	advmod	_	_
+3	үлкен	үлкен	ADJ	adj	_	5	amod	_	_
+4	бір	бір	DET	det	_	5	det	_	_
+5	ағашқа	ағаш	NOUN	n	_	8	nmod	_	_
+6	қарай	қарай	ADP	post	_	5	case	_	_
+7	қатты	қатты	ADJ	adj	_	8	advmod	_	_
+8	жүгіріп	жүгір	VERB	v	_	9	advcl	_	_
+9	бара	бар	VERB	v	_	17	parataxis	_	_
+10	жатыр	жат	AUX	vaux	_	9	aux	_	_
+11	,	,	PUNCT	cm	_	17	punct	_	_
+12	ол	ол	PRON	prn	_	17	nsubj	_	_
+13	сол	сол	DET	det	_	14	det	_	_
+14	ағаштың	ағаш	NOUN	n	_	15	nmod:poss	_	_
+15	артына	арт	NOUN	n	_	17	nmod	_	_
+16	Айгүлден	Айгүл	PROPN	np	_	17	nmod	_	_
+17	жасырынып	жасырын	VERB	v	_	0	root	_	_
+18	жатыр	жат	AUX	vaux	_	17	aux	_	_
+19	.	.	PUNCT	sent	_	17	punct	_	_
+
+#ID: 339 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Ол	ол	PRON	prn	_	14	nsubj	_	_
+2	"	"	PUNCT	sent	_	9	punct	_	_
+3	Азамат	Азамат	PROPN	np	_	6	nsubj	_	_
+4	қай	қай	DET	det	_	5	det	_	_
+5	жерге	жер	NOUN	n	_	6	nmod	_	_
+6	кетті	кет	VERB	v	_	9	parataxis	_	_
+7	?	?	PUNCT	sent	_	6	punct	_	_
+8	Оны	ол	PRON	prn	_	9	dobj	_	_
+9-10	көрдіңдер__ме	_	_	_	_	_	_	_	_
+9	_	көр	VERB	v	_	13	ccomp	_	_
+10	_	ма	PART	qst	_	9	discourse	_	_
+11	?	?	PUNCT	sent	_	9	punct	_	_
+12	"	"	PUNCT	sent	_	9	punct	_	_
+13	деп	де	VERB	v	_	14	advcl	_	_
+14	іздеп	ізде	VERB	v	_	0	root	_	_
+15	жатыр	жат	AUX	vaux	_	14	aux	_	_
+16	.	.	PUNCT	sent	_	14	punct	_	_
+
+#ID: 346 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Айгүл	Айгүл	PROPN	np	_	12	nsubj	_	_
+2	анасының	ана	NOUN	n	_	3	nsubj	_	_
+3	жымиғанын	жыми	VERB	v	_	4	ccomp	_	_
+4	көріп	көр	VERB	v	_	12	advcl	_	_
+5	ол	ол	PRON	prn	_	10	nsubj	_	_
+6	Азаматтың	Азамат	PROPN	np	_	9	nsubj	_	_
+7	қай	қай	DET	det	_	8	det	_	_
+8	жерге	жер	NOUN	n	_	9	nmod	_	_
+9	кеткенін	кет	VERB	v	_	10	ccomp	_	_
+10	біледі	біл	VERB	v	_	11	ccomp	_	_
+11	деп	де	VERB	v	_	12	advcl	_	_
+12	ойлайды	ойла	VERB	v	_	0	root	_	_
+13	.	.	PUNCT	sent	_	12	punct	_	_
+
+#ID: 351 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Әлі__де__болса	әлі__де__болса	ADV	adv	_	4	advmod	_	_
+2	Азаматты	Азамат	PROPN	np	_	3	dobj	_	_
+3	табуға	тап	VERB	v	_	4	xcomp	_	_
+4	әрекет__етіп	әрекет__ет	VERB	v	_	0	root	_	_
+5	жүр	жүр	AUX	vaux	_	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
+
+#ID: 372 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Қалада	қала	NOUN	n	_	14	nmod	_	_
+2	жаңа	жаңа	ADJ	adj	_	4	amod	_	_
+3	өндіріс	өндіріс	NOUN	n	_	4	nmod:poss	_	_
+4	орындары	орын	NOUN	n	_	5	nsubj	_	_
+5	салынып	сал	VERB	v	_	14	advcl	_	_
+6	,	,	PUNCT	cm	_	5	punct	_	_
+7	оқу	оқу	NOUN	n	_	8	nmod:poss	_	_
+8	орындары	орын	NOUN	n	_	13	conj	_	_
+9	мен	мен	CONJ	cnjcoo	_	13	cc	_	_
+10	ғылыми	ғылыми	ADJ	adj	_	12	conj	_	_
+11	,	,	PUNCT	cm	_	12	punct	_	_
+12	мәдениет	мәдениет	NOUN	n	_	13	nmod:poss	_	_
+13	ошақтары	ошақ	NOUN	n	_	14	nsubj	_	_
+14	ашылды	аш	VERB	v	_	0	root	_	_
+15	.	.	PUNCT	sent	_	14	punct	_	_
+
+#ID: 384 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
 1	Ерназардың	Ерназар	PROPN	np	_	3	nmod:poss	_	_
 2	сегіз	сегіз	NUM	num	_	3	nummod	_	_
-3	ұлы	ұл	NOUN	n	_	12	nsubj	_	_
-4	сол	сол	DET	det	_	5	det	_	_
-5	кеткеннен	кет	VERB	v	_	12	advcl	_	_
-6-7	хабарсыз	_	_	_	_	_	_	_	_
-6	_	хабар	NOUN	n	_	8	nmod	_	_
-7	_	сыз	ADP	post	_	6	case	_	_
-8	кетеді	кет	VERB	v	_	13	conj	_	_
-9	,	,	PUNCT	cm	_	13	punct	_	_
-10	айлар	ай	NOUN	n	_	11	nsubj	_	_
-11	өтеді	өт	VERB	v	_	13	parataxis	_	_
-12	,	,	PUNCT	cm	_	11	punct	_	_
-13	келмейді	кел	VERB	v	_	0	root	_	_
-14	.	.	PUNCT	sent	_	13	punct	_	_
+3	ұлы	ұл	NOUN	n	_	4	nsubj	_	_
+4	болыпты	бол	VERB	v	_	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-#ID: 400 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
-1	Сөйткенде	сөйт	VERB	v	_	6	advcl	_	_
-2	Төстіктің	Төстік	PROPN	np	_	4	nmod:poss	_	_
-3	бір	бір	NUM	num	_	4	nummod	_	_
-4	бақайы	бақай	NOUN	n	_	6	nsubj	_	_
-5	өрмекті	өрмек	NOUN	n	_	6	dobj	_	_
-6	іліп	іл	VERB	v	_	0	root	_	_
-7	кетеді	кет	AUX	vaux	_	6	aux	_	_
-8	.	.	PUNCT	sent	_	6	punct	_	_
+#ID: 392 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Тұруға	тұр	VERB	v	_	3	advcl	_	_
+2	мұршасы	мұрша	NOUN	n	_	3	nsubj	_	_
+3	келмей	кел	VERB	v	_	5	acl	_	_
+4	жатқан	жат	AUX	vaux	_	3	aux	_	_
+5	шал	шал	NOUN	n	_	7	nsubj	_	_
+6	шаңыраққа	шаңырақ	NOUN	n	_	7	nmod	_	_
+7	қараса	қара	VERB	v	_	17	advcl	_	_
+8	,	,	PUNCT	cm	_	7	punct	_	_
+9	шаңырақтың	шаңырақ	NOUN	n	_	10	nmod:poss	_	_
+10	күлдіреуішінде	күлдіреуіш	NOUN	n	_	17	nmod	_	_
+11	керулі	керулі	ADJ	adj	_	15	acl	_	_
+12	тұрған	тұр	VERB	v	_	11	cop	_	_
+13	кер	кер	ADJ	adj	_	14	amod	_	_
+14	биенің	бие	NOUN	n	_	15	nmod:poss	_	_
+15	төстігі	төстік	NOUN	n	_	17	nsubj	_	_
+16	көзіне	көз	NOUN	n	_	17	nmod	_	_
+17	түседі	түс	VERB	v	_	0	root	_	_
+18	.	.	PUNCT	sent	_	17	punct	_	_
+
+#ID: 393 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Ерназар	Ерназар	PROPN	np	_	2	nsubj	_	_
+2	қуанып	қуан	VERB	v	_	5	advcl	_	_
+3	,	,	PUNCT	cm	_	2	punct	_	_
+4	есі	ес	NOUN	n	_	5	nsubj	_	_
+5	шығады	шық	VERB	v	_	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+#ID: 397 @ https://svn.code.sf.net/p/apertium/svn/languages/apertium-kaz/texts/puupankki/puupankki.conllu
+1	Төстік	Төстік	PROPN	np	_	4	nsubj	_	_
+2	ұстайын	ұста	VERB	v	_	3	ccomp	_	_
+3	деп	де	VERB	v	_	4	advcl	_	_
+4	қуып	қу	VERB	v	_	0	root	_	_
+5	жүреді	жүр	AUX	vaux	_	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
+
+#ID: 10 @ kazdt._ab_036
+1	Балшабайға	Балшабай	PROPN	np	_	2	iobj	_	_
+2	жазылған	жаз	VERB	v	_	3	acl	_	_
+3	кісіні	кісі	NOUN	n	_	5	dobj	_	_
+4	ауылнай	ауылнай	NOUN	n	_	5	nmod	_	_
+5	қылады	қыл	VERB	v	_	19	conj	_	_
+6	,	,	PUNCT	cm	_	19	punct	_	_
+7	болыс	болыс	NOUN	n	_	8	nmod	_	_
+8	қояды	қой	VERB	v	_	19	conj	_	_
+9	,	,	PUNCT	cm	_	19	punct	_	_
+10	қолына	қол	NOUN	n	_	12	nmod	_	_
+11	мылтық	мылтық	NOUN	n	_	12	dobj	_	_
+12	береді	бер	VERB	v	_	19	conj	_	_
+13	,	,	PUNCT	cm	_	19	punct	_	_
+14	"	"	PUNCT	sent	_	15	punct	_	_
+15	панимаешь	панимаешь	INTJ	ij	_	19	discourse	_	_
+16	"	"	PUNCT	sent	_	15	punct	_	_
+17	,	,	PUNCT	cm	_	15	punct	_	_
+18	мылтық	мылтық	NOUN	n	_	19	dobj	_	_
+19	береді	бер	VERB	v	_	0	root	_	_
+20	.	.	PUNCT	sent	_	19	punct	_	_
+
+#ID: 7 @ kazdt._ab_038
+1	Мені	мен	PRON	prn	_	3	dobj	_	_
+2	бұзақы	бұзақы	NOUN	n	_	3	compound	_	_
+3-4	адам	_	_	_	_	_	_	_	_
+3	_	адам	NOUN	n	_	5	ccomp	_	_
+4	_	е	VERB	cop	_	3	cop	_	_
+5	деп	де	VERB	v	_	9	advcl	_	_
+6	,	,	PUNCT	cm	_	5	punct	_	_
+7	сөйтіп	сөйт	VERB	v	_	9	advcl	_	_
+8	болыстыққа	болыстық	NOUN	n	_	9	iobj	_	_
+9	сайламай	сайла	VERB	v	_	0	root	_	_
+10	қойғаны	қой	AUX	aux	_	9	aux	_	_
+11	.	.	PUNCT	sent	_	9	punct	_	_
+
+#ID: 10 @ kazdt._ab_067
+1	Алтынай	Алтынай	PROPN	np	_	5	nsubj	_	_
+2	абысындарына	абысын	NOUN	n	_	5	iobj	_	_
+3-4	мақтанып__та	_	_	_	_	_	_	_	_
+3	_	мақтан	VERB	v	_	0	root	_	_
+4	_	та	PART	postadv	_	3	advmod	_	_
+5	қояды	қой	AUX	vaux	_	3	aux	_	_
+6	.	.	PUNCT	sent	_	3	punct	_	_
 
