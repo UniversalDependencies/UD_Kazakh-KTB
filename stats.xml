@@ -5,18 +5,63 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></total>
+    <total><sentences>450</sentences><tokens>4874</tokens><words>5072</words><fused>188</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="1554" /><!-- ., ,, е, бол, да, және, ал, —, иран, ол, ?, ел, мен, (, ) -->
+  <forms unique="2316" /><!-- ., ,, —, және, ?, (, ), иран, -, мен, бір, ж., деп, ол, ! -->
+  <fusions unique="130" /><!-- бар, керек, бар__ма, ешкім__де, тиіс, жоқ, құқылы, басқа__да, адам, жақсы, және__де, қайда, Ешкімді__де, аласыз__ба, бақшада -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="16">
+    <tag name="ADJ">354</tag><!-- бар, керек, жаңа, тиіс, жақсы, үлкен, ұлттық, басқа, экономикалық, жоқ -->
+    <tag name="ADP">80</tag><!-- кейін, бойынша, үшін, соң, дейін, қарсы, басқа, қарай, арқылы, астам -->
+    <tag name="ADV">91</tag><!-- қайда, енді, тек, қазір, қайта, әбден, өте, бірге, бұрын, ендеше -->
+    <tag name="AUX">112</tag><!-- ал, жат, баста, кет, кел, отыр, тұр, қал, бер, жүр -->
+    <tag name="CONJ">118</tag><!-- және, мен, немесе, да, бірақ, ал, не, әлде, ләкин, не__болмаса -->
+    <tag name="DET">95</tag><!-- осы, бір, өз, барлық, бұл, мына, ол, әр, қай, сол -->
+    <tag name="INTJ">11</tag><!-- жоқ, ал, ендеше, міне, панимаешь, рақмет, тегі, әне -->
+    <tag name="NOUN">1564</tag><!-- ел, жыл, ғасыр, ж., бала, орыс, адам, мемлекет, жер, тіл -->
+    <tag name="NUM">194</tag><!-- бір, екі, 1, 11, 2, 2014, 16, 20, 3, 30 -->
+    <tag name="PART">77</tag><!-- да, ма, ғана, емес, шығар, -ақ, та, тағы, шы, ғой -->
+    <tag name="PRON">150</tag><!-- ол, мен, бұл, олар, сіз, ешкім, өз, не, сен, осы -->
+    <tag name="PROPN">301</tag><!-- Иран, Азамат, Айгүл, Ерназар, Астана, АҚШ, Бразилия, Қазақстан, Ақбілек, Төстік -->
+    <tag name="PUNCT">986</tag><!-- ., ,, —, ?, (, ), -, !, ", : -->
+    <tag name="SCONJ">10</tag><!-- сондықтан, алайда, демек, егер, осы__себептен, себебі, сонда, сонда__да, сөйтсе__де -->
+    <tag name="SYM">2</tag><!-- / -->
+    <tag name="VERB">927</tag><!-- е, бол, де, біл, ал, бер, кел, тұр, шық, тап -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="29">
+    <dep name="acl">89</dep>
+    <dep name="advcl">184</dep>
+    <dep name="advmod">171</dep>
+    <dep name="amod">317</dep>
+    <dep name="appos">48</dep>
+    <dep name="aux">113</dep>
+    <dep name="case">80</dep>
+    <dep name="cc">124</dep>
+    <dep name="ccomp">57</dep>
+    <dep name="compound">63</dep>
+    <dep name="conj">265</dep>
+    <dep name="cop">174</dep>
+    <dep name="csubj">25</dep>
+    <dep name="det">96</dep>
+    <dep name="discourse">39</dep>
+    <dep name="dobj">251</dep>
+    <dep name="iobj">16</dep>
+    <dep name="mark">1</dep>
+    <dep name="name">30</dep>
+    <dep name="nmod">496</dep>
+    <dep name="nmod:poss">413</dep>
+    <dep name="nsubj">463</dep>
+    <dep name="nummod">52</dep>
+    <dep name="parataxis">38</dep>
+    <dep name="punct">988</dep>
+    <dep name="remnant">24</dep>
+    <dep name="root">450</dep>
+    <dep name="vocative">3</dep>
+    <dep name="xcomp">2</dep>
   </deps>
 </treebank>
