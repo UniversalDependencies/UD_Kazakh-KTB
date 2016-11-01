@@ -3,12 +3,12 @@ Kazakh UD treebank
 
 BASIC STATISTICS
 
-Tree count:  600
-Word count:  6261
-Token count: 6023
-Dep. relations: 34 of which 4 language specific
+Tree count:  450
+Word count:  5072
+Token count: 4874
+Dep. relations: 29 of which 1 language specific
 POS tags: 16
-Category=value feature pairs: 45
+Category=value feature pairs: 0
 
 
 TOKENISATION
@@ -18,7 +18,7 @@ The tokenization in the Kazakh UD treebank follows the principles of [Turkic lex
 
 MORPHOLOGY
 
-Morphological processing in the Kazakh UD treebank follows the principles of [Turkic lexica in Apertium](http://wiki.apertium.org/wiki/Turkic_lexicon).
+There is currently no morphological annotation in the Kazakh UD treebank.  This is planned for a future release.
 
 
 DATA SETS
@@ -50,14 +50,6 @@ Please, cite the following papers if you use Kazakh UD treebank:
   pages = {338--350},
   year = {2015},
 }
-
-
-Changelog
-
-2016-11-15 v1.4
-  * A first feature set has been developped.
-  * Added 150 more trees annotated for morpho-lexical features (in addition to POS, lemmata, and syntax).
-  * Several annotation errors have been fixed.
 
 
 --- Machine-readable metadata ---
