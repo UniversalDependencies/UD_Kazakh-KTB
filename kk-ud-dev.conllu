@@ -7,7 +7,7 @@
 5	Еуровидениенің	Еуровидение	PROPN	np	Case=Gen	7	nmod:poss	_	_
 6	55-ші	55	NUM	num	NumType=Ord	7	amod	_	_
 7	конкурсы	конкурс	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	_
-8	болады	бол	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	7	cop	_	SpaceAfter=No
+8	болады	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	7	cop	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = әртүрлі.tagged.txt:1:0
