@@ -192,6 +192,297 @@
 29	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	27	nsubj	_	_
 30	.	.	PUNCT	sent	_	27	punct	_	_
 
+# sent_id = sholpan.tagged.txt:7:281
+# text = Ғашық адамға Құранның аяты қасиетті емес, жарының сөзі қасиетті, жарынан басқа адамның сөзін не қылсын Шолпан!
+1	Ғашық	ғашық	ADJ	adj	_	2	amod	_	_
+2	адамға	адам	NOUN	n	Case=Dat	10	obl	_	_
+3	Құранның	Құран	PROPN	np	Case=Gen	4	nmod:poss	_	_
+4	аяты	аят	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
+5	қасиетті	қасиетті	ADJ	adj	_	10	conj	_	_
+6	емес	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aor|VerbForm=Fin	5	cop	_	_
+7	,	,	PUNCT	cm	_	5	punct	_	_
+8	жарының	жар	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	_
+9	сөзі	сөз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
+10-11	қасиетті	_	_	_	_	_	_	_	_
+10	қасиетті	қасиетті	ADJ	adj	_	0	root	_	_
+11	е	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	10	cop	_	_
+12	,	,	PUNCT	cm	_	10	punct	_	_
+13	жарынан	жар	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	15	nmod	_	_
+14	басқа	басқа	ADP	post	_	13	case	_	_
+15	адамның	адам	NOUN	n	Case=Gen	16	nmod:poss	_	_
+16	сөзін	сөз	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	18	obj	_	_
+17	не	не	PRON	prn	Case=Nom|PronType=Int	18	xcomp	_	_
+18	қылсын	қыл	VERB	v	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	10	parataxis	_	_
+19	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	18	nsubj	_	_
+20	!	!	PUNCT	sent	_	18	punct	_	_
+
+# sent_id = sholpan.tagged.txt:8:321
+# text = Бес жылдың ішінде үш баласы бар еді: екеуі ұл, біреуі қыз.
+1	Бес	бес	NUM	num	NumType=Card	2	nummod	_	_
+2	жылдың	жыл	NOUN	n	Case=Gen	3	nmod:poss	_	_
+3	ішінде	іш	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
+4	үш	үш	NUM	num	NumType=Card	5	nummod	_	_
+5	баласы	бала	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	_
+6	бар	бар	ADJ	adj	_	0	root	_	_
+7	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+8	:	:	PUNCT	sent	_	6	punct	_	_
+9	екеуі	екеу	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	10	nsubj	_	_
+10-11	ұл	_	_	_	_	_	_	_	_
+10	ұл	ұл	NOUN	n	Case=Nom	6	parataxis	_	_
+11	_	е	AUX	cop	Mood=Ind|Number=Plur|Person=3|Tense=Aor|VerbForm=Fin	10	cop	_	_
+12	,	,	PUNCT	cm	_	10	punct	_	_
+13	біреуі	біреу	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	14	nsubj	_	_
+14-15	қыз	_	_	_	_	_	_	_	_
+14	қыз	қыз	NOUN	n	Case=Nom	6	parataxis	_	_
+15	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	14	cop	_	_
+16	.	.	PUNCT	sent	_	14	punct	_	_
+
+# sent_id = sholpan.tagged.txt:9:352
+# text = Дүниеде адамнан қиын жұмбақ жоқ.
+1	Дүниеде	дүние	NOUN	n	Case=Loc	6	obl	_	_
+2	адамнан	адам	NOUN	n	Case=Abl	3	obl	_	_
+3-4	қиын	_	_	_	_	_	_	_	_
+3	қиын	қиын	ADJ	adj	_	5	acl:relcl	_	_
+4	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
+5	жұмбақ	жұмбақ	NOUN	n	Case=Nom	6	nsubj	_	_
+6-7	жоқ	_	_	_	_	_	_	_	_
+6	жоқ	жоқ	ADJ	adj	_	0	root	_	_
+7	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	6	cop	_	_
+8	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = sholpan.tagged.txt:10:367
+# text = Адам – шешуі жоқ жұмбақ.
+1	Адам	адам	NOUN	n	Case=Nom	6	nsubj	_	_
+2	–	–	PUNCT	guio	_	6	punct	_	_
+3	шешуі	шеш	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	4	csubj	_	_
+4-5	жоқ	_	_	_	_	_	_	_	_
+4	жоқ	жоқ	ADJ	adj	_	6	acl:relcl	_	_
+5	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
+6-7	жұмбақ	_	_	_	_	_	_	_	_
+6	жұмбақ	жұмбақ	NOUN	n	Case=Nom	0	root	_	_
+7	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	6	cop	_	_
+8	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = sholpan.tagged.txt:11:382
+# text = Шешуі деп атауға болатын болса, адамның шешуі жалғыз өлім.
+1	Шешуі	шеш	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	3	xcomp	_	_
+2	деп	деп	X	x	_	3	dep	_	_
+3	атауға	ата	VERB	v	Case=Dat|VerbForm=Ger	4	ccomp	_	_
+4	болатын	бол	VERB	v	Aspect=Imp|VerbForm=Part	10	advcl	_	_
+5	болса	бол	AUX	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	4	cop	_	_
+6	,	,	PUNCT	cm	_	5	punct	_	_
+7	адамның	адам	NOUN	n	Case=Gen	8	nmod:poss	_	_
+8	шешуі	шеш	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	10	nsubj	_	_
+9	жалғыз	жалғыз	ADJ	adj	_	10	amod	_	_
+10-11	өлім	_	_	_	_	_	_	_	_
+10	өлім	өлім	NOUN	n	Case=Nom	0	root	_	_
+11	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	10	cop	_	_
+12	.	.	PUNCT	sent	_	10	punct	_	_
+
+# sent_id = sholpan.tagged.txt:12:406
+# text = Осы ойлар Шолпанның жанында таспиқтай тізілген ретті болмаса да, оның жаны соқыр сезіммен осы ойларға өзі барып тірелген еді, әм Шолпанның жүрек жарасын ешкімге сездірмеске тырысуының себебі осы еді.
+1	Осы	осы	DET	det	PronType=Dem	2	det	_	_
+2	ойлар	ой	NOUN	n	Case=Nom|Number=Plur	7	nsubj	_	_
+3	Шолпанның	Шолпан	PROPN	np	Case=Gen|Gender=Fem	4	nmod:poss	_	_
+4	жанында	жан	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
+5	таспиқтай	таспиқ	NOUN	n	_	6	obl	_	_
+6	тізілген	тіз	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+7-8	ретті	_	_	_	_	_	_	_	_
+7	рет	рет	NOUN	n	_	20	advcl	_	_
+8	_	лы	ADP	post	_	7	case	_	_
+9-10	болмаса да	_	_	_	_	_	_	_	_
+9	болмаса	бол	AUX	v	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|VerbForm=Conv	7	cop	_	_
+10	да	да	ADV	postadv	_	7	advmod	_	_
+11	,	,	PUNCT	cm	_	7	punct	_	_
+12	оның	ол	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+13	жаны	жан	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	20	nsubj	_	_
+14	соқыр	соқыр	ADJ	adj	_	15	amod	_	_
+15	сезіммен	сезім	NOUN	n	Case=Ins	20	obl	_	_
+16	осы	осы	DET	det	PronType=Dem	17	det	_	_
+17	ойларға	ой	NOUN	n	Case=Dat|Number=Plur	20	obl	_	_
+18	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	19	nsubj	_	_
+19	барып	бар	VERB	v	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
+20	тірелген	тіре	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	31	conj	_	_
+21	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+22	,	,	PUNCT	cm	_	31	punct	_	_
+23	әм	әм	CCONJ	cnjcoo	_	31	cc	_	_
+24	Шолпанның	Шолпан	PROPN	np	Case=Gen|Gender=Fem	29	nsubj	_	_
+25	жүрек	жүрек	NOUN	n	Case=Nom	26	nmod:poss	_	_
+26	жарасын	жара	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	28	obj	_	_
+27	ешкімге	ешкім	PRON	prn	Case=Dat|PronType=Neg	28	obl	_	_
+28	сездірмеске	сездір	VERB	v	Case=Dat|Polarity=Neg|Tense=Fut|VerbForm=Part	29	ccomp	_	_
+29	тырысуының	тырыс	VERB	v	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	30	acl	_	_
+30	себебі	себеп	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	31	nsubj	_	_
+31	осы	осы	PRON	prn	Case=Nom|PronType=Dem	0	root	_	_
+32	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
+33	.	.	PUNCT	sent	_	31	punct	_	_
+
+# sent_id = sholpan.tagged.txt:13:471
+# text = Не керек, жақын, жаттың ортасында жалғыз болды.
+1	Не	не	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
+2-3	керек	_	_	_	_	_	_	_	_
+2	керек	керек	ADJ	adj	_	0	root	_	_
+3	е	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	2	cop	_	_
+4	,	,	PUNCT	cm	_	2	punct	_	_
+5	жақын	жақын	ADJ	adj	Case=Nom	7	conj	_	_
+6	,	,	PUNCT	cm	_	7	punct	_	_
+7	жаттың	жат	ADJ	adj	Case=Gen	8	nmod:poss	_	_
+8	ортасында	орта	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
+9	жалғыз	жалғыз	ADJ	adj	_	2	parataxis	_	_
+10	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+11	.	.	PUNCT	sent	_	9	punct	_	_
+
+# sent_id = sholpan.tagged.txt:14:493
+# text = Бітеу жара болды, жалғыз өртенді, жалғыз жылады, дүниеден безді, сопы болды.
+1	Бітеу	бітеу	ADJ	adj	_	2	amod	_	_
+2	жара	жара	NOUN	n	Case=Nom	0	root	_	_
+3	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	,	,	PUNCT	cm	_	2	punct	_	_
+5	жалғыз	жалғыз	ADJ	adj	_	6	advmod	_	_
+6	өртенді	өртен	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+7	,	,	PUNCT	cm	_	6	punct	_	_
+8	жалғыз	жалғыз	ADJ	adj	_	9	advmod	_	_
+9	жылады	жыла	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+10	,	,	PUNCT	cm	_	9	punct	_	_
+11	дүниеден	дүние	NOUN	n	Case=Abl	12	obl	_	_
+12	безді	без	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+13	,	,	PUNCT	cm	_	12	punct	_	_
+14	сопы	сопы	NOUN	n	Case=Nom	2	parataxis	_	_
+15	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	_
+16	.	.	PUNCT	sent	_	14	punct	_	_
+
+# sent_id = sholpan.tagged.txt:15:526
+# text = Бала сұрады, қалай да бала болмады.
+1	Бала	бала	NOUN	n	Case=Nom	2	obj	_	_
+2	сұрады	сұра	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+3	,	,	PUNCT	cm	_	7	punct	_	_
+4	қалай	қалай	X	x	_	5	dep	_	_
+5	да	да	SCONJ	cnjadv	_	7	cc	_	_
+6	бала	бала	NOUN	n	Case=Nom	7	nsubj	_	_
+7	болмады	бол	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	sent	_	7	punct	_	_
+
+# sent_id = sholpan.tagged.txt:16:543
+# text = Не істемеді Шолпан?!
+1	Не	не	PRON	prn	Case=Nom|PronType=Int	2	obj	_	_
+2	істемеді	істе	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	2	nsubj	_	_
+4	?	?	PUNCT	sent	_	2	punct	_	_
+5	!	!	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = sholpan.tagged.txt:17:554
+# text = Пірәдар болды, әулиеге ат айтты, қорасанға қой айтты: «Жасаған-ау, бала бере гөр!» – деді.
+1	Пірәдар	пірәдар	NOUN	n	Case=Nom	0	root	_	_
+2	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	,	,	PUNCT	cm	_	1	punct	_	_
+4	әулиеге	әулие	NOUN	n	Case=Dat	6	obl	_	_
+5	ат	ат	NOUN	n	Case=Nom	6	obj	_	_
+6	айтты	айт	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+7	,	,	PUNCT	cm	_	6	punct	_	_
+8	қорасанға	қорасан	NOUN	n	Case=Dat	10	obl	_	_
+9	қой	қой	NOUN	n	Case=Nom	10	obj	_	_
+10	айтты	айт	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+11	:	:	PUNCT	sent	_	10	punct	_	_
+12	«	«	PUNCT	lquot	_	17	punct	_	_
+13-14	Жасаған-ау	_	_	_	_	_	_	_	_
+13	Жасаған	Жасаған	PROPN	np	Case=Nom	17	vocative	_	_
+14	ау	ау	PART	mod_emo	_	13	discourse	_	_
+15	,	,	PUNCT	cm	_	13	punct	_	_
+16	бала	бала	NOUN	n	Case=Nom	17	obj	_	_
+17	бере	бер	VERB	v	Aspect=Imp|VerbForm=Cov	22	ccomp	_	_
+18	гөр	гөр	AUX	vaux	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	17	aux	_	_
+19	!	!	PUNCT	sent	_	17	punct	_	_
+20	»	»	PUNCT	rquot	_	17	punct	_	_
+21	–	–	PUNCT	guio	_	17	punct	_	_
+22	деді	де	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+23	.	.	PUNCT	sent	_	22	punct	_	_
+
+# sent_id = sholpan.tagged.txt:18:600
+# text = Бірақ тілек іске аспай, аяғы жоқ жыр болды.
+1	Бірақ	бірақ	CCONJ	cnjcoo	_	4	cc	_	_
+2	тілек	тілек	NOUN	n	Case=Nom	4	nsubj	_	_
+3	іске	іске	X	x	_	4	dep	_	_
+4	аспай	ас	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv	9	advcl	_	_
+5	,	,	PUNCT	cm	_	4	punct	_	_
+6	аяғы	аяқ	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
+7-8	жоқ	_	_	_	_	_	_	_	_
+7	жоқ	жоқ	ADJ	adj	_	9	acl:relcl	_	_
+8	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	7	cop	_	_
+9	жыр	жыр	NOUN	n	Case=Nom	0	root	_	_
+10	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+11	.	.	PUNCT	sent	_	9	punct	_	_
+
+# sent_id = sholpan.tagged.txt:19:622
+# text = Көл болып төгілген көздің жасы жерге сіңді, тілек тозды, өмір озды, Шолпан бала көтермеді.
+1	Көл	көл	NOUN	n	Case=Nom	3	advcl	_	_
+2	болып	бол	AUX	v	Aspect=Perf|VerbForm=Conv	1	cop	_	_
+3	төгілген	төк	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+4	көздің	көз	NOUN	n	Case=Gen	5	nmod:poss	_	_
+5	жасы	жас	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
+6	жерге	жер	NOUN	n	Case=Dat	7	obl	_	_
+7	сіңді	сің	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	,	,	PUNCT	cm	_	7	punct	_	_
+9	тілек	тілек	NOUN	n	Case=Nom	10	nsubj	_	_
+10	тозды	тоз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+11	,	,	PUNCT	cm	_	10	punct	_	_
+12	өмір	өмір	NOUN	n	Case=Nom	13	nsubj	_	_
+13	озды	оз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+14	,	,	PUNCT	cm	_	13	punct	_	_
+15	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	17	nsubj	_	_
+16	бала	бала	X	x	_	17	dep	_	_
+17	көтермеді	көтер	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+18	.	.	PUNCT	sent	_	17	punct	_	_
+
+# sent_id = sholpan.tagged.txt:20:659
+# text = Қанша жалынса да, қанша жыласа да Жасаған оған бала бермеді.
+1	Қанша	қанша	PRON	prn	Case=Nom|PronType=Int	2	advmod	_	_
+2-3	жалынса да	_	_	_	_	_	_	_	_
+2	жалынса	жалын	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	6	conj	_	_
+3	да	да	ADV	postadv	_	2	advmod	_	_
+4	,	,	PUNCT	cm	_	6	punct	_	_
+5	қанша	қанша	PRON	prn	Case=Nom|PronType=Int	6	advmod	_	_
+6-7	жыласа да	_	_	_	_	_	_	_	_
+6	жыласа	жыла	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	advcl	_	_
+7	да	да	ADV	postadv	_	6	advmod	_	_
+8	Жасаған	Жасаған	PROPN	np	Case=Nom	11	nsubj	_	_
+9	оған	ол	PRON	prn	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+10	бала	бала	NOUN	n	Case=Nom	11	obj	_	_
+11	бермеді	бер	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	sent	_	11	punct	_	_
+
+# sent_id = sholpan.tagged.txt:21:682
+# text = Кім біледі, Тәңірінің Шолпанға бала бермеуі өзінше дұрыс шығар, өзінше жөн шығар.
+1	Кім	кім	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
+2	біледі	біл	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	cm	_	2	punct	_	_
+4	Тәңірінің	Тәңір	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
+5	Шолпанға	Шолпан	PROPN	np	Case=Dat|Gender=Fem	7	obl	_	_
+6	бала	бала	NOUN	n	Case=Nom	7	obj	_	_
+7	бермеуі	бер	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger	9	csubj	_	_
+8	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	9	advmod	_	_
+9-11	дұрыс шығар	_	_	_	_	_	_	_	_
+9	дұрыс	дұрыс	ADJ	adj	_	2	parataxis	_	_
+10	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	9	cop	_	_
+11	шығар	шығар	PART	mod	_	9	discourse	_	_
+12	,	,	PUNCT	cm	_	9	punct	_	_
+13	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	14	advmod	_	_
+14-16	жөн шығар	_	_	_	_	_	_	_	_
+14	жөн	жөн	ADJ	adj	_	2	parataxis	_	_
+15	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	14	cop	_	_
+16	шығар	шығар	PART	mod	_	14	discourse	_	_
+17	.	.	PUNCT	sent	_	14	punct	_	_
+
+# sent_id = sholpan.tagged.txt:22:713
+# text = Күнмен таласа Шолпан да өмірімен қоштасты.
+1	Күнмен	күн	NOUN	n	Case=Ins	2	obl	_	_
+2	таласа	талас	VERB	v	Aspect=Imp|VerbForm=Cov	6	advcl	_	_
+3-4	Шолпан да	_	_	_	_	_	_	_	_
+3	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	6	nsubj	_	_
+4	да	да	CCONJ	cnjcoo	_	3	cc	_	_
+5	өмірімен	өмір	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
+6	қоштасты	қоштас	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
+
 # sent_id = Elizabeth-II.tagged.txt:1:0
 # text = II Елизавета ханшайым Виндзор әулетінен шыққан.
 1	II	II	NUM	num	NumType=Ord	3	flat:name	_	_
