@@ -597,10 +597,10 @@
 15	(	(	PUNCT	lpar	_	18	punct	_	SpaceAfter=No
 16	келешек	келешек	NOUN	n	Case=Nom	18	amod	_	_
 17	Ұлыбритания	Ұлыбритания	PROPN	np	Case=Nom	18	nmod:poss	_	_
-18	королі	король	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	appos	_	_
+18	королі	король	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	appos	_	_
 19	—	—	PUNCT	guio	_	21	punct	_	_
 20	VIII	VIII	NUM	num	NumType=Ord	21	flat:name	_	_
-21	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	18	appos	_	SpaceAfter=No
+21	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	10	appos	_	SpaceAfter=No
 22	)	)	PUNCT	rpar	_	18	punct	_	_
 23	мен	мен	CCONJ	cnjcoo	_	24	cc	_	_
 24	әкесінен	әке	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	27	obl	_	_
