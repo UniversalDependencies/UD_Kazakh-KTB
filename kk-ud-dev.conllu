@@ -1,14 +1,14 @@
 # sent_id = sholpan.tagged.txt:1:0
 # text = Шолпан Сәрсенбайға шыққан жылы өзіндей жас келіншектермен аулақта кеңескенде: «Баласыз өмірдің қызығы жоқ қой», – деп аузымен ғана айтушы еді.
-1	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	25	nsubj	_	_
+1	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	24	nsubj	_	_
 2	Сәрсенбайға	Сәрсенбай	PROPN	np	Case=Dat|Gender=Masc	3	obl	_	_
 3	шыққан	шық	VERB	v	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
-4	жылы	жыл	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	25	obl	_	_
+4	жылы	жыл	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	24	obl	_	_
 5	өзіндей	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	7	nmod	_	_
 6	жас	жас	ADJ	adj	_	7	amod	_	_
 7	келіншектермен	келіншек	NOUN	n	Case=Ins|Number=Plur	9	obl	_	_
 8	аулақта	аулақ	ADJ	adj	Case=Loc	9	obl	_	_
-9	кеңескенде	кеңес	VERB	v	Case=Loc|Tense=Past|VerbForm=Ger	25	advcl	_	SpaceAfter=No
+9	кеңескенде	кеңес	VERB	v	Case=Loc|Tense=Past|VerbForm=Ger	24	advcl	_	SpaceAfter=No
 10	:	:	PUNCT	sent	_	9	punct	_	_
 11	«	«	PUNCT	lquot	_	16	punct	_	SpaceAfter=No
 12-13	Баласыз	_	_	_	_	_	_	_	_
@@ -16,22 +16,21 @@
 13	сыз	сыз	ADP	post	_	12	case	_	_
 14	өмірдің	өмір	NOUN	n	Case=Gen	15	nmod:poss	_	_
 15	қызығы	қызық	ADJ	adj	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	nsubj	_	_
-16-18	жоқ қой	_	_	_	_	_	_	_	SpaceAfter=No
-16	жоқ	жоқ	ADJ	adj	_	22	ccomp	_	_
-17	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	16	cop	_	_
-18	ой	ғой	PART	mod_ass	_	16	discourse	_	_
-19	»	»	PUNCT	rquot	_	16	punct	_	SpaceAfter=No
-20	,	,	PUNCT	cm	_	16	punct	_	_
-21	–	–	PUNCT	guio	_	16	punct	_	_
-22	деп	де	VERB	v	Aspect=Perf|VerbForm=Conv	25	advcl	_	_
-23-24	аузымен ғана	_	_	_	_	_	_	_	_
-23	аузымен	ауыз	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	25	obl	_	_
-24	ғана	ғана	ADV	postadv	_	23	advmod	_	_
-25	айтушы	айт	VERB	v	Mood=Pot|VerbForm=Part	0	root	_	_
-26	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	SpaceAfter=No
-27	.	.	PUNCT	sent	_	25	punct	_	_
+16-17	жоқ қой	_	_	_	_	_	_	_	SpaceAfter=No
+16	жоқ	жоқ	ADJ	adj	_	21	ccomp	_	_
+17	қой	ғой	PART	mod_ass	_	16	discourse	_	_
+18	»	»	PUNCT	rquot	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	cm	_	16	punct	_	_
+20	–	–	PUNCT	guio	_	16	punct	_	_
+21	деп	де	VERB	v	Aspect=Perf|VerbForm=Conv	24	advcl	_	_
+22-23	аузымен ғана	_	_	_	_	_	_	_	_
+22	аузымен	ауыз	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	24	obl	_	_
+23	ғана	ғана	ADV	postadv	_	22	advmod	_	_
+24	айтушы	айт	VERB	v	Mood=Pot|VerbForm=Part	0	root	_	_
+25	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	SpaceAfter=No
+26	.	.	PUNCT	sent	_	24	punct	_	_
 
-# sent_id = sholpan.tagged.txt:2:50
+# sent_id = sholpan.tagged.txt:2:49
 # text = Мал орнына сатылып, жаны сүймеген жанға жар болатын қазақтың сансыз қыздарының ішінен әлдеқалай өзінің сүйгеніне тиген Шолпан шынында бастапқы жылы бала керек қылмады.
 1	Мал	мал	NOUN	n	Case=Nom	2	nmod:poss	_	_
 2	орнына	орын	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	_
@@ -59,7 +58,7 @@
 24	қылмады	қыл	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 25	.	.	PUNCT	sent	_	24	punct	_	_
 
-# sent_id = sholpan.tagged.txt:3:101
+# sent_id = sholpan.tagged.txt:3:100
 # text = Ақ отаудың ішінде оңаша жатса да, яки күйеуін құшақтап жатса да, ол ылғи ішінен: «Жасаған-ау, бала бере көрме?!» – деп тілейтін еді.
 1	Ақ	ақ	ADJ	adj	_	2	amod	_	_
 2	отаудың	отау	NOUN	n	Case=Gen	3	nmod:poss	_	_
@@ -95,7 +94,7 @@
 31	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	SpaceAfter=No
 32	.	.	PUNCT	sent	_	30	punct	_	_
 
-# sent_id = sholpan.tagged.txt:4:165
+# sent_id = sholpan.tagged.txt:4:164
 # text = «Балалы болсам, әдемі өмірім бұзылады-ау», – деп ойлайтын еді Шолпан...
 1	«	«	PUNCT	lquot	_	8	punct	_	SpaceAfter=No
 2-3	Балалы	_	_	_	_	_	_	_	_
@@ -117,7 +116,7 @@
 16	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	14	nsubj	_	SpaceAfter=No
 17	...	...	PUNCT	sent	_	14	punct	_	_
 
-# sent_id = sholpan.tagged.txt:5:198
+# sent_id = sholpan.tagged.txt:5:197
 # text = Бала туса, күйеуімен екеуінің ортасында бір тікенек өсетіндей болушы еді...
 1	Бала	бала	NOUN	n	Case=Nom	2	nsubj	_	_
 2	туса	ту	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	9	advcl	_	SpaceAfter=No
@@ -132,7 +131,7 @@
 11	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
 12	...	...	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = sholpan.tagged.txt:6:223
+# sent_id = sholpan.tagged.txt:6:222
 # text = Қиюласып қосылған екі жанның арасына жат бір үшінші жан түскен соң, екеуінің де жалынды, екпінді махаббаты бүлінер, бәсеңдер, суынар деп қорқушы еді Шолпан.
 1	Қиюласып	қиюла	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Coop	2	advcl	_	_
 2	қосылған	қос	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
@@ -155,7 +154,7 @@
 17	,	,	PUNCT	cm	_	18	punct	_	_
 18-19	екпінді	_	_	_	_	_	_	_	_
 18	екпін	екпін	NOUN	n	_	20	nmod	_	_
-19	_	лы	ADP	post	_	18	case	_	_
+19	ді	лы	ADP	post	_	18	case	_	_
 20	махаббаты	махаббат	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	25	nsubj	_	_
 21	бүлінер	бүлін	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	conj	_	SpaceAfter=No
 22	,	,	PUNCT	cm	_	25	punct	_	_
@@ -168,7 +167,7 @@
 29	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	27	nsubj	_	SpaceAfter=No
 30	.	.	PUNCT	sent	_	27	punct	_	_
 
-# sent_id = sholpan.tagged.txt:7:281
+# sent_id = sholpan.tagged.txt:7:280
 # text = Ғашық адамға Құранның аяты қасиетті емес, жарының сөзі қасиетті, жарынан басқа адамның сөзін не қылсын Шолпан!
 1	Ғашық	ғашық	ADJ	adj	_	2	amod	_	_
 2	адамға	адам	NOUN	n	Case=Dat	10	obl	_	_
@@ -179,20 +178,18 @@
 7	,	,	PUNCT	cm	_	5	punct	_	_
 8	жарының	жар	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	_
 9	сөзі	сөз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
-10-11	қасиетті	_	_	_	_	_	_	_	SpaceAfter=No
-10	қасиетті	қасиетті	ADJ	adj	_	0	root	_	_
-11	е	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	10	cop	_	_
-12	,	,	PUNCT	cm	_	10	punct	_	_
-13	жарынан	жар	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	15	nmod	_	_
-14	басқа	басқа	ADP	post	_	13	case	_	_
-15	адамның	адам	NOUN	n	Case=Gen	16	nmod:poss	_	_
-16	сөзін	сөз	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	18	obj	_	_
-17	не	не	PRON	prn	Case=Nom|PronType=Int	18	xcomp	_	_
-18	қылсын	қыл	VERB	v	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	10	parataxis	_	_
-19	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	18	nsubj	_	SpaceAfter=No
-20	!	!	PUNCT	sent	_	18	punct	_	_
+10	қасиетті	қасиетті	ADJ	adj	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	cm	_	10	punct	_	_
+12	жарынан	жар	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod	_	_
+13	басқа	басқа	ADP	post	_	12	case	_	_
+14	адамның	адам	NOUN	n	Case=Gen	15	nmod:poss	_	_
+15	сөзін	сөз	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	17	obj	_	_
+16	не	не	PRON	prn	Case=Nom|PronType=Int	17	xcomp	_	_
+17	қылсын	қыл	VERB	v	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	10	parataxis	_	_
+18	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	17	nsubj	_	SpaceAfter=No
+19	!	!	PUNCT	sent	_	17	punct	_	_
 
-# sent_id = sholpan.tagged.txt:8:321
+# sent_id = sholpan.tagged.txt:8:319
 # text = Бес жылдың ішінде үш баласы бар еді: екеуі ұл, біреуі қыз.
 1	Бес	бес	NUM	num	NumType=Card	2	nummod	_	_
 2	жылдың	жыл	NOUN	n	Case=Gen	3	nmod:poss	_	_
@@ -203,43 +200,31 @@
 7	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	:	:	PUNCT	sent	_	6	punct	_	_
 9	екеуі	екеу	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	10	nsubj	_	_
-10-11	ұл	_	_	_	_	_	_	_	SpaceAfter=No
-10	ұл	ұл	NOUN	n	Case=Nom	6	parataxis	_	_
-11	_	е	AUX	cop	Mood=Ind|Number=Plur|Person=3|Tense=Aor|VerbForm=Fin	10	cop	_	_
-12	,	,	PUNCT	cm	_	10	punct	_	_
-13	біреуі	біреу	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	14	nsubj	_	_
-14-15	қыз	_	_	_	_	_	_	_	SpaceAfter=No
-14	қыз	қыз	NOUN	n	Case=Nom	6	parataxis	_	_
-15	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	14	cop	_	_
-16	.	.	PUNCT	sent	_	14	punct	_	_
+10	ұл	ұл	NOUN	n	Case=Nom	6	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	cm	_	10	punct	_	_
+12	біреуі	біреу	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	13	nsubj	_	_
+13	қыз	қыз	NOUN	n	Case=Nom	6	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	sent	_	13	punct	_	_
 
-# sent_id = sholpan.tagged.txt:9:352
+# sent_id = sholpan.tagged.txt:9:348
 # text = Дүниеде адамнан қиын жұмбақ жоқ.
-1	Дүниеде	дүние	NOUN	n	Case=Loc	6	obl	_	_
+1	Дүниеде	дүние	NOUN	n	Case=Loc	5	obl	_	_
 2	адамнан	адам	NOUN	n	Case=Abl	3	obl	_	_
-3-4	қиын	_	_	_	_	_	_	_	_
-3	қиын	қиын	ADJ	adj	_	5	acl:relcl	_	_
-4	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	cop	_	_
-5	жұмбақ	жұмбақ	NOUN	n	Case=Nom	6	nsubj	_	_
-6-7	жоқ	_	_	_	_	_	_	_	SpaceAfter=No
-6	жоқ	жоқ	ADJ	adj	_	0	root	_	_
-7	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	6	cop	_	_
-8	.	.	PUNCT	sent	_	6	punct	_	_
+3	қиын	қиын	ADJ	adj	_	4	acl:relcl	_	_
+4	жұмбақ	жұмбақ	NOUN	n	Case=Nom	5	nsubj	_	_
+5	жоқ	жоқ	ADJ	adj	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = sholpan.tagged.txt:10:367
+# sent_id = sholpan.tagged.txt:10:361
 # text = Адам – шешуі жоқ жұмбақ.
-1	Адам	адам	NOUN	n	Case=Nom	6	nsubj	_	_
-2	–	–	PUNCT	guio	_	6	punct	_	_
+1	Адам	адам	NOUN	n	Case=Nom	5	nsubj	_	_
+2	–	–	PUNCT	guio	_	5	punct	_	_
 3	шешуі	шеш	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	4	csubj	_	_
-4-5	жоқ	_	_	_	_	_	_	_	_
-4	жоқ	жоқ	ADJ	adj	_	6	acl:relcl	_	_
-5	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	4	cop	_	_
-6-7	жұмбақ	_	_	_	_	_	_	_	SpaceAfter=No
-6	жұмбақ	жұмбақ	NOUN	n	Case=Nom	0	root	_	_
-7	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	6	cop	_	_
-8	.	.	PUNCT	sent	_	6	punct	_	_
+4	жоқ	жоқ	ADJ	adj	_	5	acl:relcl	_	_
+5	жұмбақ	жұмбақ	NOUN	n	Case=Nom	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = sholpan.tagged.txt:11:382
+# sent_id = sholpan.tagged.txt:11:374
 # text = Шешуі деп атауға болатын болса, адамның шешуі жалғыз өлім.
 1	Шешуі	шеш	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	3	xcomp	_	_
 2	деп	деп	X	x	_	3	dep	_	_
@@ -250,12 +235,10 @@
 7	адамның	адам	NOUN	n	Case=Gen	8	nmod:poss	_	_
 8	шешуі	шеш	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	10	nsubj	_	_
 9	жалғыз	жалғыз	ADJ	adj	_	10	amod	_	_
-10-11	өлім	_	_	_	_	_	_	_	SpaceAfter=No
-10	өлім	өлім	NOUN	n	Case=Nom	0	root	_	_
-11	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	10	cop	_	_
-12	.	.	PUNCT	sent	_	10	punct	_	_
+10	өлім	өлім	NOUN	n	Case=Nom	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	sent	_	10	punct	_	_
 
-# sent_id = sholpan.tagged.txt:12:406
+# sent_id = sholpan.tagged.txt:12:397
 # text = Осы ойлар Шолпанның жанында таспиқтай тізілген ретті болмаса да, оның жаны соқыр сезіммен осы ойларға өзі барып тірелген еді, әм Шолпанның жүрек жарасын ешкімге сездірмеске тырысуының себебі осы еді.
 1	Осы	осы	DET	det	PronType=Dem	2	det	_	_
 2	ойлар	ой	NOUN	n	Case=Nom|Number=Plur	7	nsubj	_	_
@@ -265,7 +248,7 @@
 6	тізілген	тіз	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
 7-8	ретті	_	_	_	_	_	_	_	_
 7	рет	рет	NOUN	n	_	20	advcl	_	_
-8	_	лы	ADP	post	_	7	case	_	_
+8	ті	лы	ADP	post	_	7	case	_	_
 9-10	болмаса да	_	_	_	_	_	_	_	SpaceAfter=No
 9	болмаса	бол	AUX	v	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|VerbForm=Conv	7	cop	_	_
 10	да	да	ADV	postadv	_	7	advmod	_	_
@@ -293,22 +276,20 @@
 32	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	SpaceAfter=No
 33	.	.	PUNCT	sent	_	31	punct	_	_
 
-# sent_id = sholpan.tagged.txt:13:471
+# sent_id = sholpan.tagged.txt:13:462
 # text = Не керек, жақын, жаттың ортасында жалғыз болды.
 1	Не	не	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
-2-3	керек	_	_	_	_	_	_	_	SpaceAfter=No
-2	керек	керек	ADJ	adj	_	0	root	_	_
-3	е	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	2	cop	_	_
-4	,	,	PUNCT	cm	_	2	punct	_	_
-5	жақын	жақын	ADJ	adj	Case=Nom	7	conj	_	SpaceAfter=No
-6	,	,	PUNCT	cm	_	7	punct	_	_
-7	жаттың	жат	ADJ	adj	Case=Gen	8	nmod:poss	_	_
-8	ортасында	орта	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
-9	жалғыз	жалғыз	ADJ	adj	_	2	parataxis	_	_
-10	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
-11	.	.	PUNCT	sent	_	9	punct	_	_
+2	керек	керек	ADJ	adj	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	cm	_	2	punct	_	_
+4	жақын	жақын	ADJ	adj	Case=Nom	6	conj	_	SpaceAfter=No
+5	,	,	PUNCT	cm	_	6	punct	_	_
+6	жаттың	жат	ADJ	adj	Case=Gen	7	nmod:poss	_	_
+7	ортасында	орта	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
+8	жалғыз	жалғыз	ADJ	adj	_	2	parataxis	_	_
+9	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	sent	_	8	punct	_	_
 
-# sent_id = sholpan.tagged.txt:14:493
+# sent_id = sholpan.tagged.txt:14:483
 # text = Бітеу жара болды, жалғыз өртенді, жалғыз жылады, дүниеден безді, сопы болды.
 1	Бітеу	бітеу	ADJ	adj	_	2	amod	_	_
 2	жара	жара	NOUN	n	Case=Nom	0	root	_	_
@@ -327,7 +308,7 @@
 15	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	14	punct	_	_
 
-# sent_id = sholpan.tagged.txt:15:526
+# sent_id = sholpan.tagged.txt:15:516
 # text = Бала сұрады, қалай да бала болмады.
 1	Бала	бала	NOUN	n	Case=Nom	2	obj	_	_
 2	сұрады	сұра	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
@@ -338,7 +319,7 @@
 7	болмады	бол	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
-# sent_id = sholpan.tagged.txt:16:543
+# sent_id = sholpan.tagged.txt:16:533
 # text = Не істемеді Шолпан?!
 1	Не	не	PRON	prn	Case=Nom|PronType=Int	2	obj	_	_
 2	істемеді	істе	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -346,7 +327,7 @@
 4	?	?	PUNCT	sent	_	2	punct	_	SpaceAfter=No
 5	!	!	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = sholpan.tagged.txt:17:554
+# sent_id = sholpan.tagged.txt:17:544
 # text = Пірәдар болды, әулиеге ат айтты, қорасанға қой айтты: «Жасаған-ау, бала бере гөр!» – деді.
 1	Пірәдар	пірәдар	NOUN	n	Case=Nom	0	root	_	_
 2	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	SpaceAfter=No
@@ -373,22 +354,20 @@
 22	деді	де	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 23	.	.	PUNCT	sent	_	22	punct	_	_
 
-# sent_id = sholpan.tagged.txt:18:600
+# sent_id = sholpan.tagged.txt:18:590
 # text = Бірақ тілек іске аспай, аяғы жоқ жыр болды.
 1	Бірақ	бірақ	CCONJ	cnjcoo	_	4	cc	_	_
 2	тілек	тілек	NOUN	n	Case=Nom	4	nsubj	_	_
 3	іске	іске	X	x	_	4	dep	_	_
-4	аспай	ас	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv	9	advcl	_	SpaceAfter=No
+4	аспай	ас	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv	8	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	cm	_	4	punct	_	_
 6	аяғы	аяқ	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
-7-8	жоқ	_	_	_	_	_	_	_	_
-7	жоқ	жоқ	ADJ	adj	_	9	acl:relcl	_	_
-8	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	7	cop	_	_
-9	жыр	жыр	NOUN	n	Case=Nom	0	root	_	_
-10	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
-11	.	.	PUNCT	sent	_	9	punct	_	_
+7	жоқ	жоқ	ADJ	adj	_	8	acl:relcl	_	_
+8	жыр	жыр	NOUN	n	Case=Nom	0	root	_	_
+9	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	sent	_	8	punct	_	_
 
-# sent_id = sholpan.tagged.txt:19:622
+# sent_id = sholpan.tagged.txt:19:611
 # text = Көл болып төгілген көздің жасы жерге сіңді, тілек тозды, өмір озды, Шолпан бала көтермеді.
 1	Көл	көл	NOUN	n	Case=Nom	3	advcl	_	_
 2	болып	бол	AUX	v	Aspect=Perf|VerbForm=Conv	1	cop	_	_
@@ -409,7 +388,7 @@
 17	көтермеді	көтер	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
 18	.	.	PUNCT	sent	_	17	punct	_	_
 
-# sent_id = sholpan.tagged.txt:20:659
+# sent_id = sholpan.tagged.txt:20:648
 # text = Қанша жалынса да, қанша жыласа да Жасаған оған бала бермеді.
 1	Қанша	қанша	PRON	prn	Case=Nom|PronType=Int	2	advmod	_	_
 2-3	жалынса да	_	_	_	_	_	_	_	SpaceAfter=No
@@ -426,7 +405,7 @@
 11	бермеді	бер	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
-# sent_id = sholpan.tagged.txt:21:682
+# sent_id = sholpan.tagged.txt:21:671
 # text = Кім біледі, Тәңірінің Шолпанға бала бермеуі өзінше дұрыс шығар, өзінше жөн шығар.
 1	Кім	кім	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
 2	біледі	біл	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -436,19 +415,17 @@
 6	бала	бала	NOUN	n	Case=Nom	7	obj	_	_
 7	бермеуі	бер	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger	9	csubj	_	_
 8	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	9	advmod	_	_
-9-11	дұрыс шығар	_	_	_	_	_	_	_	SpaceAfter=No
+9-10	дұрыс шығар	_	_	_	_	_	_	_	SpaceAfter=No
 9	дұрыс	дұрыс	ADJ	adj	_	2	parataxis	_	_
-10	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	9	cop	_	_
-11	шығар	шығар	PART	mod	_	9	discourse	_	_
-12	,	,	PUNCT	cm	_	9	punct	_	_
-13	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	14	advmod	_	_
-14-16	жөн шығар	_	_	_	_	_	_	_	SpaceAfter=No
-14	жөн	жөн	ADJ	adj	_	2	parataxis	_	_
-15	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	14	cop	_	_
-16	шығар	шығар	PART	mod	_	14	discourse	_	_
-17	.	.	PUNCT	sent	_	14	punct	_	_
+10	шығар	шығар	PART	mod	_	9	discourse	_	_
+11	,	,	PUNCT	cm	_	9	punct	_	_
+12	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	13	advmod	_	_
+13-14	жөн шығар	_	_	_	_	_	_	_	SpaceAfter=No
+13	жөн	жөн	ADJ	adj	_	2	parataxis	_	_
+14	шығар	шығар	PART	mod	_	13	discourse	_	_
+15	.	.	PUNCT	sent	_	13	punct	_	_
 
-# sent_id = sholpan.tagged.txt:22:713
+# sent_id = sholpan.tagged.txt:22:700
 # text = Күнмен таласа Шолпан да өмірімен қоштасты.
 1	Күнмен	күн	NOUN	n	Case=Ins	2	obl	_	_
 2	таласа	талас	VERB	v	Aspect=Imp|VerbForm=Cov	6	advcl	_	_
@@ -493,7 +470,7 @@
 # sent_id = Elizabeth-II.tagged.txt:3:51
 # text = II Елизавета — жасы бойынша Ұлыбритания тарихындағы ең жасы үлкен британ (ағылшын) монархы.
 1	II	II	NUM	num	NumType=Ord	2	flat:name	_	_
-2	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	16	nsubj	_	_
+2	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	15	nsubj	_	_
 3	—	—	PUNCT	guio	_	2	punct	_	_
 4	жасы	жас	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
 5	бойынша	бойынша	ADP	post	_	4	case	_	_
@@ -501,19 +478,15 @@
 7	тарихындағы	тарих	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
 8	ең	ең	ADV	adv	_	10	advmod	_	_
 9	жасы	жас	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
-10-11	үлкен	_	_	_	_	_	_	_	_
-10	үлкен	үлкен	ADJ	adj	_	16	acl:relcl	_	_
-11	е	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	10	cop	_	_
-12	британ	британ	ADJ	adj	_	16	amod	_	_
-13	(	(	PUNCT	lpar	_	14	punct	_	SpaceAfter=No
-14	ағылшын	ағылшын	ADJ	adj	_	12	appos	_	SpaceAfter=No
-15	)	)	PUNCT	rpar	_	14	punct	_	_
-16-17	монархы	_	_	_	_	_	_	_	SpaceAfter=No
-16	монарх	монарх	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	_
-17	_	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	16	cop	_	_
-18	.	.	PUNCT	sent	_	16	punct	_	_
+10	үлкен	үлкен	ADJ	adj	_	15	acl:relcl	_	_
+11	британ	британ	ADJ	adj	_	15	amod	_	_
+12	(	(	PUNCT	lpar	_	13	punct	_	SpaceAfter=No
+13	ағылшын	ағылшын	ADJ	adj	_	11	appos	_	SpaceAfter=No
+14	)	)	PUNCT	rpar	_	13	punct	_	_
+15	монархы	монарх	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	sent	_	15	punct	_	_
 
-# sent_id = Elizabeth-II.tagged.txt:4:86
+# sent_id = Elizabeth-II.tagged.txt:4:84
 # text = 2015 жылдың 24 қаңтарындағы Сауд Арабиясының патшасы — Абдулла ибн Абдул Азиз ас-Саудтың өлімінен кейін билік басындағы ең кәрі монарх болып саналады.
 1	2015	2015	NUM	num	NumType=Ord	2	amod	_	_
 2	жылдың	жыл	NOUN	n	Case=Gen	4	nmod:poss	_	_
@@ -539,7 +512,7 @@
 22	саналады	санал	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
 23	.	.	PUNCT	sent	_	22	punct	_	_
 
-# sent_id = Elizabeth-II.tagged.txt:5:133
+# sent_id = Elizabeth-II.tagged.txt:5:131
 # text = Елизавета ханшайым Александра Мария Лондонның Мейфэр ауданында, Брютон-стриттегі № 17-үйде, яғни Стратмор графының резиденциясында дүниеге келген.
 1	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	4	flat:name	_	_
 2	ханшайым	ханшайым	NOUN	n	Case=Nom	4	flat:name	_	_
@@ -563,7 +536,7 @@
 20	келген	кел	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	sent	_	20	punct	_	_
 
-# sent_id = Elizabeth-II.tagged.txt:6:176
+# sent_id = Elizabeth-II.tagged.txt:6:174
 # text = Қазіргі таңда аудан қайта тұрғызылғандықтан, үйді бұзған, алайда оның орнында мемориалдық тақта қойылған.
 1	Қазіргі	қазіргі	ADJ	adj	_	2	amod	_	_
 2	таңда	таң	NOUN	n	Case=Loc	5	obl	_	_
@@ -582,7 +555,7 @@
 15	қойылған	қой	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	15	punct	_	_
 
-# sent_id = Elizabeth-II.tagged.txt:7:209
+# sent_id = Elizabeth-II.tagged.txt:7:207
 # text = Өзінің атын анасының (Елизавета), апасының (Мария) және арғы әжесінің (Александра) құрметіне алған.
 1	Өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	2	nmod:poss	_	_
 2	атын	ат	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	19	obj	_	_
@@ -605,7 +578,7 @@
 19	алған	ал	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 20	.	.	PUNCT	sent	_	19	punct	_	_
 
-# sent_id = Elizabeth-II.tagged.txt:8:250
+# sent_id = Elizabeth-II.tagged.txt:8:248
 # text = Туған күнінен бастап Елизавета ханшайым Йорктің герцогиниясы атанып, ағасы-Эдуард Уэльс ханзадасы (келешек Ұлыбритания королі — VIII Эдуард) мен әкесінен кейін үшінші мұрагер болды.
 1	Туған	ту	VERB	v	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
 2	күнінен	күн	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	_
@@ -637,7 +610,7 @@
 28	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	SpaceAfter=No
 29	.	.	PUNCT	sent	_	27	punct	_	_
 
-# sent_id = Elizabeth-II.tagged.txt:9:309
+# sent_id = Elizabeth-II.tagged.txt:9:307
 # text = Эдуард ханзада айтарлықтай жас, әрі жанұя құрып, балалы болуға тиіс болғандықтан, бастапқы кезде Елизавета таққа отыратын үміткер ретінде қарастырылмады.
 1	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	2	flat:name	_	_
 2	ханзада	ханзада	NOUN	n	Case=Nom	13	nsubj	_	_
