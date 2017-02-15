@@ -34,12 +34,12 @@
 # text = Мал орнына сатылып, жаны сүймеген жанға жар болатын қазақтың сансыз қыздарының ішінен әлдеқалай өзінің сүйгеніне тиген Шолпан шынында бастапқы жылы бала керек қылмады.
 1	Мал	мал	NOUN	n	Case=Nom	2	nmod:poss	_	_
 2	орнына	орын	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	_
-3	сатылып	сат	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Pass	9	conj	_	SpaceAfter=No
+3	сатылып	сат	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Pass	12	acl:relcl	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	3	punct	_	_
 5	жаны	жан	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	_
 6	сүймеген	сүй	VERB	v	Polarity=Neg|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
 7	жанға	жан	NOUN	n	Case=Dat	8	obl	_	_
-8	жар	жар	NOUN	n	Case=Nom	12	acl:relcl	_	_
+8	жар	жар	NOUN	n	Case=Nom	3	conj	_	_
 9	болатын	бол	AUX	v	Aspect=Imp|VerbForm=Part	8	cop	_	_
 10	қазақтың	қазақ	NOUN	n	Case=Gen	12	nmod:poss	_	_
 11	сансыз	сансыз	ADJ	adj	_	12	amod	_	_
@@ -64,13 +64,13 @@
 2	отаудың	отау	NOUN	n	Case=Gen	3	nmod:poss	_	_
 3	ішінде	іш	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	_
 4	оңаша	оңаша	ADJ	adj	_	5	advcl	_	_
-5	жатса	жат	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	conj	_	_
+5	жатса	жат	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	30	advcl	_	_
 6	да	да	CCONJ	cnjcoo	_	11	cc	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	5	punct	_	_
 8	яки	яки	CCONJ	cnjcoo	_	11	cc	_	_
 9	күйеуін	күйеу	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	_
 10	құшақтап	құшақта	VERB	v	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-11	жатса	жат	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	30	advcl	_	_
+11	жатса	жат	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	5	conj	_	_
 12	да	да	ADV	postadv	_	11	cc	_	SpaceAfter=No
 13	,	,	PUNCT	cm	_	11	punct	_	_
 14	ол	ол	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
@@ -149,18 +149,18 @@
 13	екеуінің	екеу	NUM	num	Case=Gen|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	20	nmod:poss	_	_
 14	де	да	ADV	postadv	_	13	advmod	_	_
 15-16	жалынды	_	_	_	_	_	_	_	SpaceAfter=No
-15	жалын	жалын	NOUN	n	_	18	conj	_	_
+15	жалын	жалын	NOUN	n	_	20	nmod	_	_
 16	лы	лы	ADP	post	_	15	case	_	_
 17	,	,	PUNCT	cm	_	18	punct	_	_
 18-19	екпінді	_	_	_	_	_	_	_	_
-18	екпін	екпін	NOUN	n	_	20	nmod	_	_
+18	екпін	екпін	NOUN	n	_	15	conj	_	_
 19	ді	лы	ADP	post	_	18	case	_	_
 20	махаббаты	махаббат	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	25	nsubj	_	_
-21	бүлінер	бүлін	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	conj	_	SpaceAfter=No
+21	бүлінер	бүлін	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	ccomp	_	SpaceAfter=No
 22	,	,	PUNCT	cm	_	25	punct	_	_
-23	бәсеңдер	бәсеңде	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	conj	_	SpaceAfter=No
+23	бәсеңдер	бәсеңде	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	cm	_	25	punct	_	_
-25	суынар	суынар	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	ccomp	_	_
+25	суынар	суынар	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	conj	_	_
 26	деп	де	VERB	v	Aspect=Perf|VerbForm=Conv	27	advcl	_	_
 27	қорқушы	қорық	VERB	v	Mood=Pot|VerbForm=Part	0	root	_	_
 28	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	_
@@ -173,12 +173,12 @@
 2	адамға	адам	NOUN	n	Case=Dat	10	obl	_	_
 3	Құранның	Құран	PROPN	np	Case=Gen	4	nmod:poss	_	_
 4	аяты	аят	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
-5	қасиетті	қасиетті	ADJ	adj	_	10	conj	_	_
+5	қасиетті	қасиетті	ADJ	adj	_	0	root	_	_
 6	емес	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aor|VerbForm=Fin	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	5	punct	_	_
 8	жарының	жар	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	_
 9	сөзі	сөз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
-10	қасиетті	қасиетті	ADJ	adj	_	0	root	_	SpaceAfter=No
+10	қасиетті	қасиетті	ADJ	adj	_	5	conj	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	10	punct	_	_
 12	жарынан	жар	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod	_	_
 13	басқа	басқа	ADP	post	_	12	case	_	_
@@ -261,7 +261,7 @@
 17	ойларға	ой	NOUN	n	Case=Dat|Number=Plur	20	obl	_	_
 18	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	19	nsubj	_	_
 19	барып	бар	VERB	v	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
-20	тірелген	тіре	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	31	conj	_	_
+20	тірелген	тіре	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 21	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	SpaceAfter=No
 22	,	,	PUNCT	cm	_	31	punct	_	_
 23	әм	әм	CCONJ	cnjcoo	_	31	cc	_	_
@@ -272,7 +272,7 @@
 28	сездірмеске	сездір	VERB	v	Case=Dat|Polarity=Neg|Tense=Fut|VerbForm=Part	29	ccomp	_	_
 29	тырысуының	тырыс	VERB	v	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	30	acl	_	_
 30	себебі	себеп	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	31	nsubj	_	_
-31	осы	осы	PRON	prn	Case=Nom|PronType=Dem	0	root	_	_
+31	осы	осы	PRON	prn	Case=Nom|PronType=Dem	20	conj	_	_
 32	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	SpaceAfter=No
 33	.	.	PUNCT	sent	_	31	punct	_	_
 
@@ -281,9 +281,9 @@
 1	Не	не	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
 2	керек	керек	ADJ	adj	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	2	punct	_	_
-4	жақын	жақын	ADJ	adj	Case=Nom	6	conj	_	SpaceAfter=No
+4	жақын	жақын	ADJ	adj	Case=Nom	7	nmod:poss	_	SpaceAfter=No
 5	,	,	PUNCT	cm	_	6	punct	_	_
-6	жаттың	жат	ADJ	adj	Case=Gen	7	nmod:poss	_	_
+6	жаттың	жат	ADJ	adj	Case=Gen	4	conj	_	_
 7	ортасында	орта	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
 8	жалғыз	жалғыз	ADJ	adj	_	2	parataxis	_	_
 9	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
@@ -311,12 +311,12 @@
 # sent_id = sholpan.tagged.txt:15:516
 # text = Бала сұрады, қалай да бала болмады.
 1	Бала	бала	NOUN	n	Case=Nom	2	obj	_	_
-2	сұрады	сұра	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+2	сұрады	сұра	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	7	punct	_	_
 4	қалай	қалай	X	x	_	5	dep	_	_
 5	да	да	SCONJ	cnjadv	_	7	cc	_	_
 6	бала	бала	NOUN	n	Case=Nom	7	nsubj	_	_
-7	болмады	бол	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	болмады	бол	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = sholpan.tagged.txt:16:533
@@ -392,12 +392,12 @@
 # text = Қанша жалынса да, қанша жыласа да Жасаған оған бала бермеді.
 1	Қанша	қанша	PRON	prn	Case=Nom|PronType=Int	2	advmod	_	_
 2-3	жалынса да	_	_	_	_	_	_	_	SpaceAfter=No
-2	жалынса	жалын	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	6	conj	_	_
+2	жалынса	жалын	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	advcl	_	_
 3	да	да	ADV	postadv	_	2	advmod	_	_
 4	,	,	PUNCT	cm	_	6	punct	_	_
 5	қанша	қанша	PRON	prn	Case=Nom|PronType=Int	6	advmod	_	_
 6-7	жыласа да	_	_	_	_	_	_	_	_
-6	жыласа	жыла	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	advcl	_	_
+6	жыласа	жыла	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	2	conj	_	_
 7	да	да	ADV	postadv	_	6	advmod	_	_
 8	Жасаған	Жасаған	PROPN	np	Case=Nom	11	nsubj	_	_
 9	оған	ол	PRON	prn	Case=Dat|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
@@ -438,9 +438,9 @@
 
 # sent_id = Elizabeth-II.tagged.txt:1:0
 # text = II Елизавета ханшайым Виндзор әулетінен шыққан.
-1	II	II	NUM	num	NumType=Ord	3	flat:name	_	_
-2	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	3	flat:name	_	_
-3	ханшайым	ханшайым	NOUN	n	Case=Nom	6	nsubj	_	_
+1	II	II	NUM	num	NumType=Ord	6	nsubj	_	_
+2	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	1	flat:name	_	_
+3	ханшайым	ханшайым	NOUN	n	Case=Nom	1	flat:name	_	_
 4	Виндзор	Виндзор	PROPN	np	Case=Nom	5	nmod:poss	_	_
 5	әулетінен	әулет	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
 6	шыққан	шық	VERB	v	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -460,8 +460,8 @@
 10	,	,	PUNCT	cm	_	9	punct	_	_
 11	әкесі	әке	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	15	nmod:poss	_	_
 12	—	—	PUNCT	guio	_	14	punct	_	_
-13	VI	VI	NUM	num	NumType=Ord	14	flat:name	_	_
-14	Георгтың	Георг	PROPN	np	Case=Gen|Gender=Masc	11	appos	_	_
+13	VI	VI	NUM	num	NumType=Ord	11	appos	_	_
+14	Георгтың	Георг	PROPN	np	Case=Gen|Gender=Masc	13	flat:name	_	_
 15	өлімінен	өлім	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	17	obl	_	_
 16	кейін	кейін	ADP	post	_	15	case	_	_
 17	отырды	отыр	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -469,8 +469,8 @@
 
 # sent_id = Elizabeth-II.tagged.txt:3:51
 # text = II Елизавета — жасы бойынша Ұлыбритания тарихындағы ең жасы үлкен британ (ағылшын) монархы.
-1	II	II	NUM	num	NumType=Ord	2	flat:name	_	_
-2	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	15	nsubj	_	_
+1	II	II	NUM	num	NumType=Ord	15	nsubj	_	_
+2	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	1	flat:name	_	_
 3	—	—	PUNCT	guio	_	2	punct	_	_
 4	жасы	жас	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
 5	бойынша	бойынша	ADP	post	_	4	case	_	_
@@ -492,15 +492,15 @@
 2	жылдың	жыл	NOUN	n	Case=Gen	4	nmod:poss	_	_
 3	24	24	NUM	num	NumType=Ord	4	amod	_	_
 4	қаңтарындағы	қаңтар	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod	_	_
-5	Сауд	Сауд	PROPN	np	Case=Nom	6	flat:name	_	_
-6	Арабиясының	Арабия	PROPN	np	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	7	nmod:poss	_	_
+5	Сауд	Сауд	PROPN	np	Case=Nom	7	nmod:poss	_	_
+6	Арабиясының	Арабия	PROPN	np	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	5	flat:name	_	_
 7	патшасы	патша	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod:poss	_	_
 8	—	—	PUNCT	guio	_	13	punct	_	_
-9	Абдулла	Абдулла	PROPN	np	Case=Nom|Gender=Masc	13	flat:name	_	_
-10	ибн	ибн	X	x	_	13	flat:name	_	_
-11	Абдул	Абдул	PROPN	np	Case=Nom|Gender=Masc	13	flat:name	_	_
-12	Азиз	Азиз	PROPN	np	Case=Nom|Gender=Masc	13	flat:name	_	_
-13	ас-Саудтың	ас-Сауд	PROPN	np	Case=Gen|Gender=Masc	7	appos	_	_
+9	Абдулла	Абдулла	PROPN	np	Case=Nom|Gender=Masc	7	appos	_	_
+10	ибн	ибн	X	x	_	9	flat:name	_	_
+11	Абдул	Абдул	PROPN	np	Case=Nom|Gender=Masc	9	flat:name	_	_
+12	Азиз	Азиз	PROPN	np	Case=Nom|Gender=Masc	9	flat:name	_	_
+13	ас-Саудтың	ас-Сауд	PROPN	np	Case=Gen|Gender=Masc	9	flat:name	_	_
 14	өлімінен	өлім	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	22	obl	_	_
 15	кейін	кейін	ADP	post	_	14	case	_	_
 16	билік	билік	NOUN	n	Case=Nom	17	nmod:poss	_	_
@@ -514,23 +514,23 @@
 
 # sent_id = Elizabeth-II.tagged.txt:5:131
 # text = Елизавета ханшайым Александра Мария Лондонның Мейфэр ауданында, Брютон-стриттегі № 17-үйде, яғни Стратмор графының резиденциясында дүниеге келген.
-1	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	4	flat:name	_	_
-2	ханшайым	ханшайым	NOUN	n	Case=Nom	4	flat:name	_	_
-3	Александра	Александра	PROPN	np	Case=Nom|Gender=Fem	4	flat:name	_	_
-4	Мария	Мария	PROPN	np	Case=Nom|Gender=Fem	20	nsubj	_	_
+1	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	20	nsubj	_	_
+2	ханшайым	ханшайым	NOUN	n	Case=Nom	1	flat:name	_	_
+3	Александра	Александра	PROPN	np	Case=Nom|Gender=Fem	1	flat:name	_	_
+4	Мария	Мария	PROPN	np	Case=Nom|Gender=Fem	1	flat:name	_	_
 5	Лондонның	Лондон	PROPN	np	Case=Gen	7	nmod:poss	_	_
-6	Мейфэр	Мейфэр	PROPN	np	Case=Nom	7	flat:name	_	_
-7	ауданында	аудан	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	13	conj	_	SpaceAfter=No
+6	Мейфэр	Мейфэр	PROPN	np	Case=Nom	20	obl	_	_
+7	ауданында	аудан	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	13	punct	_	_
 9	Брютон-стриттегі	Брютон-стрит	NOUN	n	Case=Loc	13	nmod	_	_
 10	№	№	NOUN	n	Case=Nom	13	nmod	_	_
 11	17	17	NUM	num	NumType=Ord	10	amod	_	SpaceAfter=No
 12	-	-	PUNCT	guio	_	11	punct	_	SpaceAfter=No
-13	үйде	үй	NOUN	n	Case=Loc	20	obl	_	SpaceAfter=No
+13	үйде	үй	NOUN	n	Case=Loc	7	conj	_	SpaceAfter=No
 14	,	,	PUNCT	cm	_	18	punct	_	_
 15	яғни	яғни	SCONJ	cnjsub	_	18	cc	_	_
-16	Стратмор	Стратмор	NOUN	n	Case=Nom	17	flat:name	_	_
-17	графының	граф	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	18	nmod:poss	_	_
+16	Стратмор	Стратмор	NOUN	n	Case=Nom	18	nmod:poss	_	_
+17	графының	граф	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	16	flat:name	_	_
 18	резиденциясында	резиденция	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	13	appos	_	_
 19	дүниеге	дүниеге	X	x	_	20	dep	_	_
 20	келген	кел	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -545,32 +545,32 @@
 5	тұрғызылғандықтан	тұрғыз	VERB	v	Case=Abl|VerbForm=Ger|Voice=Pass	8	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	5	punct	_	_
 7	үйді	үй	NOUN	n	Case=Acc	8	obj	_	_
-8	бұзған	бұз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	SpaceAfter=No
+8	бұзған	бұз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	8	punct	_	_
 10	алайда	алайда	SCONJ	cnjadv	_	15	cc	_	_
 11	оның	ол	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
 12	орнында	орын	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	15	obl	_	_
 13	мемориалдық	мемориалдық	ADJ	adj	_	14	amod	_	_
 14	тақта	тақта	NOUN	n	Case=Nom	15	nsubj	_	_
-15	қойылған	қой	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	қойылған	қой	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	15	punct	_	_
 
 # sent_id = Elizabeth-II.tagged.txt:7:207
 # text = Өзінің атын анасының (Елизавета), апасының (Мария) және арғы әжесінің (Александра) құрметіне алған.
 1	Өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	2	nmod:poss	_	_
 2	атын	ат	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	19	obj	_	_
-3	анасының	ана	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	14	conj	_	_
+3	анасының	ана	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	18	nmod:poss	_	_
 4	(	(	PUNCT	lpar	_	5	punct	_	SpaceAfter=No
 5	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	3	appos	_	SpaceAfter=No
 6	)	)	PUNCT	rpar	_	5	punct	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	14	punct	_	_
-8	апасының	апа	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	14	conj	_	_
+8	апасының	апа	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	3	conj	_	_
 9	(	(	PUNCT	lpar	_	10	punct	_	SpaceAfter=No
 10	Мария	Мария	PROPN	np	Case=Nom|Gender=Fem	8	appos	_	SpaceAfter=No
 11	)	)	PUNCT	rpar	_	10	punct	_	_
 12	және	және	CCONJ	cnjcoo	_	14	cc	_	_
 13	арғы	арғы	ADJ	adj	_	14	amod	_	_
-14	әжесінің	әже	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	18	nmod:poss	_	_
+14	әжесінің	әже	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	3	conj	_	_
 15	(	(	PUNCT	lpar	_	16	punct	_	SpaceAfter=No
 16	Александра	Александра	PROPN	np	Case=Nom|Gender=Fem	14	appos	_	SpaceAfter=No
 17	)	)	PUNCT	rpar	_	16	punct	_	_
@@ -583,49 +583,49 @@
 1	Туған	ту	VERB	v	Tense=Past|VerbForm=Part	2	acl:relcl	_	_
 2	күнінен	күн	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	_
 3	бастап	баста	VERB	v	Aspect=Perf|VerbForm=Conv	8	advcl	_	_
-4	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	5	flat:name	_	_
-5	ханшайым	ханшайым	NOUN	n	Case=Nom	18	nsubj	_	_
+4	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	18	nsubj	_	_
+5	ханшайым	ханшайым	NOUN	n	Case=Nom	4	flat:name	_	_
 6	Йорктің	Йорк	PROPN	np	Case=Gen	7	nmod:poss	_	_
 7	герцогиниясы	герцогиния	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	xcomp	_	_
-8	атанып	атан	VERB	v	Aspect=Perf|VerbForm=Conv	27	conj	_	SpaceAfter=No
+8	атанып	атан	VERB	v	Aspect=Perf|VerbForm=Conv	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	8	punct	_	_
-10	ағасы	аға	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	24	conj	_	SpaceAfter=No
+10	ағасы	аға	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	27	obl	_	SpaceAfter=No
 11	-	-	PUNCT	cm	_	14	punct	_	SpaceAfter=No
-12	Эдуард	Эдуард	PROPN	np	Case=Nom|Gender=Masc	14	flat:name	_	_
+12	Эдуард	Эдуард	PROPN	np	Case=Nom|Gender=Masc	10	appos	_	_
 13	Уэльс	Уэльс	PROPN	np	Case=Nom	14	nmod:poss	_	_
-14	ханзадасы	ханзада	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	appos	_	_
+14	ханзадасы	ханзада	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	flat:name	_	_
 15	(	(	PUNCT	lpar	_	18	punct	_	SpaceAfter=No
 16	келешек	келешек	NOUN	n	Case=Nom	18	amod	_	_
 17	Ұлыбритания	Ұлыбритания	PROPN	np	Case=Nom	18	nmod:poss	_	_
 18	королі	король	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	appos	_	_
 19	—	—	PUNCT	guio	_	21	punct	_	_
-20	VIII	VIII	NUM	num	NumType=Ord	21	flat:name	_	_
-21	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	10	appos	_	SpaceAfter=No
+20	VIII	VIII	NUM	num	NumType=Ord	10	appos	_	_
+21	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	20	flat:name	_	SpaceAfter=No
 22	)	)	PUNCT	rpar	_	18	punct	_	_
 23	мен	мен	CCONJ	cnjcoo	_	24	cc	_	_
-24	әкесінен	әке	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	27	obl	_	_
+24	әкесінен	әке	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	10	conj	_	_
 25	кейін	кейін	ADP	post	_	24	case	_	_
 26	үшінші	үш	NUM	num	NumType=Ord	27	amod	_	_
-27	мұрагер	мұрагер	NOUN	n	Case=Nom	0	root	_	_
+27	мұрагер	мұрагер	NOUN	n	Case=Nom	8	conj	_	_
 28	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	cop	_	SpaceAfter=No
 29	.	.	PUNCT	sent	_	27	punct	_	_
 
 # sent_id = Elizabeth-II.tagged.txt:9:307
 # text = Эдуард ханзада айтарлықтай жас, әрі жанұя құрып, балалы болуға тиіс болғандықтан, бастапқы кезде Елизавета таққа отыратын үміткер ретінде қарастырылмады.
-1	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	2	flat:name	_	_
-2	ханзада	ханзада	NOUN	n	Case=Nom	13	nsubj	_	_
+1	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	13	nsubj	_	_
+2	ханзада	ханзада	NOUN	n	Case=Nom	1	flat:name	_	_
 3	айтарлықтай	айт	VERB	v	Mood=Pot|Tense=Past|VerbForm=Part	4	advcl	_	_
-4	жас	жас	ADJ	adj	_	13	conj	_	SpaceAfter=No
+4	жас	жас	ADJ	adj	_	23	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	cm	_	13	punct	_	_
 6	әрі	әрі	CCONJ	cnjcoo	_	13	cc	_	_
 7	жанұя	жанұя	NOUN	n	Case=Nom	8	obj	_	_
-8	құрып	құр	VERB	v	Aspect=Perf|VerbForm=Conv	10	conj	_	SpaceAfter=No
+8	құрып	құр	VERB	v	Aspect=Perf|VerbForm=Conv	13	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	10	punct	_	_
 10-11	балалы	_	_	_	_	_	_	_	_
-10	бала	бала	NOUN	n	_	13	advcl	_	_
+10	бала	бала	NOUN	n	_	8	conj	_	_
 11	лы	лы	ADP	post	_	10	case	_	_
 12	болуға	болуға	AUX	v	Case=Dat|VerbForm=Ger	10	cop	_	_
-13	тиіс	тиіс	ADJ	adj	_	23	advcl	_	_
+13	тиіс	тиіс	ADJ	adj	_	4	conj	_	_
 14	болғандықтан	бол	AUX	v	Case=Abl|VerbForm=Ger	13	cop	_	SpaceAfter=No
 15	,	,	PUNCT	cm	_	13	punct	_	_
 16	бастапқы	бастапқы	ADJ	adj	_	17	amod	_	_
