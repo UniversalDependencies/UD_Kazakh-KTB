@@ -67,3 +67,4 @@ Data available since: UD v1.3
 License: CC BY-SA 4.0
 Genre: wiki fiction
 Contributors: Makazhanov, Aibek; Washington, Jonathan North; Tyers, Francis
+Contact: aibek.makazhanov@nu.edu.kz, jonathan.north.washington@gmail.com, ftyers@prompsit.com
