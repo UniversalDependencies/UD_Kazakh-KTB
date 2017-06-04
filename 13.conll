@@ -1,0 +1,25 @@
+1	Соңғы	_	ADJ	ADJ	_	2	compound	_	_
+2	онжылдықта	_	ADV	ADV	_	3	advcl	_	_
+3	мына	_	DET	DET	_	4	det	_	_
+4	үлкен	_	ADJ	ADJ	_	5	amod	_	_
+5	кемелерді	_	NOUN	NOUN	_	7	conj	_	_
+6	және	_	CONJ	CONJ	_	5	cc	_	_
+7	желілерді	_	NOUN	NOUN	_	8	dobj	_	_
+8	шығарып	_	VERB	VERB	_	15	ccomp	_	SpaceAfter=No
+9	,	_	PUNCT	PUNCT	_	8	punct	_	_
+10	пластик	_	NOUN	NOUN	_	11	acl	_	_
+11	бөлшектерді	_	NOUN	NOUN	_	12	dobj	_	_
+12	жинап	_	VERB	VERB	_	15	ccomp	_	SpaceAfter=No
+13	,	_	PUNCT	PUNCT	_	12	punct	_	_
+14	микроскоппен	_	NOUN	NOUN	_	15	iobj	_	_
+15	қараймыз	_	VERB	VERB	_	18	parataxis	_	SpaceAfter=No
+16	,	_	PUNCT	PUNCT	_	15	punct	_	_
+17	оларды	_	PRON	PRON	_	18	dobj	_	_
+18	іріктейміз	_	VERB	VERB	_	23	conj	_	_
+19	және	_	CONJ	CONJ	_	18	cc	_	_
+20	мына	_	DET	DET	_	21	det	_	_
+21	деректі	_	NOUN	NOUN	_	23	dobj	_	_
+22	картаға	_	NOUN	NOUN	_	23	iobj	_	_
+23	қоямыз	_	VERB	VERB	_	_	_	_	SpaceAfter=No
+24	.	_	PUNCT	PUNCT	_	23	punct	_	_
+
