@@ -1,32 +1,16 @@
-Kazakh UD treebank
+# Summary 
+
+The UD Kazakh treebank is a combination of text from various sources including Wikipedia, some folk tales,
+sentences from the UDHR, news and phrasebook sentences. Sentences IDs include partial document identifiers.
+
+# Introduction 
 
 
-BASIC STATISTICS
-
-Tree count:  600
-Word count:  6261
-Token count: 6023
-Dep. relations: 34 of which 4 language specific
-POS tags: 16
-Category=value feature pairs: 45
-
-
-TOKENISATION
-
-The tokenization in the Kazakh UD treebank follows the principles of [Turkic lexica in Apertium](http://wiki.apertium.org/wiki/Turkic_lexicon).
-
-
-MORPHOLOGY
-
+The tokenisation in the Kazakh UD treebank follows the principles of [Turkic lexica in Apertium](http://wiki.apertium.org/wiki/Turkic_lexicon).
 Morphological processing in the Kazakh UD treebank follows the principles of [Turkic lexica in Apertium](http://wiki.apertium.org/wiki/Turkic_lexicon).
-
-
-DATA SETS
-
 The treebank was randomly split into training (80%), testing (10%), and development (10%) sets.
 
-
-CITATIONS
+# Acknowledgements
 
 Please, cite the following papers if you use Kazakh UD treebank:
 
@@ -51,20 +35,24 @@ Please, cite the following papers if you use Kazakh UD treebank:
   year = {2015},
 }
 
-
-Changelog
+# Changelog
 
 2016-11-15 v1.4
   * A first feature set has been developped.
   * Added 150 more trees annotated for morpho-lexical features (in addition to POS, lemmata, and syntax).
   * Several annotation errors have been fixed.
 
-
---- Machine-readable metadata ---
-Documentation status: partial
-Data source: manual
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.3
 License: CC BY-SA 4.0
-Genre: wiki fiction
+Includes text: yes
+Genre: wiki fiction news
+Lemmas: manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: manual
 Contributors: Makazhanov, Aibek; Washington, Jonathan North; Tyers, Francis
+Contributing: elsewhere
 Contact: aibek.makazhanov@nu.edu.kz, jonathan.north.washington@gmail.com, ftyers@prompsit.com
+===============================================================================
