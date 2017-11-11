@@ -5,106 +5,129 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>31</sentences><tokens>511</tokens><words>529</words><fused>18</fused></total>
+    <total><sentences>1109</sentences><tokens>10894</tokens><words>11065</words><fused>171</fused></total>
   </size>
-  <lemmas unique="253" /><!-- ,, ., бол, бала, Шолпан, е, да, Елизавета, жан, жас, өз, (, ), адам, де -->
-  <forms unique="319" /><!-- ,, ., бала, Шолпан, еді, да, Елизавета, болды, (, ), деп, –, !, :, « -->
-  <fusions unique="16" /><!-- Жасаған-ау, балалы, Баласыз, Шолпан, аузымен, болмаса, бұзылады-ау, дұрыс, екеуінің, екпінді, жалынды, жалынса, жоқ, жыласа, жөн -->
-  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="15">
-    <tag name="ADJ">39</tag><!-- жалғыз, жоқ, бастапқы, жас, жат, қасиетті, арғы, аулақ, ағылшын, ақ -->
-    <tag name="ADP">13</tag><!-- лы, кейін, басқа, бойынша, ретінде, соң, сыз -->
-    <tag name="ADV">12</tag><!-- да, ең, шынында, ылғи, ғана, қайта, әлдеқалай -->
-    <tag name="AUX">25</tag><!-- бол, е, болуға, гөр, көр -->
-    <tag name="CCONJ">8</tag><!-- да, бірақ, және, мен, яки, әм, әрі -->
-    <tag name="DET">4</tag><!-- бір, осы -->
-    <tag name="NOUN">142</tag><!-- бала, жан, адам, жыл, жас, іш, өмір, жар, ханшайым, өлім -->
-    <tag name="NUM">19</tag><!-- екеу, үш, II, 17, 1952, 2015, 24, 25, 6, VI -->
-    <tag name="PART">6</tag><!-- ау, шығар, ғой -->
-    <tag name="PRON">18</tag><!-- өз, ол, не, қанша, ешкім, кім, осы -->
-    <tag name="PROPN">40</tag><!-- Шолпан, Елизавета, Жасаған, Александра, Мария, Ұлыбритания, Абдул, Абдулла, Азиз, Арабия -->
-    <tag name="PUNCT">114</tag><!-- ,, ., (, ), –, !, :, «, », — -->
-    <tag name="SCONJ">4</tag><!-- яғни, алайда, да -->
-    <tag name="VERB">77</tag><!-- де, айт, бер, шеш, бол, бұз, жат, жыла, отыр, сүй -->
-    <tag name="X">8</tag><!-- бала, болып, деп, дүниеге, ибн, керек, іске, қалай -->
+  <lemmas unique="2519" /><!-- ., ,, бол, —, ?, ол, -, мен, да, бұл, ал, де, ел, е, жыл -->
+  <forms unique="4387" /><!-- ., ,, —, ?, -, және, мен, бұл, да, (, ), бір, деп, !, болды -->
+  <fusions unique="121" /><!-- бар, ешкім, Жасаған-ау, балалы, басқа, қуаныштымын, және, Баласыз, Ешкімді, Сондықтан, Шолпан, аласыз, аузымен, бола, болмаса -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="17">
+    <tag name="ADJ">866</tag><!-- бар, үлкен, жаңа, керек, жоқ, тиіс, жақсы, ұлттық, экономикалық, басқа -->
+    <tag name="ADP">185</tag><!-- үшін, кейін, бойынша, лы, соң, дейін, қарсы, сыз, қарай, басқа -->
+    <tag name="ADV">317</tag><!-- да, қайда, бүгін, енді, қазір, ғана, тағы, қайдан, өте, ең -->
+    <tag name="AUX">439</tag><!-- бол, е, жат, ал, отыр, кел, кет, тұр, баста, қал -->
+    <tag name="CCONJ">185</tag><!-- және, мен, бірақ, да, немесе, ал, не, сондай-ақ, әлде, яки -->
+    <tag name="DET">221</tag><!-- осы, бұл, бір, өз, сол, ол, барлық, әр, мына, не -->
+    <tag name="INTJ">23</tag><!-- жоқ, е, ал, міне, ойбай, ай, иә, келдіңіз, мейлі, о -->
+    <tag name="NOUN">3249</tag><!-- ел, жыл, бала, мемлекет, жер, ж., ғасыр, адам, орыс, қала -->
+    <tag name="NUM">397</tag><!-- бір, екі, үш, екеу, миллиард, 1, 12, 2, 20, 11 -->
+    <tag name="PART">39</tag><!-- ма, ау, шығар, шы, ғой, Бітеу, Стратмор, гө, ше -->
+    <tag name="PRON">517</tag><!-- ол, біз, бұл, мен, өз, не, сіз, кім, олар, сол -->
+    <tag name="PROPN">592</tag><!-- Иран, Қазақстан, Астана, Азамат, Шолпан, Бекболат, Айгүл, Назарбаев, Нұрсұлтан, Елизавета -->
+    <tag name="PUNCT">2210</tag><!-- ., ,, —, ?, -, (, ), !, –, " -->
+    <tag name="SCONJ">29</tag><!-- сондықтан, яғни, алайда, да, егер, де, демек, кейін, себебі, себептен -->
+    <tag name="SYM">4</tag><!-- /, № -->
+    <tag name="VERB">1662</tag><!-- де, бол, ал, кел, біл, бер, шық, көр, тұр, тап -->
+    <tag name="X">130</tag><!-- жүзеге, жұмыс, ие, пайда, іске, қол, ауыл, жауап, назар, өмір -->
   </tags>
-  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="45">
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">9</feat><!-- бере, болатын, ойлайтын, отыратын, таласа, тілейтін, өсетіндей -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">13</feat><!-- деп, аспай, атанып, барып, бастап, болып, сатылып, Қиюласып, құрып, құшақтап -->
-    <feat name="Case" value="Abl" upos="AUX,NOUN,VERB">12</feat><!-- ішінен, өлімінен, адамнан, болғандықтан, дүниеден, жарынан, күнінен, тұрғызылғандықтан, әкесінен, әулетінен -->
-    <feat name="Case" value="Acc" upos="NOUN">5</feat><!-- атын, жарасын, күйеуін, сөзін, үйді -->
-    <feat name="Case" value="Dat" upos="AUX,NOUN,PRON,PROPN,VERB">19</feat><!-- таққа, Сәрсенбайға, Шолпанға, адамға, арасына, атауға, болуға, ешкімге, жанға, жерге -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">33</feat><!-- жылдың, Шолпанның, адамның, екеуінің, оның, өзінің, Арабиясының, Георгтың, Йорктің, Лондонның -->
-    <feat name="Case" value="Ins" upos="NOUN">6</feat><!-- Күнмен, аузымен, келіншектермен, күйеуімен, сезіммен, өмірімен -->
-    <feat name="Case" value="Loc" upos="ADJ,NOUN,VERB">20</feat><!-- ортасында, ішінде, Брютон-стриттегі, Дүниеде, ауданында, аулақта, ақпанында, басындағы, жанында, жасында -->
-    <feat name="Case" value="Nom" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">115</feat><!-- Шолпан, бала, Елизавета, Жасаған, Эдуард, жасы, не, ханшайым, шешуі, Александра -->
-    <feat name="Gender" value="Fem" upos="NOUN,PROPN">21</feat><!-- Шолпан, Елизавета, Александра, Мария, Шолпанның, Шолпанға -->
-    <feat name="Gender" value="Masc" upos="NOUN,PROPN">9</feat><!-- Эдуард, Абдул, Абдулла, Азиз, Георгтың, Сәрсенбайға, ас-Саудтың -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">8</feat><!-- жатса, болмаса, болса, болсам, жалынса, жыласа, туса -->
-    <feat name="Mood" value="Imp" upos="AUX">2</feat><!-- гөр, көрме -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">43</feat><!-- еді, болды, айтты, алған, безді, бермеді, болмады, біледі, бүлінер, бұз -->
-    <feat name="Mood" value="Opt" upos="VERB">1</feat><!-- қылсын -->
-    <feat name="Mood" value="Pot" upos="AUX,VERB">4</feat><!-- айтарлықтай, айтушы, болушы, қорқушы -->
-    <feat name="Number" value="Plur" upos="NOUN">4</feat><!-- келіншектермен, ойлар, ойларға, қыздарының -->
-    <feat name="Number" value="Sing" upos="AUX,PRON,VERB">58</feat><!-- еді, болды, айтты, жатса, оның, алған, безді, бермеді, болмады, болмаса -->
-    <feat name="Number[psor]" value="Plur,Sing" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">76</feat><!-- жасы, шешуі, екеуінің, жаны, жылы, ортасында, ішінде, ішінен, өзінше, өзінің -->
-    <feat name="Number[psor]" value="Sing" upos="NOUN">1</feat><!-- өмірім -->
-    <feat name="NumType" value="Card" upos="NUM">4</feat><!-- 25, Бес, екі, үш -->
-    <feat name="NumType" value="Coll" upos="NUM">4</feat><!-- екеуінің, біреуі, екеуі -->
-    <feat name="NumType" value="Ord" upos="NUM">11</feat><!-- II, үшінші, 17, 1952, 2015, 24, 6, VI, VIII -->
-    <feat name="Person" value="1" upos="AUX">1</feat><!-- болсам -->
-    <feat name="Person" value="2" upos="AUX">2</feat><!-- гөр, көрме -->
-    <feat name="Person" value="3" upos="AUX,PRON,VERB">55</feat><!-- еді, болды, айтты, жатса, оның, алған, безді, бермеді, болмады, болмаса -->
-    <feat name="Person[psor]" value="1" upos="NOUN">1</feat><!-- өмірім -->
-    <feat name="Person[psor]" value="3" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">76</feat><!-- жасы, шешуі, екеуінің, жаны, жылы, ортасында, ішінде, ішінен, өзінше, өзінің -->
-    <feat name="Polarity" value="Neg" upos="AUX,VERB">13</feat><!-- аспай, бермеді, бермеуі, болмады, болмаса, емес, көрме, көтермеді, сездірмеске, сүймеген -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">3</feat><!-- осы -->
-    <feat name="PronType" value="Ind" upos="DET">2</feat><!-- бір -->
-    <feat name="PronType" value="Int" upos="PRON">6</feat><!-- не, қанша, Кім -->
-    <feat name="PronType" value="Neg" upos="PRON">1</feat><!-- ешкімге -->
-    <feat name="PronType" value="Prs" upos="PRON">4</feat><!-- оның, ол, оған -->
-    <feat name="PronType" value="Ref" upos="PRON">6</feat><!-- өзінше, өзінің, өзі, өзіндей -->
-    <feat name="Tense" value="Aor" upos="AUX,VERB">4</feat><!-- біледі, бұз, емес, саналады -->
-    <feat name="Tense" value="Fut" upos="VERB">4</feat><!-- бүлінер, бәсеңдер, сездірмеске, суынар -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">49</feat><!-- еді, болды, айтты, шыққан, Туған, айтарлықтай, алған, безді, бермеді, болмады -->
-    <feat name="VerbForm" value="Conv" upos="AUX,VERB">21</feat><!-- деп, жатса, аспай, атанып, барып, бастап, болмаса, болса, болсам, болып -->
-    <feat name="VerbForm" value="Cov" upos="VERB">3</feat><!-- бере, таласа -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">46</feat><!-- еді, болды, айтты, алған, безді, бермеді, болмады, біледі, бүлінер, бұз -->
-    <feat name="VerbForm" value="Ger" upos="AUX,VERB">11</feat><!-- шешуі, атауға, бермеуі, болуға, болғандықтан, кеңескенде, сүйгеніне, тырысуының, тұрғызылғандықтан -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">21</feat><!-- болатын, шыққан, Туған, айтарлықтай, айтушы, болушы, ойлайтын, отыратын, сездірмеске, сүймеген -->
-    <feat name="Voice" value="Coop" upos="VERB">1</feat><!-- Қиюласып -->
-    <feat name="Voice" value="Pass" upos="VERB">8</feat><!-- бұз, сатылып, тізілген, тірелген, тұрғызылғандықтан, төгілген, қарастырылмады, қосылған -->
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="57">
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">130</feat><!-- бара, бола, дами, келе, бере, отыра, ала, болатын, отыратын, тұра -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">376</feat><!-- деп, болып, алып, бастап, басып, барып, беріп, шығып, қарап, құрып -->
+    <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">193</feat><!-- жылдан, одан, футболдан, ішінен, өлімінен, артынан, бірінен, онан, содан, Азиядан -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">374</feat><!-- оны, тілдерін, сені, Иранды, бізді, екенін, малын, азаматты, мемлекетін, тілін -->
+    <feat name="Case" value="Dat" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">481</feat><!-- жерге, оған, Астанаға, маған, адамға, болуға, үйге, Иранға, дүниеге, жылға -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">497</feat><!-- біздің, оның, жылдың, ғасырдың, Қазақстанның, адамның, халықтың, сіздің, өзінің, елдің -->
+    <feat name="Case" value="Ins" upos="AUX,NOUN,PRON,PROPN,VERB">110</feat><!-- АҚШ-пен, аузымен, келіншектермен, күйеуімен, көмегімен, мейрамымен, осымен, сезіммен, өмірімен, Асумен -->
+    <feat name="Case" value="Loc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">410</feat><!-- елде, ғасырда, ішінде, арасында, кезінде, кезде, түрде, елдегі, мұнда, ортасында -->
+    <feat name="Case" value="Nom" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2619</feat><!-- біз, иран, ол, мен, бұл, Қазақстан, мемлекет, не, бала, ел -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">6</feat><!-- Жақынырақ, Кейінірек, анығырақ, арзанырақ, кішірек, тазалау -->
+    <feat name="Evident" value="Fh" upos="AUX,VERB">35</feat><!-- екен, болыпты, кетіпті, келіпті, деген екен, демепті, елемепті, естіген жоқ екен, жасапты, жиналыпты -->
+    <feat name="Gender" value="Fem" upos="NOUN,PROPN">68</feat><!-- Шолпан, Елизавета, Айгүл, Александра, Мария, Айгүлдің, Алтынай, Ақбала, Шолпанның, Айгүлден -->
+    <feat name="Gender" value="Masc" upos="NOUN,PROPN">152</feat><!-- Бекболат, Азамат, Нұрсұлтан, Назарбаев, Эдуард, Ерназардың, Азаматтың, Реза, Төстік, Қожа -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">49</feat><!-- болса, жатса, болмаса, берсе, десең, жалынса, жыласа, туса, Сүйсем, алмаса -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">35</feat><!-- алыңыз, бер, же, Аттан, айт, аяма, берме, беріңіз, бүлінер, бәсеңдер -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">992</feat><!-- болды, еді, жатыр, бастады, деді, кетті, болады, келеді, келді, біледі -->
+    <feat name="Mood" value="Opt" upos="AUX,VERB">31</feat><!-- болсын, білейік, білсін, алсын, аяйын, барайын, барсын, берейік, берсін, болайын -->
+    <feat name="Mood" value="Pot" upos="AUX,VERB">16</feat><!-- айтарлықтай, айтушы, болушы, қорқушы, алаңдарлықтай, атқарушы, басқарушы, деуші, жетелеуші, шығарушы -->
+    <feat name="Mood" value="Vol" upos="VERB">10</feat><!-- Тарағысы, айтқым, айтқысы, алсам екен, аңдысам екен, Қарағысы, қайтқысы, қатысқысы, құттықтағым, ұсынғым -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">646</feat><!-- біз, біздің, олар, тілдерін, келді, бізді, жылдары, олардың, ғасырларда, өзгерістер -->
+    <feat name="Number" value="Sing" upos="AUX,PRON,VERB">1145</feat><!-- болды, еді, мен, ол, жатыр, деді, кетті, оның, болады, бастады -->
+    <feat name="Number[psor]" value="Plur" upos="AUX,NOUN,PRON,VERB">52</feat><!-- еліміздің, өзіміздің, еліміз, өздері, Алдымыз, Дамуымыз, Еліміздегі, Конституциямызды, Неміз, Отанымыз -->
+    <feat name="Number[psor]" value="Plur,Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1276</feat><!-- басшысы, жылы, әулеті, бірі, өзі, тілдерін, ішінде, арасында, бәрі, кезінде -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,VERB">70</feat><!-- Інім, Атым, Ағам, Ел-жұрттарыңыздың, Жасым, Жауыңнан, Мерекелеріңізбен, Отаным, Съездің, Сұрақтарыңызды -->
+    <feat name="NumType" value="Card" upos="NUM">161</feat><!-- бір, екі, миллиард, үш, 12, төрт, сегіз, 1, 4, 5 -->
+    <feat name="NumType" value="Card,Ord" upos="NUM">60</feat><!-- бірі, бір, 3, бірдей, бірінен, млн., мың, 1, 100-ге, 1220 -->
+    <feat name="NumType" value="Coll" upos="NUM">17</feat><!-- екеуі, екеуінің, Брютон-стриттегі, Тәңірінің, біреуі, үшеуі, әжесінің, әкесі, Өзінің -->
+    <feat name="NumType" value="Ord" upos="NUM">159</feat><!-- үшінші, 2, 1, 11, 18, 19, 20, II, 12, 14 -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">235</feat><!-- біз, мен, біздің, маған, бізді, мын, менің, Мені, алдым, жатырмыз -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">111</feat><!-- сіздің, сені, Сіз, Сен, Сізде, Сізді, саған, сіздер, Сіздерді, аласыз -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">1021</feat><!-- болды, еді, ол, жатыр, бастады, деді, кетті, оның, болады, келеді -->
+    <feat name="Person[psor]" value="1" upos="AUX,NOUN,PRON,VERB">89</feat><!-- еліміздің, өзіміздің, еліміз, Інім, Алдымыз, Атым, Ағам, Дамуымыз, Еліміздегі, Жасым -->
+    <feat name="Person[psor]" value="2" upos="ADJ,NOUN,NUM,PRON,VERB">29</feat><!-- Ел-жұрттарыңыздың, Жауыңнан, Мерекелеріңізбен, Съездің, Сұрақтарыңызды, атыңды, атыңыз, балаң, балаңа, барыңды -->
+    <feat name="Person[psor]" value="3" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1280</feat><!-- басшысы, жылы, әулеті, бірі, өзі, тілдерін, ішінде, арасында, бәрі, кезінде -->
+    <feat name="Polarity" value="Neg" upos="AUX,VERB">137</feat><!-- емес, алмайды, келмейді, алмады, болмайды, болмаса, қылмады, айтпайды, алаланбай, алмай -->
+    <feat name="Polite" value="Form" upos="AUX,NOUN,NUM,PRON,VERB">67</feat><!-- сіздің, Сіз, Сізде, Сізді, сіздер, Сіздерді, аласыз, алыңыз, сізге, сіздерге -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">234</feat><!-- бұл, осы, ол, сол, мына, бұ, мұнда, мұндай, одан, оны -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">42</feat><!-- бір, кейбір, біреу, сондай, Бірінен, Виндзор, Кей, Осындай, басқа, бірдеме -->
+    <feat name="PronType" value="Int" upos="ADJ,ADV,DET,PRON">117</feat><!-- не, кім, қайда, қандай, қайдан, қай, қалай, қанша, немене, кімге -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">22</feat><!-- ешкім, ешқандай, Ешкімді, ешкімге, Ештеңе, дүниеге, еш нәрсені, ешбір, әулиеге -->
+    <feat name="PronType" value="Prs" upos="PRON">250</feat><!-- біз, мен, ол, біздің, оның, олар, сіздің, оны, сені, Сіз -->
+    <feat name="PronType" value="Qnt" upos="DET,PRON">57</feat><!-- барлық, әр, бәрі, бүкіл, бірқатар, көп, көптеген, қанша, барлығы, бірнеше -->
+    <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- бір-бірімен -->
+    <feat name="PronType" value="Ref" upos="DET,PRON">47</feat><!-- өз, өзі, өзінің, өзіміздің, өзінде, өзінше, өздері, сөзі, өздерінің, өздерің -->
+    <feat name="PronType" value="Tot" upos="PRON">1</feat><!-- баршаға -->
+    <feat name="Tense" value="Aor" upos="AUX,VERB">357</feat><!-- болады, келеді, береді, біледі, емес, екен, тұрады, түседі, табылады, кетеді -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">26</feat><!-- көрсет, Блоктарға, Пірәдар, алмас, алмастан, артар, аяр, бар, барарсың, болмасымды -->
+    <feat name="Tense" value="FutPlan" upos="AUX,VERB">6</feat><!-- бермек, болмақ, білмек, кеңейтілмек, көздемек -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">800</feat><!-- болды, еді, бастады, кетті, болған, деді, келді, алды, шықты, келген -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">51</feat><!-- жатыр, отыр, тұр, жатырмыз, жүр, отырмын, тұрмын, жатырмын, жатырсыздар, жүрміз -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">293</feat><!-- деп, болып, алып, бастап, барып, болса, жатса, Сөйтіп, болмаса, беріп -->
+    <feat name="VerbForm" value="Cov" upos="AUX,VERB">230</feat><!-- болып, бара, басып, дами, келе, алып, бере, бола, жоспарланып, отыра -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">1060</feat><!-- болды, еді, жатыр, бастады, деді, кетті, болады, келеді, келді, біледі -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">323</feat><!-- болуы, екенін, шешуі, болуға, алуға, болу, жасау, келгенде, оқу, тұруға -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">194</feat><!-- болған, жатқан, деген, шыққан, тұрған, алған, болатын, келген, отыратын, отырған -->
+    <feat name="Voice" value="Coop" upos="VERB">31</feat><!-- айналысады, айтысып, араласа, араласқан жоқ, байланысты, бөлісеміз, жалғасты, жасасты, жетіспеушілігінен, келісті -->
+    <feat name="Voice" value="Pass" upos="VERB">240</feat><!-- ашылды, табылады, құрылды, жойылды, жоспарланып, көрінеді, салынған, анықталады, арналған, басталды -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="28">
-    <dep name="acl">1</dep>
-    <dep name="acl:relcl">12</dep>
-    <dep name="advcl">25</dep>
-    <dep name="advmod">17</dep>
-    <dep name="amod">24</dep>
-    <dep name="appos">11</dep>
-    <dep name="aux">2</dep>
-    <dep name="case">13</dep>
-    <dep name="cc">13</dep>
-    <dep name="ccomp">8</dep>
-    <dep name="conj">18</dep>
-    <dep name="cop">23</dep>
-    <dep name="csubj">2</dep>
-    <dep name="dep">7</dep>
-    <dep name="det">4</dep>
-    <dep name="discourse">6</dep>
-    <dep name="flat:name">18</dep>
-    <dep name="nmod">9</dep>
-    <dep name="nmod:poss">34</dep>
-    <dep name="nsubj">49</dep>
-    <dep name="nummod">4</dep>
-    <dep name="obj">15</dep>
-    <dep name="obl">47</dep>
-    <dep name="parataxis">16</dep>
-    <dep name="punct">114</dep>
-    <dep name="root">31</dep>
-    <dep name="vocative">2</dep>
-    <dep name="xcomp">4</dep>
+  <deps unique="37">
+    <dep name="acl">108</dep>
+    <dep name="acl:poss">1</dep>
+    <dep name="acl:relcl">107</dep>
+    <dep name="advcl">400</dep>
+    <dep name="advmod">358</dep>
+    <dep name="amod">732</dep>
+    <dep name="appos">97</dep>
+    <dep name="aux">234</dep>
+    <dep name="case">191</dep>
+    <dep name="cc">212</dep>
+    <dep name="ccomp">129</dep>
+    <dep name="clf">3</dep>
+    <dep name="compound">121</dep>
+    <dep name="compound:lvc">7</dep>
+    <dep name="conj">424</dep>
+    <dep name="cop">211</dep>
+    <dep name="csubj">77</dep>
+    <dep name="dep">127</dep>
+    <dep name="det">222</dep>
+    <dep name="discourse">60</dep>
+    <dep name="flat:name">108</dep>
+    <dep name="iobj">4</dep>
+    <dep name="iobj:caus">1</dep>
+    <dep name="mark">2</dep>
+    <dep name="nmod">234</dep>
+    <dep name="nmod:poss">853</dep>
+    <dep name="nsubj">1098</dep>
+    <dep name="nummod">125</dep>
+    <dep name="obj">532</dep>
+    <dep name="obl">819</dep>
+    <dep name="obl:own">7</dep>
+    <dep name="orphan">13</dep>
+    <dep name="parataxis">96</dep>
+    <dep name="punct">2210</dep>
+    <dep name="root">1109</dep>
+    <dep name="vocative">12</dep>
+    <dep name="xcomp">21</dep>
   </deps>
 </treebank>
