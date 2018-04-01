@@ -1,9 +1,9 @@
-# Summary 
+# Summary
 
 The UD Kazakh treebank is a combination of text from various sources including Wikipedia, some folk tales,
 sentences from the UDHR, news and phrasebook sentences. Sentences IDs include partial document identifiers.
 
-# Introduction 
+# Introduction
 
 
 The tokenisation in the Kazakh UD treebank follows the principles of [Turkic lexica in Apertium](http://wiki.apertium.org/wiki/Turkic_lexicon).
@@ -37,6 +37,8 @@ Please, cite the following papers if you use Kazakh UD treebank:
 
 # Changelog
 
+2018-04-15 v2.2
+  * Repository renamed from UD_Kazakh to UD_Kazakh-KTB.
 2016-11-15 v1.4
   * A first feature set has been developped.
   * Added 150 more trees annotated for morpho-lexical features (in addition to POS, lemmata, and syntax).
