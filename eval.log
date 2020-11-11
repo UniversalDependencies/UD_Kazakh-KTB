@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Kazakh-KTB:
-commit 60c854b2eb37f384b685533badc134854fcb8347
+commit 7b4e4cd7b1e1cdbf50814d9ef733968907345720
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:24:27 2019 +0100
+Date:   Sun May 10 18:21:05 2020 +0200
 Size: counted 10536 of 10536 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.70959592888196.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -40,17 +40,16 @@ validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-test.conllu
 [Line 1358 Sent akorda-random.tagged.txt:115:2056 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
 [Line 1365 Sent akorda-random.tagged.txt:115:2056 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [4]
 [Line 1935 Sent akorda-random.tagged.txt:164:2942 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 1991 Sent akorda-random.tagged.txt:169:3032 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4]
 [Line 2434 Sent akorda-random.tagged.txt:207:3721 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 2931 Sent akorda-random.tagged.txt:250:4478 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
 ...suppressing further errors regarding Syntax
 Morpho errors: 227
-Syntax errors: 280
-*** FAILED *** with 507 errors
+Syntax errors: 187
+*** FAILED *** with 414 errors
 Exit code: 1
 validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-train.conllu
 [Line 69 Sent sholpan.tagged.txt:3:100 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
 [Line 87 Sent sholpan.tagged.txt:3:100 Node 24]: [L5 Morpho aux-lemma] 'көр' is not an auxiliary verb in language [kk]
-[Line 160 Sent sholpan.tagged.txt:6:222 Node 22]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [23]
 [Line 160 Sent sholpan.tagged.txt:6:222 Node 22]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [23]
 [Line 316 Sent sholpan.tagged.txt:15:516 Node 5]: [L3 Syntax leaf-cc] 'cc' not expected to have children (5:да:cc --> 4:қалай:dep)
 [Line 350 Sent sholpan.tagged.txt:17:544 Node 18]: [L5 Morpho aux-lemma] 'гөр' is not an auxiliary verb in language [kk]
@@ -58,7 +57,8 @@ validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-train.conllu
 [Line 398 Sent sholpan.tagged.txt:20:648 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 417 Sent sholpan.tagged.txt:21:671 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 422 Sent sholpan.tagged.txt:21:671 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 498 Sent Elizabeth-II.tagged.txt:4:84 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9, 10, 11]
+[Line 462 Sent Elizabeth-II.tagged.txt:2:14 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
+[Line 498 Sent Elizabeth-II.tagged.txt:4:84 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9, 10, 11, 12]
 ...suppressing further errors regarding Syntax
 [Line 627 Sent Elizabeth-II.tagged.txt:9:307 Node 12]: [L5 Morpho aux-lemma] 'болуға' is not an auxiliary verb in language [kk]
 Morpho errors: 3
