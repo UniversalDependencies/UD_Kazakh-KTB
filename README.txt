@@ -45,6 +45,7 @@ Please, cite the following papers if you use Kazakh UD treebank:
   * Undocumented PronType=Qnt changed to PronType=Tot.
   * Undocumented PronType=Ref changed to PronType=Prs|Reflex=Yes.
   * Undocumented Mood=Vol changed to Mood=Des.
+  * Undocumented Tense=FutPlan changed to Tense=Fut|Mood=Des.
 2018-04-15 v2.2
   * Repository renamed from UD_Kazakh to UD_Kazakh-KTB.
 2016-11-15 v1.4

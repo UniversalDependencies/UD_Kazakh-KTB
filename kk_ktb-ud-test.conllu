@@ -382,7 +382,7 @@
 2	бұл	бұл	DET	det	PronType=Dem	3	det	_	_
 3	көрсеткіш	көрсеткіш	NOUN	n	Case=Nom	4	nsubj	_	_
 4	өсе	өс	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-5	бермек	бер	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=FutPlan|VerbForm=Fin	4	aux	_	SpaceAfter=No
+5	бермек	бер	AUX	vaux	Mood=Des|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:32:564
@@ -2268,7 +2268,7 @@
 1	АҚШ-пен	АҚШ	PROPN	np	Case=Ins	3	nmod	_	_
 2	стратегиялық	стратегиялық	ADJ	adj	_	3	amod	_	_
 3	әріптестік	әріптестік	NOUN	n	Case=Nom	4	nsubj	_	_
-4	кеңейтілмек	кеңейт	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=FutPlan|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	кеңейтілмек	кеңейт	VERB	v	Mood=Des|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:194:3475
@@ -3615,7 +3615,7 @@
 6	толы	толы	ADJ	adj	_	0	root	_	_
 7	және	және	CCONJ	cnjcoo	_	8	cc	_	_
 8	мазмұнды	мазмұнды	ADJ	adj	_	6	conj	_	_
-9	болмақ	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=FutPlan|VerbForm=Fin	8	cop	_	SpaceAfter=No
+9	болмақ	бол	AUX	v	Mood=Des|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	cop	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:311:5548
@@ -3676,7 +3676,7 @@
 7	да	да	ADV	postadv	_	6	advmod	_	_
 8	тұрмысы	тұрмыс	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	_
 9	жақсара	жақсар	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-10	бермек	бер	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=FutPlan|VerbForm=Fin	9	aux	_	SpaceAfter=No
+10	бермек	бер	AUX	vaux	Mood=Des|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:316:5642
@@ -5360,7 +5360,7 @@
 1	Соған	сол	PRON	prn	Case=Dat|PronType=Dem	2	nmod	_	_
 2	шығып	шық	VERB	v	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 3	ел	ел	NOUN	n	Case=Nom	4	obj	_	_
-4	көздемек	көзде	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=FutPlan|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	көздемек	көзде	VERB	v	Mood=Des|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = kdt.tagged.txt:141:2243
@@ -8022,7 +8022,7 @@
 10	оқуын	оқу	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	12	punct	_	_
 12	ғылымын	ғылым	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	8	conj	_	_
-13	білмек	біл	VERB	v	Case=Nom|Tense=FutPlan|VerbForm=Ger	14	csubj	_	_
+13	білмек	біл	VERB	v	Case=Nom|Mood=Des|Tense=Fut|VerbForm=Ger	14	csubj	_	_
 14	керек	керек	ADJ	adj	_	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	sent	_	14	punct	_	_
 

@@ -34,7 +34,7 @@
     <tag name="X">121</tag><!-- жүзеге, жұмыс, ие, пайда, іске, қол, ауыл, жауап, назар, өмір -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="56">
+  <feats unique="55">
     <feat name="Aspect" value="Hab" upos="AUX,VERB">354</feat><!-- болады, келеді, береді, біледі, емес, екен, тұрады, түседі, табылады, кетеді -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">123</feat><!-- бара, бола, дами, келе, отыра, ала, тұра, араласа, арта, бере -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">363</feat><!-- деп, болып, алып, бастап, басып, барып, беріп, шығып, қарап, Сөйтіп -->
@@ -50,9 +50,9 @@
     <feat name="Gender" value="Fem" upos="NOUN,PROPN">48</feat><!-- Айгүл, Шолпан, Елизавета, Айгүлдің, Александра, Алтынай, Ақбала, Мария, Шолпанның, Айгүлден -->
     <feat name="Gender" value="Masc" upos="NOUN,PROPN">145</feat><!-- Бекболат, Азамат, Нұрсұлтан, Назарбаев, Ерназардың, Азаматтың, Реза, Төстік, Қожа, Азаматты -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">41</feat><!-- болса, болмаса, жатса, берсе, десең, Сүйсем, алмаса, ашылса, барса, берсек -->
-    <feat name="Mood" value="Des" upos="VERB">10</feat><!-- Тарағысы, айтқым, айтқысы, алсам екен, аңдысам екен, Қарағысы, қайтқысы, қатысқысы, құттықтағым, ұсынғым -->
+    <feat name="Mood" value="Des" upos="AUX,VERB">16</feat><!-- бермек, Тарағысы, айтқым, айтқысы, алсам екен, аңдысам екен, болмақ, білмек, кеңейтілмек, көздемек -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">32</feat><!-- алыңыз, бер, же, Аттан, айт, аяма, берме, беріңіз, гөр, жасаңыздар -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">942</feat><!-- болды, еді, жатыр, бастады, кетті, деді, болады, келеді, келді, алды -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">937</feat><!-- болды, еді, жатыр, бастады, кетті, деді, болады, келеді, келді, алды -->
     <feat name="Mood" value="Opt" upos="AUX,VERB">30</feat><!-- болсын, білейік, білсін, алсын, аяйын, барайын, барсын, берейік, берсін, болайын -->
     <feat name="Mood" value="Pot" upos="AUX,VERB">13</feat><!-- айтарлықтай, айтушы, алаңдарлықтай, атқарушы, басқарушы, болушы, деуші, жетелеуші, шығарушы, қабылдаушы -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">646</feat><!-- біз, біздің, олар, тілдерін, келді, бізді, жылдары, олардың, ғасырларда, өзгерістер -->
@@ -80,8 +80,7 @@
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- бір-бірімен -->
     <feat name="PronType" value="Tot" upos="DET,PRON">58</feat><!-- барлық, әр, бәрі, бүкіл, бірқатар, көп, көптеген, қанша, барлығы, бірнеше -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">44</feat><!-- өз, өзі, өзінің, өзіміздің, өзінде, өзінше, өздері, өздерінің, өздерің, өзін -->
-    <feat name="Tense" value="Fut" upos="AUX,VERB">22</feat><!-- көрсет, Блоктарға, алмас, алмастан, артар, аяр, барарсың, болмасымды, бүлінер, бәсеңдер -->
-    <feat name="Tense" value="FutPlan" upos="AUX,VERB">6</feat><!-- бермек, болмақ, білмек, кеңейтілмек, көздемек -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">28</feat><!-- бермек, көрсет, Блоктарға, алмас, алмастан, артар, аяр, барарсың, болмасымды, болмақ -->
     <feat name="Tense" value="Past" upos="AUX,VERB">751</feat><!-- болды, еді, бастады, кетті, болған, деді, келді, алды, шықты, қалды -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">405</feat><!-- жатыр, болады, келеді, береді, біледі, емес, отыр, екен, тұрады, түседі -->
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">272</feat><!-- деп, болып, алып, бастап, барып, болса, Сөйтіп, беріп, болмаса, жатса -->
