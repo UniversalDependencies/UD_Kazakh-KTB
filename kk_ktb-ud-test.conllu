@@ -860,7 +860,7 @@
 5	осы	осы	DET	det	PronType=Dem	6	det	_	_
 6	процеске	процесс	NOUN	n	Case=Dat	8	obl	_	_
 7	белсене	белсене	ADV	adv	_	8	advmod	_	_
-8	қатысқысы	қат	VERB	v	Mood=Vol|Number=Sing|Person=3|VerbForm=Inf|Voice=Rcp	0	root	_	_
+8	қатысқысы	қат	VERB	v	Mood=Des|Number=Sing|Person=3|VerbForm=Inf|Voice=Rcp	0	root	_	_
 9	келеді	кел	AUX	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -1944,7 +1944,7 @@
 3	Съездің	съезд	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=2	5	nsubj	_	_
 4	табысты	табыс	NOUN	n	Case=Acc	6	obj	_	_
 5	өткізілуімен	өткіз	VERB	v	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger|Voice=Pass	6	advcl	_	_
-6	құттықтағым	құттықта	VERB	v	Mood=Vol|Number=Sing|Person=1|VerbForm=Inf	0	root	_	_
+6	құттықтағым	құттықта	VERB	v	Mood=Des|Number=Sing|Person=1|VerbForm=Inf	0	root	_	_
 7	келеді	кел	AUX	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	6	punct	_	_
 
@@ -2589,7 +2589,7 @@
 6	кітапты	кітап	NOUN	n	Case=Acc	7	obj	_	_
 7	оқып	оқы	VERB	v	Aspect=Perf|VerbForm=Inf	9	ccomp	_	_
 8	шығуды	шық	AUX	vaux	Case=Acc|VerbForm=Ger	7	aux	_	_
-9	ұсынғым	ұсын	VERB	v	Mood=Vol|Number=Sing|Person=1|VerbForm=Inf	0	root	_	_
+9	ұсынғым	ұсын	VERB	v	Mood=Des|Number=Sing|Person=1|VerbForm=Inf	0	root	_	_
 10	келеді	кел	AUX	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -2990,7 +2990,7 @@
 6	елден	ел	NOUN	n	Case=Abl	7	obl	_	_
 7	ерек	ерек	NOUN	n	Case=Nom	9	ccomp	_	_
 8	екенін	е	AUX	cop	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	7	cop	_	_
-9	айтқым	айт	VERB	v	Mood=Vol|Number=Sing|Person=1|VerbForm=Inf	0	root	_	_
+9	айтқым	айт	VERB	v	Mood=Des|Number=Sing|Person=1|VerbForm=Inf	0	root	_	_
 10	келеді	кел	AUX	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
 
@@ -5210,7 +5210,7 @@
 
 # sent_id = kdt.tagged.txt:124:2021
 # text = Қарағысы келмеді, теріс айналды.
-1	Қарағысы	қара	VERB	v	Mood=Vol|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
+1	Қарағысы	қара	VERB	v	Mood=Des|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
 2	келмеді	кел	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	1	aux	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	1	punct	_	_
 4	теріс	теріс	ADJ	adj	_	5	advmod	_	_
@@ -5279,7 +5279,7 @@
 
 # sent_id = kdt.tagged.txt:131:2121
 # text = Тарағысы келді.
-1	Тарағысы	тара	VERB	v	Mood=Vol|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
+1	Тарағысы	тара	VERB	v	Mood=Des|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
 2	келді	кел	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	SpaceAfter=No
 3	.	.	PUNCT	sent	_	1	punct	_	_
 
@@ -5785,7 +5785,7 @@
 # text = Еліне тезірек қайтқысы келді.
 1	Еліне	ел	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	3	nmod	_	_
 2	тезірек	тезірек	ADV	adv	_	3	advmod	_	_
-3	қайтқысы	қайт	VERB	v	Mood=Vol|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
+3	қайтқысы	қайт	VERB	v	Mood=Des|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
 4	келді	кел	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
@@ -8083,7 +8083,7 @@
 # text = Жорғалықпенен көңілін алсам екен деген надан әке-шешесін, ағайын-жұртын, дінін адамшылығын жаурыннан бір қаққанға сатады.
 1	Жорғалықпенен	жорғалық	NOUN	n	Case=Ins	3	obl	_	_
 2	көңілін	көңіл	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	3	obj	_	_
-3	алсам екен	ал	VERB	v	Mood=Vol|Number=Sing|Person=1|VerbForm=Fin	5	ccomp	_	_
+3	алсам екен	ал	VERB	v	Mood=Des|Number=Sing|Person=1|VerbForm=Fin	5	ccomp	_	_
 4	деген	де	VERB	v	Tense=Past|VerbForm=Part	11	acl	_	_
 5	надан	надан	ADJ	adj	_	11	amod	_	_
 6	әке-шешесін	әке-шеше	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	15	obj	_	SpaceAfter=No
@@ -8145,7 +8145,7 @@
 10	қаруымен	қары	VERB	v	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	13	obl	_	_
 11	тағы	тағы	ADV	postadv	_	10	advmod	_	_
 12	қазақты	қазақ	NOUN	n	Case=Acc	13	obj	_	_
-13	аңдысам екен	аңды	VERB	v	Mood=Vol|Number=Sing|Person=1|VerbForm=Fin	14	ccomp	_	_
+13	аңдысам екен	аңды	VERB	v	Mood=Des|Number=Sing|Person=1|VerbForm=Fin	14	ccomp	_	_
 14	дейді	де	VERB	v	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	sent	_	14	punct	_	_
 
@@ -12513,7 +12513,7 @@
 5-6	білсе де	_	_	_	_	_	_	_	_
 5	білсе	біл	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	7	advcl	_	_
 6	де	да	ADV	postadv	_	5	advmod	_	_
-7	айтқысы	айт	VERB	v	Mood=Vol|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
+7	айтқысы	айт	VERB	v	Mood=Des|Number=Sing|Person=3|VerbForm=Inf	0	root	_	_
 8	келген жоқ	кел	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	7	punct	_	_
 
