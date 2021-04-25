@@ -83,7 +83,7 @@
 20	ау	ау	PART	mod_emo	_	19	discourse	_	_
 21	,	,	PUNCT	cm	_	19	punct	_	_
 22	бала	бала	NOUN	n	Case=Nom	23	obj	_	_
-23	бере	бер	VERB	v	Aspect=Imp|VerbForm=Cov	29	ccomp	_	_
+23	бере	бер	VERB	v	Aspect=Imp|VerbForm=Inf	29	ccomp	_	_
 24	көрме	көр	AUX	vaux	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	23	aux	_	SpaceAfter=No
 25	?	?	PUNCT	sent	_	23	punct	_	SpaceAfter=No
 26	!	!	PUNCT	sent	_	23	punct	_	SpaceAfter=No
@@ -346,7 +346,7 @@
 14	ау	ау	PART	mod_emo	_	13	discourse	_	_
 15	,	,	PUNCT	cm	_	13	punct	_	_
 16	бала	бала	NOUN	n	Case=Nom	17	obj	_	_
-17	бере	бер	VERB	v	Aspect=Imp|VerbForm=Cov	22	ccomp	_	_
+17	бере	бер	VERB	v	Aspect=Imp|VerbForm=Inf	22	ccomp	_	_
 18	гөр	гөр	AUX	vaux	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	17	aux	_	SpaceAfter=No
 19	!	!	PUNCT	sent	_	17	punct	_	SpaceAfter=No
 20	»	»	PUNCT	rquot	_	17	punct	_	_
@@ -428,7 +428,7 @@
 # sent_id = sholpan.tagged.txt:22:700
 # text = Күнмен таласа Шолпан да өмірімен қоштасты.
 1	Күнмен	күн	NOUN	n	Case=Ins	2	obl	_	_
-2	таласа	талас	VERB	v	Aspect=Imp|VerbForm=Cov	6	advcl	_	_
+2	таласа	талас	VERB	v	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
 3-4	Шолпан да	_	_	_	_	_	_	_	_
 3	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	6	nsubj	_	_
 4	да	да	CCONJ	cnjcoo	_	3	cc	_	_
