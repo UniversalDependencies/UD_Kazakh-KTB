@@ -37,6 +37,9 @@ Please, cite the following papers if you use Kazakh UD treebank:
 
 # Changelog
 
+2021-05-15 v2.8
+  * Tense=Aor is undocumented and controversial (see https://github.com/UniversalDependencies/docs/issues/773);
+    tentatively replaced with Aspect=Hab|Tense=Pres.
 2018-04-15 v2.2
   * Repository renamed from UD_Kazakh to UD_Kazakh-KTB.
 2016-11-15 v1.4

@@ -105,7 +105,7 @@
 6	әдемі	әдемі	ADJ	adj	_	7	amod	_	_
 7	өмірім	өмір	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	8	nsubj	_	_
 8-9	бұзылады-ау	_	_	_	_	_	_	_	SpaceAfter=No
-8	бұз	бұз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin|Voice=Pass	13	ccomp	_	_
+8	бұз	бұз	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	ccomp	_	_
 9	ау	ау	PART	mod_emo	_	8	discourse	_	_
 10	»	»	PUNCT	rquot	_	8	punct	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	8	punct	_	_
@@ -174,7 +174,7 @@
 3	Құранның	Құран	PROPN	np	Case=Gen	4	nmod:poss	_	_
 4	аяты	аят	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
 5	қасиетті	қасиетті	ADJ	adj	_	0	root	_	_
-6	емес	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Aor|VerbForm=Fin	5	cop	_	SpaceAfter=No
+6	емес	е	AUX	cop	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	5	punct	_	_
 8	жарының	жар	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	_
 9	сөзі	сөз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
@@ -408,7 +408,7 @@
 # sent_id = sholpan.tagged.txt:21:671
 # text = Кім біледі, Тәңірінің Шолпанға бала бермеуі өзінше дұрыс шығар, өзінше жөн шығар.
 1	Кім	кім	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
-2	біледі	біл	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	біледі	біл	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	2	punct	_	_
 4	Тәңірінің	Тәңір	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
 5	Шолпанға	Шолпан	PROPN	np	Case=Dat|Gender=Fem	7	obl	_	_
@@ -509,7 +509,7 @@
 19	кәрі	кәрі	ADJ	adj	_	20	amod	_	_
 20	монарх	монарх	NOUN	n	Case=Nom	22	xcomp	_	_
 21	болып	болып	X	x	_	22	dep	_	_
-22	саналады	санал	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	саналады	санал	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 23	.	.	PUNCT	sent	_	22	punct	_	_
 
 # sent_id = Elizabeth-II.tagged.txt:5:131

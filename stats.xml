@@ -35,6 +35,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="57">
+    <feat name="Aspect" value="Hab" upos="AUX,VERB">354</feat><!-- болады, келеді, береді, біледі, емес, екен, тұрады, түседі, табылады, кетеді -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">123</feat><!-- бара, бола, дами, келе, отыра, ала, тұра, араласа, арта, бере -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">363</feat><!-- деп, болып, алып, бастап, басып, барып, беріп, шығып, қарап, Сөйтіп -->
     <feat name="Case" value="Abl" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">184</feat><!-- жылдан, одан, футболдан, артынан, бірінен, онан, содан, Азиядан, Соғыстан, ауылдан -->
@@ -80,11 +81,10 @@
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- бір-бірімен -->
     <feat name="PronType" value="Ref" upos="DET,PRON">44</feat><!-- өз, өзі, өзінің, өзіміздің, өзінде, өзінше, өздері, өздерінің, өздерің, өзін -->
     <feat name="PronType" value="Tot" upos="PRON">1</feat><!-- баршаға -->
-    <feat name="Tense" value="Aor" upos="AUX,VERB">354</feat><!-- болады, келеді, береді, біледі, емес, екен, тұрады, түседі, табылады, кетеді -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">22</feat><!-- көрсет, Блоктарға, алмас, алмастан, артар, аяр, барарсың, болмасымды, бүлінер, бәсеңдер -->
     <feat name="Tense" value="FutPlan" upos="AUX,VERB">6</feat><!-- бермек, болмақ, білмек, кеңейтілмек, көздемек -->
     <feat name="Tense" value="Past" upos="AUX,VERB">751</feat><!-- болды, еді, бастады, кетті, болған, деді, келді, алды, шықты, қалды -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">51</feat><!-- жатыр, отыр, тұр, жатырмыз, жүр, отырмын, тұрмын, жатырмын, жатырсыздар, жүрміз -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">405</feat><!-- жатыр, болады, келеді, береді, біледі, емес, отыр, екен, тұрады, түседі -->
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">272</feat><!-- деп, болып, алып, бастап, барып, болса, Сөйтіп, беріп, болмаса, жатса -->
     <feat name="VerbForm" value="Cov" upos="AUX,VERB">226</feat><!-- болып, бара, басып, дами, келе, алып, бола, жоспарланып, отыра, қарап -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">1006</feat><!-- болды, еді, жатыр, бастады, кетті, деді, болады, келеді, келді, алды -->
@@ -94,9 +94,8 @@
     <feat name="Voice" value="Pass" upos="VERB">235</feat><!-- ашылды, табылады, құрылды, жойылды, жоспарланып, көрінеді, салынған, анықталады, арналған, басталды -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
-    <dep name="acl">107</dep>
-    <dep name="acl:poss">1</dep>
+  <deps unique="35">
+    <dep name="acl">108</dep>
     <dep name="acl:relcl">95</dep>
     <dep name="advcl">375</dep>
     <dep name="advmod">341</dep>
@@ -116,15 +115,14 @@
     <dep name="det">218</dep>
     <dep name="discourse">54</dep>
     <dep name="flat:name">90</dep>
-    <dep name="iobj">4</dep>
-    <dep name="iobj:caus">1</dep>
+    <dep name="iobj">5</dep>
     <dep name="mark">2</dep>
-    <dep name="nmod">225</dep>
+    <dep name="nmod">224</dep>
     <dep name="nmod:poss">819</dep>
     <dep name="nsubj">1049</dep>
     <dep name="nummod">121</dep>
     <dep name="obj">517</dep>
-    <dep name="obl">772</dep>
+    <dep name="obl">773</dep>
     <dep name="obl:own">7</dep>
     <dep name="orphan">13</dep>
     <dep name="parataxis">80</dep>
