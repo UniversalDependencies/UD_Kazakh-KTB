@@ -133,7 +133,7 @@
 
 # sent_id = sholpan.tagged.txt:6:222
 # text = Қиюласып қосылған екі жанның арасына жат бір үшінші жан түскен соң, екеуінің де жалынды, екпінді махаббаты бүлінер, бәсеңдер, суынар деп қорқушы еді Шолпан.
-1	Қиюласып	қиюла	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Coop	2	advcl	_	_
+1	Қиюласып	қиюла	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Rcp	2	advcl	_	_
 2	қосылған	қос	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
 3	екі	екі	NUM	num	NumType=Card	4	nummod	_	_
 4	жанның	жан	NOUN	n	Case=Gen	5	nmod:poss	_	_

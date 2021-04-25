@@ -18,7 +18,7 @@
 4	бұлармен	бұл	PRON	prn	Case=Ins|Number=Plur|PronType=Dem	7	obl	_	_
 5	не	не	PRON	prn	Case=Nom|PronType=Int	6	obj	_	_
 6	ғып	қыл	VERB	v	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
-7	соғыса	соқ	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Coop	1	parataxis	_	_
+7	соғыса	соқ	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Rcp	1	parataxis	_	_
 8	алсын	ал	AUX	vaux	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	?	?	PUNCT	sent	_	1	punct	_	_
 
@@ -183,7 +183,7 @@
 
 # sent_id = akorda-random.tagged.txt:15:244
 # text = Қалыптасу кезеңі табысты аяқталды.
-1	Қалыптасу	қалыпта	VERB	v	Case=Nom|VerbForm=Ger|Voice=Coop	2	acl	_	_
+1	Қалыптасу	қалыпта	VERB	v	Case=Nom|VerbForm=Ger|Voice=Rcp	2	acl	_	_
 2	кезеңі	кезең	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
 3	табысты	табысты	ADJ	adj	_	4	advmod	_	_
 4	аяқталды	аяқта	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -312,7 +312,7 @@
 # sent_id = akorda-random.tagged.txt:26:442
 # text = Конкурсқа қатысуға 296 кәсіпорын ниет білдірген.
 1	Конкурсқа	конкурс	NOUN	n	Case=Dat	2	obl	_	_
-2	қатысуға	қат	VERB	v	Case=Dat|VerbForm=Ger|Voice=Coop	6	advcl	_	_
+2	қатысуға	қат	VERB	v	Case=Dat|VerbForm=Ger|Voice=Rcp	6	advcl	_	_
 3	296	296	NUM	num	NumType=Card	4	nummod	_	_
 4	кәсіпорын	кәсіпорын	NOUN	n	Case=Nom	6	nsubj	_	_
 5	ниет	ниет	NOUN	n	Case=Nom	6	obj	_	_
@@ -425,7 +425,7 @@
 4	еліміздің	ел	NOUN	n	Case=Gen|Number[psor]=Plur|Person[psor]=1	8	nmod:poss	_	_
 5	халық	халық	NOUN	n	Case=Nom	7	nsubj	_	_
 6	тығыз	тығыз	ADJ	adj	_	7	advmod	_	_
-7	топтасқан	топта	VERB	v	Tense=Past|VerbForm=Part|Voice=Coop	8	acl:relcl	_	_
+7	топтасқан	топта	VERB	v	Tense=Past|VerbForm=Part|Voice=Rcp	8	acl:relcl	_	_
 8	өңірлерінің	өңір	NOUN	n	Case=Gen|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	_
 9	бірі	бір	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Card|Person[psor]=3	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
@@ -508,7 +508,7 @@
 6	сапары	сапар	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	_
 7	Теміртау	Теміртау	PROPN	np	Case=Nom	8	nmod:poss	_	_
 8	қаласында	қала	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
-9	жалғасты	жалға	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+9	жалғасты	жалға	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:43:758
@@ -783,7 +783,7 @@
 6	шараларға	шара	NOUN	n	Case=Dat|Number=Plur	8	obl	_	_
 7	үлкен	үлкен	ADJ	adj	_	8	amod	_	_
 8	толғаныспен	толғаныс	NOUN	n	Case=Ins	9	obl	_	_
-9	қатысамын	қат	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+9	қатысамын	қат	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:68:1180
@@ -860,7 +860,7 @@
 5	осы	осы	DET	det	PronType=Dem	6	det	_	_
 6	процеске	процесс	NOUN	n	Case=Dat	8	obl	_	_
 7	белсене	белсене	ADV	adv	_	8	advmod	_	_
-8	қатысқысы	қат	VERB	v	Mood=Vol|Number=Sing|Person=3|VerbForm=Inf|Voice=Coop	0	root	_	_
+8	қатысқысы	қат	VERB	v	Mood=Vol|Number=Sing|Person=3|VerbForm=Inf|Voice=Rcp	0	root	_	_
 9	келеді	кел	AUX	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -1581,7 +1581,7 @@
 3	тұрақты	тұрақ	ADJ	adj	_	4	amod	_	_
 4	даму	даму	NOUN	n	Case=Nom	5	nmod:poss	_	_
 5	жобасымен	жоба	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
-6	айналысады	айнал	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+6	айналысады	айнал	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:136:2409
@@ -1636,7 +1636,7 @@
 2	министрлер	министр	NOUN	n	Case=Nom|Number=Plur	5	nsubj	_	_
 3	Президент	президент	NOUN	n	Case=Nom	4	nmod:poss	_	_
 4	идеясымен	идея	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	_
-5	келісті	кел	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+5	келісті	кел	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:141:2494
@@ -1897,7 +1897,7 @@
 5	қандай	қандай	PRON	prn	PronType=Int	8	csubj	_	_
 6	болатыны	бол	AUX	v	Aspect=Imp|Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	5	cop	_	_
 7	бізге	біз	PRON	prn	Case=Dat|Number=Plur|Person=1|PronType=Prs	8	obl	_	_
-8	байланысты	байлан	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+8	байланысты	байлан	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:162:2902
@@ -2425,7 +2425,7 @@
 6	Астананың	Астана	PROPN	np	Case=Gen	8	nmod:poss	_	_
 7	көрікті	көрікті	ADJ	adj	_	8	amod	_	_
 8	жерлерімен	жер	NOUN	n	Case=Ins|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
-9	танысты	тан	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+9	танысты	тан	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:207:3721
@@ -2445,7 +2445,7 @@
 5	басшысы	басшы	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
 6	Нұрсұлтан	Нұрсұлтан	PROPN	np	Case=Nom|Gender=Masc	5	appos	_	_
 7	Назарбаев	Назарбаев	PROPN	np	Case=Nom|Gender=Masc	6	flat:name	_	_
-8	қатысты	қат	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+8	қатысты	қат	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:209:3751
@@ -2548,7 +2548,7 @@
 1	Біз	біз	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	олардың	олар	PRON	prn	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	nmod:poss	_	_
 3	қайғыларын	қайғы	NOUN	n	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	obj	_	_
-4	бөлісеміз	бөл	VERB	v	Aspect=Hab|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+4	бөлісеміз	бөл	VERB	v	Aspect=Hab|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:218:3906
@@ -2617,7 +2617,7 @@
 1	Бүкіл	бүкіл	DET	det	PronType=Qnt	2	det	_	_
 2	әлем	әлем	NOUN	n	Case=Nom	4	nsubj	_	_
 3	осымен	осы	PRON	prn	Case=Ins|PronType=Dem	4	obl	_	_
-4	айналысады	айнал	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+4	айналысады	айнал	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:224:4008
@@ -2768,7 +2768,7 @@
 # sent_id = akorda-random.tagged.txt:236:4235
 # text = Біздің әңгімелесуіміз нәтижелі болды.
 1	Біздің	біз	PRON	prn	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
-2	әңгімелесуіміз	әңгімеле	VERB	v	Case=Nom|Number[psor]=Plur|Person[psor]=1|VerbForm=Ger|Voice=Coop	3	csubj	_	_
+2	әңгімелесуіміз	әңгімеле	VERB	v	Case=Nom|Number[psor]=Plur|Person[psor]=1|VerbForm=Ger|Voice=Rcp	3	csubj	_	_
 3	нәтижелі	нәтижелі	ADJ	adj	_	0	root	_	_
 4	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	3	punct	_	_
@@ -3518,7 +3518,7 @@
 3	жаңа	жаңа	ADJ	adj	_	5	amod	_	_
 4	туындының	туынды	ADJ	adj	Case=Gen	5	nmod:poss	_	_
 5	қолжазбасымен	қолжазба	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
-6	танысып	тан	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Coop	0	root	_	_
+6	танысып	тан	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Rcp	0	root	_	_
 7	шығыпты	шық	AUX	vaux	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	6	punct	_	_
 
@@ -4409,7 +4409,7 @@
 2	ішіп	іш	VERB	v	Aspect=Perf|VerbForm=Conv	11	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	5	punct	_	_
 4	шылымдарын	шылым	NOUN	n	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	obj	_	_
-5	тартысып	тарт	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Coop	2	conj	_	_
+5	тартысып	тарт	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Rcp	2	conj	_	_
 6	болған	бол	VERB	v	Case=Nom|Tense=Past|VerbForm=Ger	5	aux	_	_
 7	соң	соң	ADP	post	_	5	case	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	5	punct	_	_
@@ -4440,11 +4440,11 @@
 # text = Бірақ төбелесіп өлтіріспей, алыстан атып өлтіріскеніне түсіне алмады.
 1	Бірақ	бірақ	CCONJ	cnjcoo	_	8	cc	_	_
 2	төбелесіп	төбелес	VERB	v	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
-3	өлтіріспей	өлтір	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv|Voice=Coop	7	advcl	_	SpaceAfter=No
+3	өлтіріспей	өлтір	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv|Voice=Rcp	7	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	3	punct	_	_
 5	алыстан	алыс	ADJ	adj	Case=Abl	6	nmod	_	_
 6	атып	ат	VERB	v	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
-7	өлтіріскеніне	өлтір	VERB	v	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger|Voice=Coop	8	ccomp	_	_
+7	өлтіріскеніне	өлтір	VERB	v	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger|Voice=Rcp	8	ccomp	_	_
 8	түсіне	түсін	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
 9	алмады	ал	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	8	punct	_	_
@@ -5826,7 +5826,7 @@
 1	Әлдебір	әлдебір	DET	det	PronType=Ind	3	det	_	_
 2	сары	сары	ADJ	adj	_	3	amod	_	_
 3	орыспен	орыс	NOUN	n	Case=Ins	4	nmod	_	_
-4	құшақтасып	құшақта	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Coop	0	root	_	_
+4	құшақтасып	құшақта	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Rcp	0	root	_	_
 5	отыр	отыр	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
 6	?	?	PUNCT	sent	_	4	punct	_	_
 
@@ -5848,7 +5848,7 @@
 # sent_id = kdt.tagged.txt:187:2971
 # text = Онымен таласқандай мұның не айбыны, не күші бар?
 1	Онымен	ол	PRON	prn	Case=Ins|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
-2	таласқандай	тала	VERB	v	Tense=Past|VerbForm=Part|Voice=Coop	8	acl:relcl	_	_
+2	таласқандай	тала	VERB	v	Tense=Past|VerbForm=Part|Voice=Rcp	8	acl:relcl	_	_
 3	мұның	бұл	PRON	prn	Case=Gen|PronType=Dem	8	nmod:poss	_	_
 4	не	не	DET	det	Case=Nom|PronType=Int	5	det	_	_
 5	айбыны	айбын	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	SpaceAfter=No
@@ -6164,7 +6164,7 @@
 3	,	,	PUNCT	cm	_	6	punct	_	_
 4	оны	ол	PRON	prn	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 5	артынан	арт	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
-6	сөйлесерміз	сөйле	VERB	v	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+6	сөйлесерміз	сөйле	VERB	v	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 7	...	...	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = kdt.tagged.txt:218:3457
@@ -6413,7 +6413,7 @@
 2	көр	көр	NOUN	n	Case=Nom	4	compound	_	SpaceAfter=No
 3	-	-	PUNCT	guio	_	4	punct	_	SpaceAfter=No
 4	жерді	жер	NOUN	n	Case=Acc	5	obj	_	_
-5	айтысып	айт	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Coop	11	advcl	_	_
+5	айтысып	айт	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Rcp	11	advcl	_	_
 6	тұрып	тұр	AUX	vaux	Aspect=Perf|VerbForm=Conv	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	11	punct	_	_
 8	арғы	арғы	ADJ	adj	_	9	amod	_	_
@@ -6589,7 +6589,7 @@
 2	сенуге	сен	VERB	v	Case=Dat|VerbForm=Ger	6	xcomp	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	5	punct	_	_
 4	кіммен	кім	PRON	prn	Case=Ins|PronType=Int	5	nmod	_	_
-5	істесуге	істе	VERB	v	Case=Dat|VerbForm=Ger|Voice=Coop	2	conj	_	_
+5	істесуге	істе	VERB	v	Case=Dat|VerbForm=Ger|Voice=Rcp	2	conj	_	_
 6	болады	бол	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	sent	_	6	punct	_	_
 
@@ -7584,7 +7584,7 @@
 # sent_id = wikitravel.tagged.txt:4:24
 # text = Сізбен танысқаныма қуаныштымын.
 1	Сізбен	сіз	PRON	prn	Case=Ins|Number=Sing|Person=2|Polite=Form|PronType=Prs	2	obl	_	_
-2	танысқаныма	таны	VERB	v	Case=Dat|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Ger|Voice=Coop	3	advcl	_	_
+2	танысқаныма	таны	VERB	v	Case=Dat|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Ger|Voice=Rcp	3	advcl	_	_
 3-4	қуаныштымын	_	_	_	_	_	_	_	SpaceAfter=No
 3	қуанышты	қуанышты	ADJ	adj	_	0	root	_	_
 4	мын	е	AUX	cop	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -9971,7 +9971,7 @@
 10	бірақ	бірақ	CCONJ	cnjcoo	_	13	cc	_	_
 11	соғыс	соғыс	NOUN	n	Case=Nom	12	nmod:poss	_	_
 12	қимылдарына	қимыл	NOUN	n	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	_
-13	араласқан жоқ	арала	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Coop	8	conj	_	SpaceAfter=No
+13	араласқан жоқ	арала	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Rcp	8	conj	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	13	punct	_	_
 
 # sent_id = Иран.tagged.txt:76:2167
@@ -10038,7 +10038,7 @@
 9	ішкі	ішкі	ADJ	adj	_	10	amod	_	_
 10	өміріне	өмір	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	_
 11	белсене	белсене	ADV	adv	_	12	advmod	_	_
-12	араласа	арала	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Coop	0	root	_	_
+12	араласа	арала	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Rcp	0	root	_	_
 13	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -10050,7 +10050,7 @@
 4	АҚШ-пен	АҚШ	PROPN	np	Case=Ins	7	obl	_	_
 5	әскери	әскери	ADJ	adj	_	6	amod	_	_
 6	келісімдер	келісім	NOUN	n	Case=Nom|Number=Plur	7	obj	_	_
-7	жасасты	жаса	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+7	жасасты	жаса	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	14	punct	_	_
 9	1960	1960	NUM	num	NumType=Ord	10	amod	_	_
 10	жылдан	жыл	NOUN	n	Case=Abl	11	obl	_	_
@@ -10238,7 +10238,7 @@
 11	нашарлығынан	нашарлық	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	18	advcl	_	_
 12	және	және	CCONJ	cnjcoo	_	14	cc	_	_
 13	қаржы	қаржы	NOUN	n	Case=Nom	14	nsubj	_	_
-14	жетіспеушілігінен	жет	VERB	v	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger|Voice=Coop	11	conj	_	_
+14	жетіспеушілігінен	жет	VERB	v	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger|Voice=Rcp	11	conj	_	_
 15	толық	толық	ADJ	adj	_	16	amod	_	_
 16	қуатымен	қуат	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	18	obl	_	_
 17	жұмыс	жұмыс	X	x	_	18	dep	_	_
@@ -11167,7 +11167,7 @@
 6	қалыптан	қалып	NOUN	n	Case=Abl	8	nmod	_	_
 7	тыс	тыс	ADP	post	_	6	case	_	_
 8	мөлшерлері	мөлшер	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	_
-9	ұшырасқан жоқ	ұшыра	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Coop	0	root	_	SpaceAfter=No
+9	ұшырасқан жоқ	ұшыра	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = wikipedia.tagged.txt:4:52
