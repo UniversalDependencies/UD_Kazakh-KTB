@@ -35,7 +35,7 @@
 1	Мал	мал	NOUN	n	Case=Nom	2	nmod:poss	_	_
 2	орнына	орын	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	_
 3	сатылып	сат	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Pass	12	acl:relcl	_	SpaceAfter=No
-4	,	,	PUNCT	cm	_	3	punct	_	_
+4	,	,	PUNCT	cm	_	8	punct	_	_
 5	жаны	жан	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	_
 6	сүймеген	сүй	VERB	v	Polarity=Neg|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
 7	жанға	жан	NOUN	n	Case=Dat	8	obl	_	_
@@ -66,7 +66,7 @@
 4	оңаша	оңаша	ADJ	adj	_	5	advcl	_	_
 5	жатса	жат	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	30	advcl	_	_
 6	да	да	CCONJ	cnjcoo	_	11	cc	_	SpaceAfter=No
-7	,	,	PUNCT	cm	_	5	punct	_	_
+7	,	,	PUNCT	cm	_	6	punct	_	_
 8	яки	яки	CCONJ	cnjcoo	_	11	cc	_	_
 9	күйеуін	күйеу	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	_
 10	құшақтап	құшақта	VERB	v	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
@@ -157,7 +157,7 @@
 19	ді	лы	ADP	post	_	18	case	_	_
 20	махаббаты	махаббат	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	25	nsubj	_	_
 21	бүлінер	бүлін	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	ccomp	_	SpaceAfter=No
-22	,	,	PUNCT	cm	_	25	punct	_	_
+22	,	,	PUNCT	cm	_	23	punct	_	_
 23	бәсеңдер	бәсеңде	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	cm	_	25	punct	_	_
 25	суынар	суынар	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	conj	_	_
@@ -175,11 +175,11 @@
 4	аяты	аят	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
 5	қасиетті	қасиетті	ADJ	adj	_	0	root	_	_
 6	емес	е	AUX	cop	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
-7	,	,	PUNCT	cm	_	5	punct	_	_
+7	,	,	PUNCT	cm	_	10	punct	_	_
 8	жарының	жар	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	_
 9	сөзі	сөз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
 10	қасиетті	қасиетті	ADJ	adj	_	5	conj	_	SpaceAfter=No
-11	,	,	PUNCT	cm	_	10	punct	_	_
+11	,	,	PUNCT	cm	_	17	punct	_	_
 12	жарынан	жар	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod	_	_
 13	басқа	басқа	ADP	post	_	12	case	_	_
 14	адамның	адам	NOUN	n	Case=Gen	15	nmod:poss	_	_
@@ -198,7 +198,7 @@
 5	баласы	бала	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	_
 6	бар	бар	ADJ	adj	_	0	root	_	_
 7	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	SpaceAfter=No
-8	:	:	PUNCT	sent	_	6	punct	_	_
+8	:	:	PUNCT	sent	_	10	punct	_	_
 9	екеуі	екеу	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	10	nsubj	_	_
 10	ұл	ұл	NOUN	n	Case=Nom	6	parataxis	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	10	punct	_	_
@@ -218,7 +218,7 @@
 # sent_id = sholpan.tagged.txt:10:361
 # text = Адам – шешуі жоқ жұмбақ.
 1	Адам	адам	NOUN	n	Case=Nom	5	nsubj	_	_
-2	–	–	PUNCT	guio	_	5	punct	_	_
+2	–	–	PUNCT	guio	_	1	punct	_	_
 3	шешуі	шеш	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	4	csubj	_	_
 4	жоқ	жоқ	ADJ	adj	_	5	acl:relcl	_	_
 5	жұмбақ	жұмбақ	NOUN	n	Case=Nom	0	root	_	SpaceAfter=No
@@ -280,7 +280,7 @@
 # text = Не керек, жақын, жаттың ортасында жалғыз болды.
 1	Не	не	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
 2	керек	керек	ADJ	adj	_	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	cm	_	2	punct	_	_
+3	,	,	PUNCT	cm	_	8	punct	_	_
 4	жақын	жақын	ADJ	adj	Case=Nom	7	nmod:poss	_	SpaceAfter=No
 5	,	,	PUNCT	cm	_	6	punct	_	_
 6	жаттың	жат	ADJ	adj	Case=Gen	4	conj	_	_
@@ -294,13 +294,13 @@
 1	Бітеу	бітеу	ADJ	adj	_	2	amod	_	_
 2	жара	жара	NOUN	n	Case=Nom	0	root	_	_
 3	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	SpaceAfter=No
-4	,	,	PUNCT	cm	_	2	punct	_	_
+4	,	,	PUNCT	cm	_	6	punct	_	_
 5	жалғыз	жалғыз	ADJ	adj	_	6	advmod	_	_
 6	өртенді	өртен	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	6	punct	_	_
 8	жалғыз	жалғыз	ADJ	adj	_	9	advmod	_	_
 9	жылады	жыла	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
-10	,	,	PUNCT	cm	_	9	punct	_	_
+10	,	,	PUNCT	cm	_	12	punct	_	_
 11	дүниеден	дүние	NOUN	n	Case=Abl	12	obl	_	_
 12	безді	без	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 13	,	,	PUNCT	cm	_	12	punct	_	_
@@ -331,7 +331,7 @@
 # text = Пірәдар болды, әулиеге ат айтты, қорасанға қой айтты: «Жасаған-ау, бала бере гөр!» – деді.
 1	Пірәдар	пірәдар	NOUN	n	Case=Nom	0	root	_	_
 2	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	SpaceAfter=No
-3	,	,	PUNCT	cm	_	1	punct	_	_
+3	,	,	PUNCT	cm	_	6	punct	_	_
 4	әулиеге	әулие	NOUN	n	Case=Dat	6	obl	_	_
 5	ат	ат	NOUN	n	Case=Nom	6	obj	_	_
 6	айтты	айт	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
@@ -339,7 +339,7 @@
 8	қорасанға	қорасан	NOUN	n	Case=Dat	10	obl	_	_
 9	қой	қой	NOUN	n	Case=Nom	10	obj	_	_
 10	айтты	айт	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
-11	:	:	PUNCT	sent	_	10	punct	_	_
+11	:	:	PUNCT	sent	_	22	punct	_	_
 12	«	«	PUNCT	lquot	_	17	punct	_	SpaceAfter=No
 13-14	Жасаған-ау	_	_	_	_	_	_	_	SpaceAfter=No
 13	Жасаған	Жасаған	PROPN	np	Case=Nom	17	vocative	_	_
@@ -376,13 +376,13 @@
 5	жасы	жас	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
 6	жерге	жер	NOUN	n	Case=Dat	7	obl	_	_
 7	сіңді	сің	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	7	punct	_	_
+8	,	,	PUNCT	cm	_	10	punct	_	_
 9	тілек	тілек	NOUN	n	Case=Nom	10	nsubj	_	_
 10	тозды	тоз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	10	punct	_	_
 12	өмір	өмір	NOUN	n	Case=Nom	13	nsubj	_	_
 13	озды	оз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
-14	,	,	PUNCT	cm	_	13	punct	_	_
+14	,	,	PUNCT	cm	_	17	punct	_	_
 15	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	17	nsubj	_	_
 16	бала	бала	X	x	_	17	dep	_	_
 17	көтермеді	көтер	VERB	v	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
@@ -409,7 +409,7 @@
 # text = Кім біледі, Тәңірінің Шолпанға бала бермеуі өзінше дұрыс шығар, өзінше жөн шығар.
 1	Кім	кім	PRON	prn	Case=Nom|PronType=Int	2	nsubj	_	_
 2	біледі	біл	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	cm	_	2	punct	_	_
+3	,	,	PUNCT	cm	_	9	punct	_	_
 4	Тәңірінің	Тәңір	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
 5	Шолпанға	Шолпан	PROPN	np	Case=Dat|Gender=Fem	7	obl	_	_
 6	бала	бала	NOUN	n	Case=Nom	7	obj	_	_
@@ -459,7 +459,7 @@
 9	жасында	жас	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	appos	_	SpaceAfter=No
 10	,	,	PUNCT	cm	_	9	punct	_	_
 11	әкесі	әке	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	15	nmod:poss	_	_
-12	—	—	PUNCT	guio	_	14	punct	_	_
+12	—	—	PUNCT	guio	_	13	punct	_	_
 13	VI	VI	NUM	num	NumType=Ord	11	appos	_	_
 14	Георгтың	Георг	PROPN	np	Case=Gen|Gender=Masc	13	flat:name	_	_
 15	өлімінен	өлім	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	17	obl	_	_
@@ -495,7 +495,7 @@
 5	Сауд	Сауд	PROPN	np	Case=Nom	7	nmod:poss	_	_
 6	Арабиясының	Арабия	PROPN	np	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	5	flat:name	_	_
 7	патшасы	патша	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	14	nmod:poss	_	_
-8	—	—	PUNCT	guio	_	13	punct	_	_
+8	—	—	PUNCT	guio	_	9	punct	_	_
 9	Абдулла	Абдулла	PROPN	np	Case=Nom|Gender=Masc	7	appos	_	_
 10	ибн	ибн	X	x	_	9	flat:name	_	_
 11	Абдул	Абдул	PROPN	np	Case=Nom|Gender=Masc	9	flat:name	_	_
@@ -546,7 +546,7 @@
 6	,	,	PUNCT	cm	_	5	punct	_	_
 7	үйді	үй	NOUN	n	Case=Acc	8	obj	_	_
 8	бұзған	бұз	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	cm	_	8	punct	_	_
+9	,	,	PUNCT	cm	_	15	punct	_	_
 10	алайда	алайда	SCONJ	cnjadv	_	15	cc	_	_
 11	оның	ол	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	_
 12	орнында	орын	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	15	obl	_	_
@@ -563,7 +563,7 @@
 4	(	(	PUNCT	lpar	_	5	punct	_	SpaceAfter=No
 5	Елизавета	Елизавета	PROPN	np	Case=Nom|Gender=Fem	3	appos	_	SpaceAfter=No
 6	)	)	PUNCT	rpar	_	5	punct	_	SpaceAfter=No
-7	,	,	PUNCT	cm	_	14	punct	_	_
+7	,	,	PUNCT	cm	_	8	punct	_	_
 8	апасының	апа	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	3	conj	_	_
 9	(	(	PUNCT	lpar	_	10	punct	_	SpaceAfter=No
 10	Мария	Мария	PROPN	np	Case=Nom|Gender=Fem	8	appos	_	SpaceAfter=No
@@ -588,9 +588,9 @@
 6	Йорктің	Йорк	PROPN	np	Case=Gen	7	nmod:poss	_	_
 7	герцогиниясы	герцогиния	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	xcomp	_	_
 8	атанып	атан	VERB	v	Aspect=Perf|VerbForm=Conv	0	root	_	SpaceAfter=No
-9	,	,	PUNCT	cm	_	8	punct	_	_
+9	,	,	PUNCT	cm	_	10	punct	_	_
 10	ағасы	аға	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	27	obl	_	SpaceAfter=No
-11	-	-	PUNCT	cm	_	14	punct	_	SpaceAfter=No
+11	-	-	PUNCT	cm	_	12	punct	_	SpaceAfter=No
 12	Эдуард	Эдуард	PROPN	np	Case=Nom|Gender=Masc	10	appos	_	_
 13	Уэльс	Уэльс	PROPN	np	Case=Nom	14	nmod:poss	_	_
 14	ханзадасы	ханзада	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	flat:name	_	_
@@ -598,7 +598,7 @@
 16	келешек	келешек	NOUN	n	Case=Nom	18	amod	_	_
 17	Ұлыбритания	Ұлыбритания	PROPN	np	Case=Nom	18	nmod:poss	_	_
 18	королі	король	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	appos	_	_
-19	—	—	PUNCT	guio	_	21	punct	_	_
+19	—	—	PUNCT	guio	_	18	punct	_	_
 20	VIII	VIII	NUM	num	NumType=Ord	10	appos	_	_
 21	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	20	flat:name	_	SpaceAfter=No
 22	)	)	PUNCT	rpar	_	18	punct	_	_
