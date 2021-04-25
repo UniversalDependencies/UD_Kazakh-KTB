@@ -204,7 +204,7 @@
 
 # sent_id = akorda-random.tagged.txt:17:276
 # text = Өзінің базалық өлшемі бойынша ол орындалды.
-1	Өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	3	nmod:poss	_	_
+1	Өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	nmod:poss	_	_
 2	базалық	базалық	ADJ	adj	_	3	amod	_	_
 3	өлшемі	өлшем	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
 4	бойынша	бойынша	ADP	post	_	3	case	_	_
@@ -798,7 +798,7 @@
 # sent_id = akorda-random.tagged.txt:69:1193
 # text = Соның өзінде, біз бұл жаман көрсеткіш емес деп санаймыз.
 1	Соның	сол	PRON	prn	Case=Gen|PronType=Dem	2	nmod:poss	_	_
-2	өзінде	өз	PRON	prn	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	10	obl	_	SpaceAfter=No
+2	өзінде	өз	PRON	prn	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	7	punct	_	_
 4	біз	біз	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 5	бұл	бұл	DET	det	PronType=Dem	7	det	_	_
@@ -1278,7 +1278,7 @@
 # text = - Қазақстан өзінің Грузиямен байланысында нақты экономикалық мүдделерді көздейді.
 1	-	-	PUNCT	guio	_	9	punct	_	_
 2	Қазақстан	Қазақстан	PROPN	np	Case=Nom	9	nsubj	_	_
-3	өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	5	nmod:poss	_	_
+3	өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	5	nmod:poss	_	_
 4	Грузиямен	Грузия	PROPN	np	Case=Ins	5	nmod	_	_
 5	байланысында	байланыс	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
 6	нақты	нақты	ADJ	adj	_	8	amod	_	_
@@ -1398,7 +1398,7 @@
 1	Тек	тек	ADV	adv	_	2	advmod	_	_
 2	биылғы	биыл	ADV	adv	Case=Nom	3	amod	_	_
 3	жылдың	жыл	NOUN	n	Case=Gen	4	nmod:poss	_	_
-4	өзінде	өз	PRON	prn	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	9	obl	_	_
+4	өзінде	өз	PRON	prn	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	9	obl	_	_
 5	Астанада	Астана	PROPN	np	Case=Loc	9	obl	_	_
 6	шетелдердің	шетел	NOUN	n	Case=Gen|Number=Plur	8	nmod:poss	_	_
 7	12	12	NUM	num	NumType=Card	8	nummod	_	_
@@ -1559,7 +1559,7 @@
 # sent_id = akorda-random.tagged.txt:133:2368
 # text = Қазақстан өз жетістіктерімен мақтануға тиіс.
 1	Қазақстан	Қазақстан	PROPN	np	Case=Nom	5	nsubj	_	_
-2	өз	өз	DET	det	PronType=Ref	3	det	_	_
+2	өз	өз	DET	det	PronType=Prs|Reflex=Yes	3	det	_	_
 3	жетістіктерімен	жетістік	NOUN	n	Case=Ins|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	_
 4	мақтануға	мақтан	VERB	v	Case=Dat|VerbForm=Ger	5	advcl	_	_
 5	тиіс	тиіс	ADJ	adj	_	0	root	_	SpaceAfter=No
@@ -2523,7 +2523,7 @@
 4-5	Қазақстан да	_	_	_	_	_	_	_	_
 4	Қазақстан	Қазақстан	PROPN	np	Case=Nom	7	nsubj	_	_
 5	да	да	ADV	postadv	_	7	advmod	_	_
-6	өз	өз	DET	det	PronType=Ref	7	det	_	_
+6	өз	өз	DET	det	PronType=Prs|Reflex=Yes	7	det	_	_
 7	Отаным	отан	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -2624,11 +2624,11 @@
 # text = - Сіз өзіңіздің дана саясатыңыздың арқасында өз еліңіз үшін бәрін жасап келесіз.
 1	-	-	PUNCT	guio	_	11	punct	_	_
 2	Сіз	сіз	PRON	prn	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	_
-3	өзіңіздің	өз	PRON	prn	Case=Gen|Number[psor]=Sing|Person[psor]=2|Polite=Form|PronType=Ref	5	nmod:poss	_	_
+3	өзіңіздің	өз	PRON	prn	Case=Gen|Number[psor]=Sing|Person[psor]=2|Polite=Form|PronType=Prs|Reflex=Yes	5	nmod:poss	_	_
 4	дана	дана	ADJ	adj	_	5	amod	_	_
 5	саясатыңыздың	саясат	NOUN	n	Case=Gen|Number[psor]=Sing|Person[psor]=2|Polite=Form	6	nmod:poss	_	_
 6	арқасында	арқа	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	_
-7	өз	өз	DET	det	PronType=Ref	8	det	_	_
+7	өз	өз	DET	det	PronType=Prs|Reflex=Yes	8	det	_	_
 8	еліңіз	ел	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=2|Polite=Form	11	obl	_	_
 9	үшін	үшін	ADP	post	_	8	case	_	_
 10	бәрін	бәрі	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Tot	11	obj	_	_
@@ -2913,7 +2913,7 @@
 # sent_id = akorda-random.tagged.txt:249:4460
 # text = Біз өзіміздің қазақстандық әріптестерімізбен жұмыс атқаруға дайынбыз.
 1	Біз	біз	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
-2	өзіміздің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=1|PronType=Ref	4	nmod:poss	_	_
+2	өзіміздің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=1|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
 3	қазақстандық	қазақстандық	ADJ	adj	_	4	amod	_	_
 4	әріптестерімізбен	әріптес	NOUN	n	Case=Ins|Number=Plur|Number[psor]=Plur|Person[psor]=1	6	obl	_	_
 5	жұмыс	жұмыс	NOUN	n	Case=Nom	6	obj	_	_
@@ -3412,7 +3412,7 @@
 # sent_id = akorda-random.tagged.txt:292:5228
 # text = Қазақстанды өзіміздің досымыз ретінде сезіну бізді зор қуанышқа бөлейді.
 1	Қазақстанды	Қазақстан	PROPN	np	Case=Acc	5	obj	_	_
-2	өзіміздің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=1|PronType=Ref	3	nmod:poss	_	_
+2	өзіміздің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=1|PronType=Prs|Reflex=Yes	3	nmod:poss	_	_
 3	досымыз	дос	NOUN	n	Case=Nom|Number[psor]=Plur|Person[psor]=1	4	nmod:poss	_	_
 4	ретінде	рет	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	_
 5	сезіну	сезін	VERB	v	Case=Nom|VerbForm=Ger	9	csubj	_	_
@@ -3754,7 +3754,7 @@
 2	жергілікті	жергілікті	ADJ	adj	_	3	amod	_	_
 3	полиция	полиция	NOUN	n	Case=Nom	4	nmod:poss	_	_
 4	қызметі	қызмет	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
-5	өз	өз	DET	det	PronType=Ref	6	det	_	_
+5	өз	өз	DET	det	PronType=Prs|Reflex=Yes	6	det	_	_
 6	жұмысын	жұмыс	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
 7	бастады	баста	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
@@ -4185,7 +4185,7 @@
 1	Оны	ол	PRON	prn	Case=Acc|PronType=Dem	2	obj	_	_
 2	айтып	айт	VERB	v	Aspect=Perf|VerbForm=Conv	5	csubj	_	_
 3	жүрген	жүр	AUX	vaux	Case=Nom|Tense=Past|VerbForm=Ger	2	aux	_	_
-4	өзіміздің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=1|PronType=Ref	5	nmod:poss	_	_
+4	өзіміздің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=1|PronType=Prs|Reflex=Yes	5	nmod:poss	_	_
 5	қойшылар	қойшы	NOUN	n	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -4462,7 +4462,7 @@
 # sent_id = kdt.tagged.txt:50:893
 # text = Бұл өзі үлкен төре.
 1	Бұл	бұл	PRON	prn	Case=Nom|PronType=Dem	4	nsubj	_	_
-2	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	1	appos	_	_
+2	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	1	appos	_	_
 3	үлкен	үлкен	ADJ	adj	_	4	amod	_	_
 4	төре	төре	NOUN	n	Case=Nom	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
@@ -4758,7 +4758,7 @@
 23	істейді	істе	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 24	,	,	PUNCT	cm	_	35	punct	_	_
 25	киімін	киім	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	27	obj	_	_
-26	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	27	nsubj	_	_
+26	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	27	nsubj	_	_
 27	тігеді	тік	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 28	,	,	PUNCT	cm	_	35	punct	_	_
 29	үйін	үй	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	30	obj	_	_
@@ -4826,7 +4826,7 @@
 1	Жоқ	жоқ	INTJ	ij	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	cm	_	7	punct	_	_
 3	Алтынайдың	Алтынай	PROPN	np	Case=Gen|Gender=Fem	5	nmod:poss	_	_
-4	өзінше	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	5	amod	_	_
+4	өзінше	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	5	amod	_	_
 5	дәмі	дәм	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
 6	әбден	әбден	ADV	adv	_	7	advmod	_	_
 7	бар	бар	ADJ	adj	_	0	root	_	SpaceAfter=No
@@ -5754,7 +5754,7 @@
 # text = Мыналарды көргенде өзі жазылған соң, Бекболат: "ауру қалай жазылмасын?" — деп ойлады.
 1	Мыналарды	мына	PRON	prn	Case=Acc|Number=Plur|PronType=Dem	2	obj	_	_
 2	көргенде	көр	VERB	v	Case=Loc|Tense=Past|VerbForm=Ger	4	advcl	_	_
-3	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	4	nsubj	_	_
+3	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	4	nsubj	_	_
 4	жазылған	жаз	VERB	v	Case=Nom|Tense=Past|VerbForm=Ger|Voice=Pass	17	advcl	_	_
 5	соң	соң	ADP	post	_	4	case	_	SpaceAfter=No
 6	,	,	PUNCT	cm	_	17	punct	_	_
@@ -5915,7 +5915,7 @@
 # sent_id = kdt.tagged.txt:192:3080
 # text = Ақтардың өзін кеше кешке әкелді.
 1	Ақтардың	ақ	ADJ	adj	Case=Gen|Number=Plur	2	nmod:poss	_	_
-2	өзін	өз	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	5	obj	_	_
+2	өзін	өз	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 3	кеше	кеше	ADV	adv	_	4	advmod	_	_
 4	кешке	кеш	NOUN	n	Case=Dat	5	nmod	_	_
 5	әкелді	әкел	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5998,7 +5998,7 @@
 
 # sent_id = kdt.tagged.txt:201:3200
 # text = Өзі шала қазақ.
-1	Өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	3	nsubj	_	_
+1	Өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	nsubj	_	_
 2	шала	шала	ADV	adv	_	3	advmod	_	_
 3	қазақ	қазақ	ADJ	adj	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	sent	_	3	punct	_	_
@@ -6122,7 +6122,7 @@
 3	қорыққаннан	қорық	VERB	v	Case=Abl|Tense=Past|VerbForm=Ger	10	advcl	_	_
 4	нашар	нашар	ADJ	adj	_	5	amod	_	_
 5	ауылдар	ауыл	NOUN	n	Case=Nom|Number=Plur	7	obj	_	_
-6	өздері	өз	PRON	prn	Case=Nom|Number[psor]=Plur|Person[psor]=3|PronType=Ref	7	nsubj	_	_
+6	өздері	өз	PRON	prn	Case=Nom|Number[psor]=Plur|Person[psor]=3|PronType=Prs|Reflex=Yes	7	nsubj	_	_
 7	шақырып	шақыр	VERB	v	Aspect=Perf|VerbForm=Conv	10	advcl	_	_
 8	семіз	семіз	ADJ	adj	_	9	amod	_	_
 9	малын	мал	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	10	obj	_	_
@@ -6197,7 +6197,7 @@
 7	қосып	қос	VERB	v	Aspect=Perf|VerbForm=Conv	16	ccomp	_	_
 8	берейік	бер	VERB	v	Mood=Opt|Number=Plur|Person=1|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	7	punct	_	_
-10	өздерің	өз	PRON	prn	Case=Nom|Number[psor]=Plur|Person[psor]=2|PronType=Ref	12	nsubj	_	_
+10	өздерің	өз	PRON	prn	Case=Nom|Number[psor]=Plur|Person[psor]=2|PronType=Prs|Reflex=Yes	12	nsubj	_	_
 11	кісі	кісі	NOUN	n	Case=Nom	12	obj	_	_
 12	жібер	жібер	VERB	v	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	7	conj	_	SpaceAfter=No
 13	,	,	PUNCT	cm	_	12	punct	_	_
@@ -6348,7 +6348,7 @@
 2	киімдерін	киім	NOUN	n	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	3	obj	_	_
 3	тастап	таста	VERB	v	Aspect=Perf|VerbForm=Conv	7	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	7	punct	_	_
-5	өз	өз	DET	det	PronType=Ref	6	det	_	_
+5	өз	өз	DET	det	PronType=Prs|Reflex=Yes	6	det	_	_
 6	киімін	киім	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
 7	киген	ки	VERB	v	Case=Nom|Tense=Past|VerbForm=Ger	10	advcl	_	_
 8	соң	соң	ADP	post	_	7	case	_	SpaceAfter=No
@@ -6730,7 +6730,7 @@
 6	арттыра	арт	VERB	v	Aspect=Imp|VerbForm=Conv	7	advcl	_	_
 7	мақтап	мақта	VERB	v	Aspect=Perf|VerbForm=Conv	10	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	10	punct	_	_
-9	өздері	өз	PRON	prn	Case=Nom|Number[psor]=Plur|Person[psor]=3|PronType=Ref	10	nsubj	_	_
+9	өздері	өз	PRON	prn	Case=Nom|Number[psor]=Plur|Person[psor]=3|PronType=Prs|Reflex=Yes	10	nsubj	_	_
 10	тындырып	тын	VERB	v	Aspect=Perf|VerbForm=Inf	0	root	_	_
 11	жатқан	жат	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 12	болды	бол	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
@@ -6908,7 +6908,7 @@
 # sent_id = kdt.tagged.txt:281:4603
 # text = Бұл өзі бір атақты болыстың баласы.
 1	Бұл	бұл	DET	det	PronType=Dem	6	nsubj	_	_
-2	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	1	appos	_	_
+2	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	1	appos	_	_
 3	бір	бір	DET	det	PronType=Ind	5	det	_	_
 4	атақты	атақты	ADJ	adj	_	5	amod	_	_
 5	болыстың	болыс	NOUN	n	Case=Gen	6	nmod:poss	_	_
@@ -7155,7 +7155,7 @@
 4-5	ешкім де	_	_	_	_	_	_	_	_
 4	ешкім	ешкім	PRON	prn	Case=Nom|PronType=Neg	49	nsubj	_	_
 5	де	да	ADV	postadv	_	4	advmod	_	_
-6	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	7	nsubj	_	_
+6	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	7	nsubj	_	_
 7	тұратын	тұр	VERB	v	Aspect=Imp|VerbForm=Part	8	acl	_	_
 8	елінің	ел	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	19	nmod:poss	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	12	punct	_	_
@@ -7184,7 +7184,7 @@
 31	қарамағында	қарамақ	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	27	conj	_	SpaceAfter=No
 32	,	,	PUNCT	cm	_	35	punct	_	_
 33	әлде	әлде	CCONJ	cnjcoo	_	35	cc	_	_
-34	өзін-өзі	өз	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	35	obj	_	_
+34	өзін-өзі	өз	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	35	obj	_	_
 35	басқарушы	басқар	VERB	v	Mood=Pot|VerbForm=Part	27	conj	_	_
 36	емес	емес	ADV	postadv	_	35	advmod	_	SpaceAfter=No
 37	,	,	PUNCT	cm	_	35	punct	_	_
@@ -7197,7 +7197,7 @@
 44	болған	бол	AUX	v	Tense=Past|VerbForm=Part	43	cop	_	_
 45	күннің	күн	NOUN	n	Case=Gen	46	nmod:poss	_	_
 46-47	өзінде де	_	_	_	_	_	_	_	SpaceAfter=No
-46	өзінде	өз	PRON	prn	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	49	obl	_	_
+46	өзінде	өз	PRON	prn	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	49	obl	_	_
 47	де	да	ADV	postadv	_	46	advmod	_	_
 48	,	,	PUNCT	cm	_	46	punct	_	_
 49	алаланбауы	алала	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger|Voice=Pass	50	csubj	_	_
@@ -7443,7 +7443,7 @@
 1-2	Ешкім де	_	_	_	_	_	_	_	_
 1	Ешкім	ешкім	PRON	prn	Case=Nom|PronType=Neg	7	nsubj	_	_
 2	де	да	ADV	postadv	_	1	advmod	_	_
-3	өз	өз	DET	det	PronType=Ref	4	det	_	_
+3	өз	өз	DET	det	PronType=Prs|Reflex=Yes	4	det	_	_
 4	мүлкінен	мүлік	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
 5	еріксіз	еріксіз	ADJ	adj	_	6	advmod	_	_
 6	айрылмауға	айрыл	VERB	v	Case=Dat|Polarity=Neg|VerbForm=Ger	7	ccomp	_	_
@@ -7532,7 +7532,7 @@
 # sent_id = udhr.tagged.txt:25:770
 # text = Ата-аналардың өздерінің жас балаларына білім беру түрін таңдауда құқығы басымды.
 1	Ата-аналардың	ата-ана	NOUN	n	Case=Gen|Number=Plur	9	nmod:poss	_	_
-2	өздерінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=3|PronType=Ref	4	nmod:poss	_	_
+2	өздерінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur|Person[psor]=3|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
 3	жас	жас	ADJ	adj	_	4	amod	_	_
 4	балаларына	бала	NOUN	n	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
 5	білім	білім	NOUN	n	Case=Nom	6	obj	_	_
@@ -8370,7 +8370,7 @@
 5	әрең	әрең	ADV	adv	_	6	advmod	_	_
 6	оқытады	оқыт	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	12	punct	_	_
-8	өз	өз	DET	det	PronType=Ref	9	det	_	_
+8	өз	өз	DET	det	PronType=Prs|Reflex=Yes	9	det	_	_
 9	малын	мал	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	12	obj	_	_
 10	не	не	PRON	prn	Case=Nom|PronType=Int	11	obj	_	_
 11	қылып	қыл	VERB	v	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
@@ -8448,7 +8448,7 @@
 12	көрсет	көрсет	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 13	ер	ма	PART	qst	_	12	discourse	_	_
 14	,	,	PUNCT	cm	_	23	punct	_	_
-15	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	17	nsubj	_	_
+15	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	17	nsubj	_	_
 16	рақат	рақат	NOUN	n	Case=Nom	17	obj	_	_
 17-18	көрер ме	_	_	_	_	_	_	_	SpaceAfter=No
 17	көрер	көр	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	conj	_	_
@@ -8594,7 +8594,7 @@
 # sent_id = Футболдан_әлем_чемпионаты_2014.tagged.txt:7:224
 # text = Бразилия өз жерінде чемпионатты екі рет өткізген бесінші ел болды (Мексика, Италия, Франция және Германиядан кейін).
 1	Бразилия	Бразилия	PROPN	np	Case=Nom	9	nsubj	_	_
-2	өз	өз	DET	det	PronType=Ref	3	det	_	_
+2	өз	өз	DET	det	PronType=Prs|Reflex=Yes	3	det	_	_
 3	жерінде	жер	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
 4	чемпионатты	чемпионат	NOUN	n	Case=Acc	7	obj	_	_
 5	екі	екі	NUM	num	NumType=Card	6	nummod	_	_
@@ -9925,7 +9925,7 @@
 5	Реза	Реза	PROPN	np	Case=Nom|Gender=Masc	10	nsubj	_	_
 6	шаһ	шаһ	NOUN	n	Case=Nom	5	flat:name	_	_
 7	тақтан	тақ	NOUN	n	Case=Abl	10	nmod	_	_
-8	өз	өз	DET	det	PronType=Ref	10	det	_	_
+8	өз	өз	DET	det	PronType=Prs|Reflex=Yes	10	det	_	_
 9	еркімен	еркімен	ADJ	adj	_	10	amod	_	_
 10	бас	бас	NOUN	n	Case=Nom	11	obj	_	_
 11	тартып	тарт	VERB	v	Aspect=Perf|VerbForm=Conv	18	advcl	_	SpaceAfter=No
@@ -10554,7 +10554,7 @@
 14	заттар	зат	NOUN	n	Case=Nom|Number=Plur	5	conj	_	_
 15	Иран	Иран	PROPN	np	Case=Nom	16	nmod:poss	_	_
 16	өнерінің	өнер	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	20	nsubj	_	_
-17	өз	өз	DET	det	PronType=Ref	18	det	_	_
+17	өз	өз	DET	det	PronType=Prs|Reflex=Yes	18	det	_	_
 18	заманында	заман	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	20	obl	_	_
 19	жоғары	жоғары	ADJ	adj	_	20	amod	_	_
 20	дәрежеде	дәреже	NOUN	n	Case=Loc	22	ccomp	_	_
@@ -11197,7 +11197,7 @@
 # sent_id = wikipedia.tagged.txt:6:90
 # text = Біз өз жұмысымыздың әдістері мен стильдерін жетілдіріп, инновацияларды енгізіп отырамыз.
 1	Біз	біз	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
-2	өз	өз	DET	det	PronType=Ref	3	det	_	_
+2	өз	өз	DET	det	PronType=Prs|Reflex=Yes	3	det	_	_
 3	жұмысымыздың	жұмыс	NOUN	n	Case=Gen|Number[psor]=Plur|Person[psor]=1	6	nmod:poss	_	_
 4	әдістері	әдіс	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
 5	мен	мен	CCONJ	cnjcoo	_	6	cc	_	_
@@ -11274,7 +11274,7 @@
 # text = Жауапты хатшы өзінің қызметін жүзеге асырған кезде Қазақстан Республикасының Президентіне, Премьер-Министрге, Министрге есеп береді.
 1	Жауапты	жауапты	ADJ	adj	_	2	amod	_	_
 2	хатшы	хатшы	NOUN	n	Case=Nom	6	nsubj	_	_
-3	өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	4	nmod:poss	_	_
+3	өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
 4	қызметін	қызмет	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	_
 5	жүзеге	жүзеге	X	x	_	6	dep	_	_
 6	асырған	асыр	VERB	v	Tense=Past|VerbForm=Part	7	acl	_	_
@@ -11664,7 +11664,7 @@
 1	Саяси	саяси	ADJ	adj	_	3	amod	_	_
 2	мемлекеттік	мемлекеттік	ADJ	adj	_	3	amod	_	_
 3	қызметкерлер	қызметкер	NOUN	n	Case=Nom|Number=Plur	9	nsubj	_	_
-4	өз	өз	DET	det	PronType=Ref	5	det	_	_
+4	өз	өз	DET	det	PronType=Prs|Reflex=Yes	5	det	_	_
 5	халқы	халық	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
 6	мен	мен	CCONJ	cnjcoo	_	7	cc	_	_
 7	Президентке	президент	NOUN	n	Case=Dat	5	conj	_	_
@@ -12428,7 +12428,7 @@
 1	Демек	демек	SCONJ	cnjadv	_	7	cc	_	SpaceAfter=No
 2	,	,	PUNCT	cm	_	1	punct	_	_
 3	Айгүл	Айгүл	PROPN	np	Case=Nom|Gender=Fem	7	nsubj	_	_
-4	өз	өз	DET	det	PronType=Ref	5	det	_	_
+4	өз	өз	DET	det	PronType=Prs|Reflex=Yes	5	det	_	_
 5	сұрағына	сұрақ	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
 6	жауап	жауап	X	x	_	7	dep	_	_
 7	ала	ал	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
@@ -13006,7 +13006,7 @@
 # sent_id = Ер_Төстік.tagged.txt:2:14
 # text = Ерназардың өзі бай болыпты.
 1	Ерназардың	Ерназар	PROPN	np	Case=Gen|Gender=Masc	2	nmod:poss	_	_
-2	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	3	nsubj	_	_
+2	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	nsubj	_	_
 3	бай	бай	ADJ	adj	_	0	root	_	_
 4	болыпты	бол	AUX	v	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	3	punct	_	_

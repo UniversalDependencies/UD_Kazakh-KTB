@@ -76,10 +76,10 @@
     <feat name="PronType" value="Ind" upos="DET,PRON">40</feat><!-- бір, кейбір, біреу, сондай, Бірінен, Кей, Осындай, басқа, бірдеме, біреуге -->
     <feat name="PronType" value="Int" upos="ADJ,ADV,DET,PRON">108</feat><!-- не, кім, қайда, қандай, қайдан, қай, қалай, қанша, немене, кімге -->
     <feat name="PronType" value="Neg" upos="DET,PRON">20</feat><!-- ешкім, ешқандай, Ешкімді, ешкімге, Ештеңе, еш нәрсені, ешбір -->
-    <feat name="PronType" value="Prs" upos="PRON">240</feat><!-- біз, мен, ол, біздің, оның, олар, сіздің, оны, сені, Сіз -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">284</feat><!-- біз, мен, ол, біздің, оның, олар, өз, өзі, сіздің, оны -->
     <feat name="PronType" value="Rcp" upos="PRON">1</feat><!-- бір-бірімен -->
-    <feat name="PronType" value="Ref" upos="DET,PRON">44</feat><!-- өз, өзі, өзінің, өзіміздің, өзінде, өзінше, өздері, өздерінің, өздерің, өзін -->
     <feat name="PronType" value="Tot" upos="DET,PRON">58</feat><!-- барлық, әр, бәрі, бүкіл, бірқатар, көп, көптеген, қанша, барлығы, бірнеше -->
+    <feat name="Reflex" value="Yes" upos="DET,PRON">44</feat><!-- өз, өзі, өзінің, өзіміздің, өзінде, өзінше, өздері, өздерінің, өздерің, өзін -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">22</feat><!-- көрсет, Блоктарға, алмас, алмастан, артар, аяр, барарсың, болмасымды, бүлінер, бәсеңдер -->
     <feat name="Tense" value="FutPlan" upos="AUX,VERB">6</feat><!-- бермек, болмақ, білмек, кеңейтілмек, көздемек -->
     <feat name="Tense" value="Past" upos="AUX,VERB">751</feat><!-- болды, еді, бастады, кетті, болған, деді, келді, алды, шықты, қалды -->

@@ -4,7 +4,7 @@
 2	Сәрсенбайға	Сәрсенбай	PROPN	np	Case=Dat|Gender=Masc	3	obl	_	_
 3	шыққан	шық	VERB	v	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
 4	жылы	жыл	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	24	obl	_	_
-5	өзіндей	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	7	nmod	_	_
+5	өзіндей	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	7	nmod	_	_
 6	жас	жас	ADJ	adj	_	7	amod	_	_
 7	келіншектермен	келіншек	NOUN	n	Case=Ins|Number=Plur	9	obl	_	_
 8	аулақта	аулақ	ADJ	adj	Case=Loc	9	obl	_	_
@@ -46,7 +46,7 @@
 12	қыздарының	қыз	NOUN	n	Case=Gen|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	13	nmod:poss	_	_
 13	ішінен	іш	NOUN	n	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3	17	obl	_	_
 14	әлдеқалай	әлдеқалай	ADV	adv	_	17	advmod	_	_
-15	өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	16	nsubj	_	_
+15	өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	16	nsubj	_	_
 16	сүйгеніне	сүй	VERB	v	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	17	ccomp	_	_
 17	тиген	ти	VERB	v	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
 18	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	24	nsubj	_	_
@@ -259,7 +259,7 @@
 15	сезіммен	сезім	NOUN	n	Case=Ins	20	obl	_	_
 16	осы	осы	DET	det	PronType=Dem	17	det	_	_
 17	ойларға	ой	NOUN	n	Case=Dat|Number=Plur	20	obl	_	_
-18	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	19	nsubj	_	_
+18	өзі	өз	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	19	nsubj	_	_
 19	барып	бар	VERB	v	Aspect=Perf|VerbForm=Conv	20	advcl	_	_
 20	тірелген	тіре	VERB	v	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 21	еді	е	AUX	cop	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	SpaceAfter=No
@@ -414,12 +414,12 @@
 5	Шолпанға	Шолпан	PROPN	np	Case=Dat|Gender=Fem	7	obl	_	_
 6	бала	бала	NOUN	n	Case=Nom	7	obj	_	_
 7	бермеуі	бер	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger	9	csubj	_	_
-8	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	9	advmod	_	_
+8	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	9	advmod	_	_
 9-10	дұрыс шығар	_	_	_	_	_	_	_	SpaceAfter=No
 9	дұрыс	дұрыс	ADJ	adj	_	2	parataxis	_	_
 10	шығар	шығар	PART	mod	_	9	discourse	_	_
 11	,	,	PUNCT	cm	_	9	punct	_	_
-12	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	13	advmod	_	_
+12	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	13	advmod	_	_
 13-14	жөн шығар	_	_	_	_	_	_	_	SpaceAfter=No
 13	жөн	жөн	ADJ	adj	_	2	parataxis	_	_
 14	шығар	шығар	PART	mod	_	13	discourse	_	_
@@ -557,7 +557,7 @@
 
 # sent_id = Elizabeth-II.tagged.txt:7:207
 # text = Өзінің атын анасының (Елизавета), апасының (Мария) және арғы әжесінің (Александра) құрметіне алған.
-1	Өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	2	nmod:poss	_	_
+1	Өзінің	өз	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	2	nmod:poss	_	_
 2	атын	ат	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	19	obj	_	_
 3	анасының	ана	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	18	nmod:poss	_	_
 4	(	(	PUNCT	lpar	_	5	punct	_	SpaceAfter=No
