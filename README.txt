@@ -37,6 +37,15 @@ Please, cite the following papers if you use Kazakh UD treebank:
 
 # Changelog
 
+2021-05-15 v2.8
+  * Tense=Aor is undocumented and controversial (see https://github.com/UniversalDependencies/docs/issues/773);
+    tentatively replaced with Aspect=Hab|Tense=Pres.
+  * Undocumented Cov(erb) is probably better represented as Inf, see https://github.com/UniversalDependencies/docs/issues/747
+  * Voice=Coop actually should be Voice=Rcp, which is already defined in UD.
+  * Undocumented PronType=Qnt changed to PronType=Tot.
+  * Undocumented PronType=Ref changed to PronType=Prs|Reflex=Yes.
+  * Undocumented Mood=Vol changed to Mood=Des.
+  * Undocumented Tense=FutPlan changed to Tense=Fut|Mood=Des.
 2018-04-15 v2.2
   * Repository renamed from UD_Kazakh to UD_Kazakh-KTB.
 2016-11-15 v1.4
