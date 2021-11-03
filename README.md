@@ -5,15 +5,17 @@ sentences from the UDHR, news and phrasebook sentences. Sentences IDs include pa
 
 # Introduction
 
-
 The tokenisation in the Kazakh UD treebank follows the principles of [Turkic lexica in Apertium](http://wiki.apertium.org/wiki/Turkic_lexicon).
 Morphological processing in the Kazakh UD treebank follows the principles of [Turkic lexica in Apertium](http://wiki.apertium.org/wiki/Turkic_lexicon).
-The treebank was randomly split into training (80%), testing (10%), and development (10%) sets.
+The file designated as “train” is just a small sample to show how the data looks like to shared task participants.
+The treebank is too small to provide for a standard training-development-test split. Instead, users are advised
+to merge both files, then jack-knife and report results of ten-fold cross-validation.
 
 # Acknowledgements
 
 Please, cite the following papers if you use Kazakh UD treebank:
 
+<pre>
 @inproceedings{tyers_tl2015,
   author = {Tyers, Francis M. and Washington, Jonathan N.},
   title = {Towards a Free/Open-source Universal-dependency Treebank for Kazakh},
@@ -34,6 +36,7 @@ Please, cite the following papers if you use Kazakh UD treebank:
   pages = {338--350},
   year = {2015},
 }
+</pre>
 
 # Changelog
 
