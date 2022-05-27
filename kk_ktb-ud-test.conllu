@@ -1782,15 +1782,15 @@
 # sent_id = akorda-random.tagged.txt:153:2734
 # text = Қазақстан бизнесі соңғы уақытта Арменияға жіті назар аудара бастады.
 1	Қазақстан	Қазақстан	PROPN	np	Case=Nom	2	nmod:poss	_	_
-2	бизнесі	бизнес	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
+2	бизнесі	бизнес	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	_
 3	соңғы	соңғы	ADJ	adj	_	4	amod	_	_
-4	уақытта	уақыт	NOUN	n	Case=Loc	8	obl	_	_
-5	Арменияға	Армения	PROPN	np	Case=Dat	8	obl	_	_
-6	жіті	жіті	ADJ	adj	_	8	advmod	_	_
+4	уақытта	уақыт	NOUN	n	Case=Loc	9	obl	_	_
+5	Арменияға	Армения	PROPN	np	Case=Dat	9	obl	_	_
+6	жіті	жіті	ADJ	adj	_	9	advmod	_	_
 7	назар	назар	X	x	_	8	dep	_	_
-8	аудара	аудар	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-9	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
-10	.	.	PUNCT	sent	_	8	punct	_	_
+8	аудара	аудар	VERB	v	Aspect=Imp|VerbForm=Inf	9	xcomp	_	_
+9	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:154:2755
 # text = Бұл елдің тағдырымен бірге өсіп келе жатқан халықтық басылым.
@@ -9086,15 +9086,15 @@
 1	Б.з.б.	б.з.б.	NOUN	abbr	_	4	compound	_	_
 2	3	3	NUM	num	NumType=Ord	4	amod	_	SpaceAfter=No
 3	-	-	PUNCT	guio	_	2	punct	_	SpaceAfter=No
-4	мыңжылдықта	мыңжылдық	NOUN	n	Case=Loc	10	obl	_	_
+4	мыңжылдықта	мыңжылдық	NOUN	n	Case=Loc	11	obl	_	_
 5	қазіргі	қазір	ADV	adv	Case=Nom	6	amod	_	_
 6	Иранның	Иран	PROPN	np	Case=Gen	7	nmod:poss	_	_
-7	оңтүстік-батысында	оңтүстік-батыс	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
+7	оңтүстік-батысында	оңтүстік-батыс	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	_
 8	алғашқы	алғашқы	ADJ	adj	_	9	amod	_	_
-9	мемлекеттер	мемлекет	NOUN	n	Case=Nom|Number=Plur	10	nsubj	_	_
-10	құрыла	құр	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
-11	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
-12	.	.	PUNCT	sent	_	10	punct	_	_
+9	мемлекеттер	мемлекет	NOUN	n	Case=Nom|Number=Plur	11	nsubj	_	_
+10	құрыла	құр	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Pass	11	xcomp	_	_
+11	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	sent	_	11	punct	_	_
 
 # sent_id = Иран.tagged.txt:31:796
 # text = Б.з.б. 2-мыңжылдықта бұл аймаққа Орталық Азиядан арий тайпалары келіп қоныстанды.
@@ -9287,12 +9287,12 @@
 3	және	және	CCONJ	cnjcoo	_	4	cc	_	_
 4	мәдени	мәдени	ADJ	adj	_	2	conj	_	_
 5	өрлеу	өрлеу	NOUN	n	Case=Nom	6	nsubj	_	_
-6	байқалып	байқа	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Pass	9	advcl	_	SpaceAfter=No
+6	байқалып	байқа	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Pass	10	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	cm	_	6	punct	_	_
-8	қалалар	қала	NOUN	n	Case=Nom|Number=Plur	9	nsubj	_	_
-9	өсе	өс	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-10	бастады	баста	AUX	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
-11	.	.	PUNCT	sent	_	9	punct	_	_
+8	қалалар	қала	NOUN	n	Case=Nom|Number=Plur	10	nsubj	_	_
+9	өсе	өс	VERB	v	Aspect=Imp|VerbForm=Inf	10	xcomp	_	_
+10	бастады	баста	VERB	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	sent	_	10	punct	_	_
 
 # sent_id = Иран.tagged.txt:43:1131
 # text = Сондай әмірліктердің бірі Самани әулеті биліктен кеткеннен кейін Шығыс Иран Ауғанстанмен және Орта Азияның бір бөлігімен бірге түркі текті Ғазнауи әулеті билеген мемлекеттің құрамына кірді.
@@ -9328,18 +9328,18 @@
 # sent_id = Иран.tagged.txt:44:1185
 # text = 11 ғасырда Иранға түрік-оғыздар (салжұқ) басып кіре бастады.
 1	11	11	NUM	num	NumType=Ord	2	amod	_	_
-2	ғасырда	ғасыр	NOUN	n	Case=Loc	11	obl	_	_
-3	Иранға	Иран	PROPN	np	Case=Dat	11	obl	_	_
+2	ғасырда	ғасыр	NOUN	n	Case=Loc	12	obl	_	_
+3	Иранға	Иран	PROPN	np	Case=Dat	12	obl	_	_
 4	түрік	түрік	NOUN	n	Case=Nom	6	compound	_	SpaceAfter=No
 5	-	-	PUNCT	guio	_	4	punct	_	SpaceAfter=No
-6	оғыздар	оғыз	NOUN	n	Case=Nom|Number=Plur	11	nsubj	_	_
+6	оғыздар	оғыз	NOUN	n	Case=Nom|Number=Plur	12	nsubj	_	_
 7	(	(	PUNCT	lpar	_	8	punct	_	SpaceAfter=No
 8	салжұқ	салжұқ	NOUN	n	Case=Nom	6	appos	_	SpaceAfter=No
 9	)	)	PUNCT	rpar	_	8	punct	_	_
-10	басып	бас	VERB	v	Aspect=Perf|VerbForm=Conv	11	advcl	_	_
-11	кіре	кір	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-12	бастады	баста	AUX	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
-13	.	.	PUNCT	sent	_	11	punct	_	_
+10	басып	бас	VERB	v	Aspect=Perf|VerbForm=Conv	12	advcl	_	_
+11	кіре	кір	VERB	v	Aspect=Imp|VerbForm=Inf	12	xcomp	_	_
+12	бастады	баста	VERB	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	sent	_	12	punct	_	_
 
 # sent_id = Иран.tagged.txt:45:1212
 # text = Көп ұзамай олар Ғазнауи әулеті әскерін талқандап, бүкіл Иранды және көрші елдерді басып алып салжұқтар мемлекетін құрды.
@@ -9577,20 +9577,20 @@
 # sent_id = Иран.tagged.txt:56:1621
 # text = Осы кезден елдің ішкі істеріне еуропалық мемлекеттер (Англия, Франция) араласа бастады.
 1	Осы	осы	DET	det	PronType=Dem	2	det	_	_
-2	кезден	кез	NOUN	n	Case=Abl	13	obl	_	_
+2	кезден	кез	NOUN	n	Case=Abl	14	obl	_	_
 3	елдің	ел	NOUN	n	Case=Gen	5	nmod:poss	_	_
 4	ішкі	ішкі	ADJ	adj	_	5	amod	_	_
-5	істеріне	іс	NOUN	n	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	_
+5	істеріне	іс	NOUN	n	Case=Dat|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	14	obl	_	_
 6	еуропалық	еуропалық	ADJ	adj	_	7	amod	_	_
-7	мемлекеттер	мемлекет	NOUN	n	Case=Nom|Number=Plur	13	nsubj	_	_
+7	мемлекеттер	мемлекет	NOUN	n	Case=Nom|Number=Plur	14	nsubj	_	_
 8	(	(	PUNCT	lpar	_	9	punct	_	SpaceAfter=No
 9	Англия	Англия	PROPN	np	Case=Nom	7	appos	_	SpaceAfter=No
 10	,	,	PUNCT	cm	_	11	punct	_	_
 11	Франция	Франция	PROPN	np	Case=Nom	9	conj	_	SpaceAfter=No
 12	)	)	PUNCT	rpar	_	9	punct	_	_
-13	араласа	аралас	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-14	бастады	баста	AUX	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
-15	.	.	PUNCT	sent	_	13	punct	_	_
+13	араласа	аралас	VERB	v	Aspect=Imp|VerbForm=Inf	14	xcomp	_	_
+14	бастады	баста	VERB	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	sent	_	14	punct	_	_
 
 # sent_id = Иран.tagged.txt:57:1652
 # text = 19 ғасырдың басында болған орыс-иран соғысынан кейін елде шетелдіктердің билігі күшейіп кетті.
@@ -9614,16 +9614,16 @@
 # text = 19 ғасырдың аяғына таман Иран еуропалық мемлекеттердің жартылай отарына айнала бастады.
 1	19	19	NUM	num	NumType=Ord	2	amod	_	_
 2	ғасырдың	ғасыр	NOUN	n	Case=Gen	3	nmod:poss	_	_
-3	аяғына	аяқ	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
+3	аяғына	аяқ	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	_
 4	таман	таман	ADP	post	_	3	case	_	_
-5	Иран	Иран	PROPN	np	Case=Nom	10	nsubj	_	_
+5	Иран	Иран	PROPN	np	Case=Nom	11	nsubj	_	_
 6	еуропалық	еуропалық	ADJ	adj	_	7	amod	_	_
 7	мемлекеттердің	мемлекет	NOUN	n	Case=Gen|Number=Plur	9	nsubj	_	_
 8	жартылай	жартылай	ADV	adv	_	7	advmod	_	_
-9	отарына	отар	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
-10	айнала	айнал	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-11	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
-12	.	.	PUNCT	sent	_	10	punct	_	_
+9	отарына	отар	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	11	obl	_	_
+10	айнала	айнал	VERB	v	Aspect=Imp|VerbForm=Inf	11	xcomp	_	_
+11	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	sent	_	11	punct	_	_
 
 # sent_id = Иран.tagged.txt:59:1708
 # text = 1901 ж. ағылшындар Иран мұнайын шығаруға рұқсат алып, 1909 ж. бірлескен ағылшын-парсы мұнай компаниясы құрылды.
@@ -9652,13 +9652,13 @@
 1	Елдің	ел	NOUN	n	Case=Gen	2	nmod:poss	_	_
 2	солтүстігіне	солтүстік	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	3	orphan	_	_
 3	Ресей	Ресей	PROPN	np	Case=Nom	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	cm	_	8	punct	_	_
-5	оңтүстігіне	оңтүстік	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
-6	Ұлыбритания	Ұлыбритания	PROPN	np	Case=Nom	8	nsubj	_	_
+4	,	,	PUNCT	cm	_	9	punct	_	_
+5	оңтүстігіне	оңтүстік	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
+6	Ұлыбритания	Ұлыбритания	PROPN	np	Case=Nom	9	nsubj	_	_
 7	қожалық	қожалық	NOUN	n	Case=Nom	8	obj	_	_
-8	ете	ет	VERB	v	Aspect=Imp|VerbForm=Inf	3	conj	_	_
-9	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
-10	.	.	PUNCT	sent	_	8	punct	_	_
+8	ете	ет	VERB	v	Aspect=Imp|VerbForm=Inf	9	xcomp	_	_
+9	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = Иран.tagged.txt:61:1768
 # text = 1905 — 11 ж. елде шетелдіктерге қарсы ұлт-азаттық қозғалысы болып өтті.
@@ -9780,13 +9780,13 @@
 
 # sent_id = Иран.tagged.txt:68:1969
 # text = Елде нарықтық қатынастар тез дами бастады.
-1	Елде	ел	NOUN	n	Case=Loc	5	obl	_	_
+1	Елде	ел	NOUN	n	Case=Loc	6	obl	_	_
 2	нарықтық	нарықтық	ADJ	adj	_	3	amod	_	_
-3	қатынастар	қатынас	NOUN	n	Case=Nom|Number=Plur	5	nsubj	_	_
-4	тез	тез	ADV	adv	_	5	advmod	_	_
-5	дами	дамы	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-6	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
-7	.	.	PUNCT	sent	_	5	punct	_	_
+3	қатынастар	қатынас	NOUN	n	Case=Nom|Number=Plur	6	nsubj	_	_
+4	тез	тез	ADV	adv	_	6	advmod	_	_
+5	дами	дамы	VERB	v	Aspect=Imp|VerbForm=Inf	6	xcomp	_	_
+6	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = Иран.tagged.txt:69:1984
 # text = Халықтың мәдени және тұрмыстық өмірінде көптеген өзгерістер болып өтті.
@@ -9955,15 +9955,15 @@
 3	М.	М.	NOUN	abbr	_	2	appos	_	_
 4	Р.	Р.	NOUN	abbr	_	3	flat:name	_	_
 5	Пехлевидің	Пехлеви	PROPN	np	Case=Gen	3	flat:name	_	_
-6	көмегімен	көмек	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	_
-7	АҚШ	АҚШ	PROPN	np	Case=Nom	12	nsubj	_	_
+6	көмегімен	көмек	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	_
+7	АҚШ	АҚШ	PROPN	np	Case=Nom	13	nsubj	_	_
 8	елдің	ел	NOUN	n	Case=Gen	9	nmod:poss	_	_
 9	ішкі	ішкі	ADJ	adj	_	10	amod	_	_
-10	өміріне	өмір	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	12	obl	_	_
-11	белсене	белсене	ADV	adv	_	12	advmod	_	_
-12	араласа	арала	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Rcp	0	root	_	_
-13	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
-14	.	.	PUNCT	sent	_	12	punct	_	_
+10	өміріне	өмір	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	13	obl	_	_
+11	белсене	белсене	ADV	adv	_	13	advmod	_	_
+12	араласа	арала	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Rcp	13	xcomp	_	_
+13	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	sent	_	13	punct	_	_
 
 # sent_id = Иран.tagged.txt:80:2283
 # text = Ел 1955 ж. АҚШ-пен әскери келісімдер жасасты, 1960 жылдан бастап Батыс үлгісінде дами бастады.
@@ -9974,15 +9974,15 @@
 5	әскери	әскери	ADJ	adj	_	6	amod	_	_
 6	келісімдер	келісім	NOUN	n	Case=Nom|Number=Plur	7	obj	_	_
 7	жасасты	жаса	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	cm	_	14	punct	_	_
+8	,	,	PUNCT	cm	_	15	punct	_	_
 9	1960	1960	NUM	num	NumType=Ord	10	amod	_	_
 10	жылдан	жыл	NOUN	n	Case=Abl	11	obl	_	_
-11	бастап	баста	VERB	v	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
+11	бастап	баста	VERB	v	Aspect=Perf|VerbForm=Conv	15	advcl	_	_
 12	Батыс	батыс	NOUN	n	Case=Nom	13	nmod:poss	_	_
-13	үлгісінде	үлгі	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	14	obl	_	_
-14	дами	дамы	VERB	v	Aspect=Imp|VerbForm=Inf	7	conj	_	_
-15	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No
-16	.	.	PUNCT	sent	_	14	punct	_	_
+13	үлгісінде	үлгі	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	15	obl	_	_
+14	дами	дамы	VERB	v	Aspect=Imp|VerbForm=Inf	15	xcomp	_	_
+15	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	sent	_	15	punct	_	_
 
 # sent_id = Иран.tagged.txt:81:2316
 # text = Елде шет ел капиталының үстемдік алуы, ұлттық құндылықтардың аяққа басылуы 1978 — 79 ж. халықтың шаһ үкіметіне қарсы жаппай бас көтеруіне алып келді.
@@ -10190,11 +10190,11 @@
 # sent_id = Иран.tagged.txt:92:2666
 # text = Соңғы жылдары туризм дами бастады.
 1	Соңғы	соң	ADV	adv	Case=Nom	2	amod	_	_
-2	жылдары	жыл	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	_
-3	туризм	туризм	NOUN	n	Case=Nom	4	nsubj	_	_
-4	дами	дамы	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-5	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No
-6	.	.	PUNCT	sent	_	4	punct	_	_
+2	жылдары	жыл	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	obl	_	_
+3	туризм	туризм	NOUN	n	Case=Nom	5	nsubj	_	_
+4	дами	дамы	VERB	v	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_
+5	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = Иран.tagged.txt:93:2679
 # text = Ұлттық байлықтың 36%-ы өнеркәсіптен, 22%-ы ауыл шаруашылығынан, қалғаны қызмет көрсету секторынан тұрады.
@@ -10646,14 +10646,14 @@
 # sent_id = Иран.tagged.txt:115:3455
 # text = 20 ғасырда жаңа типті архитектуралық құрылыстар салына бастады.
 1	20	20	NUM	num	NumType=Ord	2	amod	_	_
-2	ғасырда	ғасыр	NOUN	n	Case=Loc	7	obl	_	_
+2	ғасырда	ғасыр	NOUN	n	Case=Loc	8	obl	_	_
 3	жаңа	жаңа	ADJ	adj	_	6	amod	_	_
 4	типті	типті	ADJ	adj	_	6	amod	_	_
 5	архитектуралық	архитектуралық	ADJ	adj	_	6	amod	_	_
-6	құрылыстар	құрылыс	NOUN	n	Case=Nom|Number=Plur	7	nsubj	_	_
-7	салына	сал	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
-8	бастады	баста	AUX	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
-9	.	.	PUNCT	sent	_	7	punct	_	_
+6	құрылыстар	құрылыс	NOUN	n	Case=Nom|Number=Plur	8	nsubj	_	_
+7	салына	сал	VERB	v	Aspect=Imp|VerbForm=Inf|Voice=Pass	8	xcomp	_	_
+8	бастады	баста	VERB	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = Иран.tagged.txt:116:3474
 # text = Иранның жаңа архитектуралық мұралары қазіргі стиль мен ұлттық үлгідегі сәулет өнерін ұштастырған.
@@ -10894,12 +10894,12 @@
 # text = 1929 жылдан бастап әйел актерлер көріне бастады.
 1	1929	1929	NUM	num	NumType=Ord	2	amod	_	_
 2	жылдан	жыл	NOUN	n	Case=Abl	3	obl	_	_
-3	бастап	баста	VERB	v	Aspect=Perf|VerbForm=Conv	6	advcl	_	_
+3	бастап	баста	VERB	v	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 4	әйел	әйел	NOUN	n	Case=Nom	5	compound	_	_
-5	актерлер	актер	NOUN	n	Case=Nom|Number=Plur	6	nsubj	_	_
-6	көріне	көрін	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-7	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
-8	.	.	PUNCT	sent	_	6	punct	_	_
+5	актерлер	актер	NOUN	n	Case=Nom|Number=Plur	7	nsubj	_	_
+6	көріне	көрін	VERB	v	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
+7	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = Иран.tagged.txt:133:3881
 # text = 1930 — 40 ж. театр репертуарларынан өңделген Батыс Еуропа драмалары мен мелодрамалар орын алды.
@@ -12529,14 +12529,14 @@
 
 # sent_id = story.tagged.txt:44:776
 # text = Ол енді ол дыбысты анығырақ ести бастады.
-1	Ол	ол	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-2	енді	енді	ADV	adv	_	6	advmod	_	_
+1	Ол	ол	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	енді	енді	ADV	adv	_	7	advmod	_	_
 3	ол	ол	DET	det	PronType=Dem	4	det	_	_
 4	дыбысты	дыбыс	NOUN	n	Case=Acc	6	obj	_	_
-5	анығырақ	анық	ADJ	adj	Degree=Cmp	6	advmod	_	_
-6	ести	есті	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-7	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
-8	.	.	PUNCT	sent	_	6	punct	_	_
+5	анығырақ	анық	ADJ	adj	Degree=Cmp	7	advmod	_	_
+6	ести	есті	VERB	v	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
+7	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = story.tagged.txt:45:793
 # text = Бұл Азамат болу керек!
@@ -12792,16 +12792,16 @@
 # sent_id = Шымкент.tagged.txt:11:323
 # text = Қала халқы елдегі үлкен өзгерістер нәтижесінде жаңа жетістіктерге жете бастады.
 1	Қала	қала	NOUN	n	Case=Nom	2	nmod:poss	_	_
-2	халқы	халық	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	_
+2	халқы	халық	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
 3	елдегі	ел	NOUN	n	Case=Loc	5	amod	_	_
 4	үлкен	үлкен	ADJ	adj	_	5	amod	_	_
 5	өзгерістер	өзгеріс	NOUN	n	Case=Nom|Number=Plur	6	nmod:poss	_	_
-6	нәтижесінде	нәтиже	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
+6	нәтижесінде	нәтиже	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	10	obl	_	_
 7	жаңа	жаңа	ADJ	adj	_	8	amod	_	_
 8	жетістіктерге	жетістік	NOUN	n	Case=Dat|Number=Plur	9	obj	_	_
-9	жете	жет	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-10	бастады	баста	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
-11	.	.	PUNCT	sent	_	9	punct	_	_
+9	жете	жет	VERB	v	Aspect=Imp|VerbForm=Inf	10	xcomp	_	_
+10	бастады	баста	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	sent	_	10	punct	_	_
 
 # sent_id = Шымкент.tagged.txt:12:346
 # text = Қалада жаңа өндіріс орындары салынып, оқу орындары мен ғылыми, мәдениет ошақтары ашылды.
