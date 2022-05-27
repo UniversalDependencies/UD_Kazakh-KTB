@@ -5,33 +5,33 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1078</sentences><tokens>10383</tokens><words>10536</words><fused>153</fused></total>
-    <train><sentences>31</sentences><tokens>511</tokens><words>529</words><fused>18</fused></train>
+    <total><sentences>1078</sentences><tokens>10495</tokens><words>10536</words><fused>41</fused></total>
+    <train><sentences>31</sentences><tokens>520</tokens><words>529</words><fused>9</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1047</sentences><tokens>9872</tokens><words>10007</words><fused>135</fused></test>
+    <test><sentences>1047</sentences><tokens>9975</tokens><words>10007</words><fused>32</fused></test>
   </size>
-  <lemmas unique="2421" /><!-- ., ,, бол, —, ?, ол, -, мен, бұл, ал, да, ел, де, кел, е -->
+  <lemmas unique="2420" /><!-- ., ,, бол, —, ?, ол, -, мен, бұл, ал, да, ел, де, кел, е -->
   <forms unique="4387" /><!-- ., ,, —, ?, -, және, мен, бұл, бір, (, ), да, деп, !, ол -->
-  <fusions unique="121" /><!-- бар, ешкім, басқа, қуаныштымын, және, Ешкімді, Жасаған-ау, Сондықтан, аласыз, балалы, бола, болғанда, екеуі, ешқандай, жылы -->
+  <fusions unique="34" /><!-- қуаныштымын, Жасаған-ау, балалы, кімдікі, көрсетер, Баласыз, Елсіз, айтшы, білмейміз-ау, бітімді, бұзылады-ау, дайынбыз, екпінді, емсіз, ертең-ақ -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">826</tag><!-- бар, үлкен, жаңа, керек, жоқ, тиіс, жақсы, ұлттық, экономикалық, басқа -->
     <tag name="ADP">175</tag><!-- үшін, кейін, бойынша, лы, соң, дейін, қарсы, сыз, қарай, басқа -->
-    <tag name="ADV">303</tag><!-- да, қайда, бүгін, енді, қазір, ғана, тағы, қайдан, өте, тек -->
-    <tag name="AUX">417</tag><!-- бол, е, жат, ал, отыр, кел, кет, тұр, баста, қал -->
-    <tag name="CCONJ">181</tag><!-- және, мен, бірақ, да, немесе, ал, не, сондай-ақ, әлде, яки -->
-    <tag name="DET">219</tag><!-- осы, бұл, бір, өз, сол, ол, барлық, әр, мына, не -->
+    <tag name="ADV">304</tag><!-- да, қайда, бүгін, енді, қазір, ғана, тағы, қайдан, өте, тек -->
+    <tag name="AUX">361</tag><!-- бол, е, жат, ал, отыр, кел, тұр, бер, қал, жүр -->
+    <tag name="CCONJ">187</tag><!-- және, мен, бірақ, да, немесе, ал, не, сондай-ақ, әлде, сондықтан -->
+    <tag name="DET">220</tag><!-- осы, бұл, бір, өз, сол, ол, барлық, әр, мына, не -->
     <tag name="INTJ">23</tag><!-- жоқ, е, ал, міне, ойбай, ай, иә, келдіңіз, мейлі, о -->
     <tag name="NOUN">3103</tag><!-- ел, жыл, мемлекет, бала, жер, ж., ғасыр, орыс, қала, адам -->
     <tag name="NUM">374</tag><!-- бір, екі, үш, миллиард, 1, 12, екеу, 2, 20, 11 -->
     <tag name="PART">33</tag><!-- ма, ау, шығар, шы, ғой, ше -->
-    <tag name="PRON">492</tag><!-- ол, біз, бұл, мен, өз, сіз, кім, олар, не, сол -->
+    <tag name="PRON">493</tag><!-- ол, біз, бұл, мен, өз, сіз, кім, олар, не, сол -->
     <tag name="PROPN">559</tag><!-- Иран, Қазақстан, Астана, Азамат, Бекболат, Айгүл, Назарбаев, Нұрсұлтан, Шолпан, Алматы -->
     <tag name="PUNCT">2096</tag><!-- ., ,, —, ?, -, (, ), !, –, " -->
-    <tag name="SCONJ">24</tag><!-- сондықтан, алайда, да, егер, яғни, де, демек, кейін, себебі, себептен -->
+    <tag name="SCONJ">21</tag><!-- сондықтан, алайда, да, егер, яғни, де, демек, кейін, себебі, себептен -->
     <tag name="SYM">3</tag><!-- / -->
-    <tag name="VERB">1587</tag><!-- де, бол, ал, кел, біл, бер, көр, шық, тұр, тап -->
-    <tag name="X">121</tag><!-- жүзеге, жұмыс, ие, пайда, іске, қол, ауыл, жауап, назар, өмір -->
+    <tag name="VERB">1643</tag><!-- де, бол, ал, кел, біл, баста, кет, бер, шық, көр -->
+    <tag name="X">115</tag><!-- жүзеге, жұмыс, ие, пайда, іске, қол, ауыл, жауап, назар, өмір -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="55">
@@ -72,7 +72,7 @@
     <feat name="Person[psor]" value="3" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1211</feat><!-- басшысы, жылы, әулеті, бірі, тілдерін, өзі, арасында, бәрі, кезінде, халқы -->
     <feat name="Polarity" value="Neg" upos="AUX,VERB">131</feat><!-- емес, алмайды, келмейді, алмады, болмайды, болмаса, айтпайды, алаланбай, алмай, алмаймын -->
     <feat name="Polite" value="Form" upos="AUX,NOUN,NUM,PRON,VERB">67</feat><!-- сіздің, Сіз, Сізде, Сізді, сіздер, Сіздерді, аласыз, алыңыз, сізге, сіздерге -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">233</feat><!-- бұл, осы, ол, сол, мына, бұ, мұнда, мұндай, одан, оны -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">235</feat><!-- бұл, осы, ол, сол, мына, бұ, мұнда, мұндай, одан, оны -->
     <feat name="PronType" value="Ind" upos="DET,PRON">40</feat><!-- бір, кейбір, біреу, сондай, Бірінен, Кей, Осындай, басқа, бірдеме, біреуге -->
     <feat name="PronType" value="Int" upos="ADJ,ADV,DET,PRON">108</feat><!-- не, кім, қайда, қандай, қайдан, қай, қалай, қанша, немене, кімге -->
     <feat name="PronType" value="Neg" upos="DET,PRON">20</feat><!-- ешкім, ешқандай, Ешкімді, ешкімге, Ештеңе, еш нәрсені, ешбір -->
@@ -92,41 +92,42 @@
     <feat name="Voice" value="Rcp" upos="VERB">31</feat><!-- айналысады, айтысып, араласа, араласқан жоқ, байланысты, бөлісеміз, жалғасты, жасасты, жетіспеушілігінен, келісті -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
+  <deps unique="36">
     <dep name="acl">108</dep>
     <dep name="acl:relcl">95</dep>
     <dep name="advcl">375</dep>
-    <dep name="advmod">341</dep>
+    <dep name="advmod">310</dep>
     <dep name="amod">708</dep>
-    <dep name="appos">86</dep>
-    <dep name="aux">232</dep>
-    <dep name="case">178</dep>
-    <dep name="cc">199</dep>
+    <dep name="appos">87</dep>
+    <dep name="aux">174</dep>
+    <dep name="case">179</dep>
+    <dep name="cc">200</dep>
     <dep name="ccomp">121</dep>
     <dep name="clf">3</dep>
-    <dep name="compound">121</dep>
+    <dep name="compound">123</dep>
     <dep name="compound:lvc">7</dep>
     <dep name="conj">406</dep>
-    <dep name="cop">188</dep>
+    <dep name="cop">184</dep>
     <dep name="csubj">75</dep>
-    <dep name="dep">120</dep>
+    <dep name="dep">114</dep>
     <dep name="det">218</dep>
     <dep name="discourse">54</dep>
+    <dep name="fixed">11</dep>
     <dep name="flat:name">90</dep>
     <dep name="iobj">5</dep>
-    <dep name="mark">2</dep>
-    <dep name="nmod">224</dep>
+    <dep name="mark">3</dep>
+    <dep name="nmod">221</dep>
     <dep name="nmod:poss">819</dep>
     <dep name="nsubj">1049</dep>
     <dep name="nummod">121</dep>
     <dep name="obj">517</dep>
-    <dep name="obl">773</dep>
+    <dep name="obl">799</dep>
     <dep name="obl:own">7</dep>
     <dep name="orphan">13</dep>
     <dep name="parataxis">80</dep>
     <dep name="punct">2096</dep>
     <dep name="root">1078</dep>
     <dep name="vocative">10</dep>
-    <dep name="xcomp">17</dep>
+    <dep name="xcomp">76</dep>
   </deps>
 </treebank>
