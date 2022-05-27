@@ -1071,8 +1071,8 @@
 
 # sent_id = akorda-random.tagged.txt:93:1615
 # text = Содан кейін Мемлекет басшысы «Шапағат» коммуналдық базарында болды.
-1	Содан	содан	X	x	_	2	dep	_	_
-2	кейін	кейін	SCONJ	cnjadv	_	10	cc	_	_
+1	Содан	содан	PRON	x	PronType=Dem	10	obl	_	_
+2	кейін	кейін	SCONJ	cnjadv	_	1	case	_	_
 3	Мемлекет	мемлекет	NOUN	n	Case=Nom	4	nmod:poss	_	_
 4	басшысы	басшы	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	_
 5	«	«	PUNCT	lquot	_	6	punct	_	SpaceAfter=No
@@ -1354,9 +1354,8 @@
 
 # sent_id = akorda-random.tagged.txt:115:2056
 # text = Сондықтан да мұнда біз бәрін мұқият зерттеп, ақылға салып көруіміз керек.
-1-2	Сондықтан да	_	_	_	_	_	_	_	_
-1	Сондықтан	сондықтан	SCONJ	cnjadv	_	12	advmod	_	_
-2	да	да	ADV	postadv	_	1	advmod	_	_
+1	Сондықтан	сондықтан	CCONJ	cnjadv	_	12	cc	_	_
+2	да	да	ADV	postadv	_	1	fixed	_	_
 3	мұнда	бұл	PRON	prn	Case=Loc|PronType=Dem	12	obl	_	_
 4	біз	біз	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 5	бәрін	бәрі	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Tot	7	obj	_	_
@@ -3336,9 +3335,8 @@
 
 # sent_id = akorda-random.tagged.txt:286:5111
 # text = Сондықтан да жаңа елордада біз жаңа мәдениет ошақтарын құруға тырыстық.
-1-2	Сондықтан да	_	_	_	_	_	_	_	_
-1	Сондықтан	сондықтан	SCONJ	cnjadv	_	10	cc	_	_
-2	да	да	ADV	postadv	_	1	advmod	_	_
+1	Сондықтан	сондықтан	CCONJ	cnjadv	_	10	cc	_	_
+2	да	да	ADV	postadv	_	1	fixed	_	_
 3	жаңа	жаңа	ADJ	adj	_	4	amod	_	_
 4	елордада	елорда	NOUN	n	Case=Loc	10	obl	_	_
 5	біз	біз	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
@@ -7159,8 +7157,8 @@
 7	тұратын	тұр	VERB	v	Aspect=Imp|VerbForm=Part	8	acl	_	_
 8	елінің	ел	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	19	nmod:poss	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	12	punct	_	_
-10	не	не	X	x	_	11	dep	_	_
-11	болмаса	болмаса	CCONJ	cnjcoo	_	12	cc	_	_
+10	не	не	CCONJ	x	_	12	cc	_	_
+11	болмаса	болмаса	CCONJ	cnjcoo	_	10	fixed	_	_
 12	территорияның	территория	NOUN	n	Case=Gen	8	conj	_	_
 13	саяси	саяси	ADJ	adj	_	19	amod	_	SpaceAfter=No
 14	,	,	PUNCT	cm	_	15	punct	_	_
@@ -7174,7 +7172,7 @@
 22	,	,	PUNCT	cm	_	20	punct	_	_
 23-24	және де	_	_	_	_	_	_	_	_
 23	және	және	CCONJ	cnjcoo	_	49	cc	_	_
-24	де	да	ADV	postadv	_	23	advmod	_	_
+24	де	да	ADV	postadv	_	23	fixed	_	_
 25	ол	ол	DET	det	PronType=Dem	26	det	_	_
 26	территория	территория	NOUN	n	Case=Nom	35	nsubj	_	_
 27	тәуелсіз	тәуелсіз	ADJ	adj	_	45	acl	_	SpaceAfter=No
@@ -7297,9 +7295,8 @@
 3	жұрттың	жұрт	NOUN	n	Case=Gen	4	nmod:poss	_	_
 4	бәрі	бәрі	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Tot	5	nsubj	_	_
 5	тең	тең	ADJ	adj	_	0	root	_	_
-6-7	және де	_	_	_	_	_	_	_	_
 6	және	және	CCONJ	cnjcoo	_	15	cc	_	_
-7	де	да	ADV	postadv	_	6	advmod	_	_
+7	де	да	ADV	postadv	_	6	fixed	_	_
 8	заң	заң	NOUN	n	Case=Nom	10	obl	_	_
 9	арқылы	арқылы	ADP	post	_	8	case	_	_
 10	алаланбай	алала	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv|Voice=Pass	14	advcl	_	SpaceAfter=No
@@ -8274,9 +8271,8 @@
 
 # sent_id = Жиырма_Бесінші_Сөз.tagged.txt:25:614
 # text = Және де кейбір қазақтар ағайынымен араздасқанда: “Сенің осы зорлығыңа көнгенше, баламды солдатқа беріп, басыма шаш, аузыма мұрт қойып кетпесем бе!” деуші еді.
-1-2	Және де	_	_	_	_	_	_	_	_
 1	Және	және	CCONJ	cnjcoo	_	28	cc	_	_
-2	де	да	ADV	postadv	_	1	advmod	_	_
+2	де	да	ADV	postadv	_	1	fixed	_	_
 3	кейбір	кейбір	DET	det	PronType=Ind	4	det	_	_
 4	қазақтар	қазақ	NOUN	n	Case=Nom|Number=Plur	6	nsubj	_	_
 5	ағайынымен	ағайын	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
@@ -8329,8 +8325,8 @@
 
 # sent_id = Жиырма_Бесінші_Сөз.tagged.txt:27:708
 # text = Сонда да өзге қазақ балаларынан артық үйренгені немене, қай кеп үйреніпті?
-1	Сонда	сонда	X	x	_	2	dep	_	_
-2	да	да	SCONJ	cnjadv	_	12	cc	_	_
+1	Сонда	сонда	CCONJ	x	_	12	cc	_	_
+2	да	да	SCONJ	cnjadv	_	1	fixed	_	_
 3	өзге	өзге	ADJ	adj	_	5	amod	_	_
 4	қазақ	қазақ	NOUN	n	Case=Nom	5	nmod:poss	_	_
 5	балаларынан	бала	NOUN	n	Case=Abl|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
@@ -12150,8 +12146,8 @@
 
 # sent_id = story.tagged.txt:5:47
 # text = Осы себептен олар далада ойнай алмады.
-1	Осы	осы	X	x	_	2	dep	_	_
-2	себептен	себептен	SCONJ	cnjadv	_	5	cc	_	_
+1	Осы	осы	DET	x	PronType=Dem	5	cc	_	_
+2	себептен	себептен	SCONJ	cnjadv	_	1	fixed	_	_
 3	олар	олар	PRON	prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 4	далада	дала	NOUN	n	Case=Loc	5	obl	_	_
 5	ойнай	ойна	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
