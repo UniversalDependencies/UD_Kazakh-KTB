@@ -1067,7 +1067,7 @@
 
 # sent_id = akorda-random.tagged.txt:93:1615
 # text = Содан кейін Мемлекет басшысы «Шапағат» коммуналдық базарында болды.
-1	Содан	содан	PRON	x	PronType=Dem	10	obl	_	_
+1	Содан	содан	PRON	x	PronType=Dem	6	obl	_	_
 2	кейін	кейін	SCONJ	cnjadv	_	1	case	_	_
 3	Мемлекет	мемлекет	NOUN	n	Case=Nom	4	nmod:poss	_	_
 4	басшысы	басшы	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	nsubj	_	_
@@ -1076,8 +1076,8 @@
 7	»	»	PUNCT	rquot	_	6	punct	_	_
 8	коммуналдық	коммуналдық	ADJ	adj	_	9	amod	_	_
 9	базарында	базар	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	6	appos	_	_
-10	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
-11	.	.	PUNCT	sent	_	10	punct	_	_
+10	болды	бол	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	SpaceAfter=No
+11	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:94:1638
 # text = Қазақстан халқын абыроймен алға бастап, тағы да тарихи тамаша жеңістерге жетіңіз.
@@ -7213,8 +7213,8 @@
 6	қандай	қандай	DET	det	PronType=Int	7	det	_	_
 7	түрде	түр	NOUN	n	Case=Loc	4	acl	_	_
 8	болса	бол	AUX	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	7	cop	_	_
-9	да	да	ADV	postadv	_	8	advmod	_	SpaceAfter=No
-10	,	,	PUNCT	cm	_	8	punct	_	_
+9	да	да	ADV	postadv	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	cm	_	7	punct	_	_
 11	тыйым	тыйым	NOUN	n	Case=Nom	12	obj	_	_
 12	салынады	сал	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
@@ -10338,7 +10338,7 @@
 3	Нұрсұлтан	Нұрсұлтан	PROPN	np	Case=Nom|Gender=Masc	2	appos	_	_
 4	Назарбаев	Назарбаев	PROPN	np	Case=Nom|Gender=Masc	3	flat:name	_	_
 5	екі	екі	NUM	num	NumType=Card	6	nummod	_	_
-6	рет	рет	NOUN	n	Case=Nom	13	obl	_	_
+6	рет	рет	NOUN	n	Case=Nom	12	obl	_	_
 7	(	(	PUNCT	lpar	_	8	punct	_	SpaceAfter=No
 8	1992	1992	NUM	num	NumType=Card,Ord	6	appos	_	SpaceAfter=No
 9	;	;	PUNCT	sent	_	10	punct	_	_
@@ -12695,7 +12695,7 @@
 # text = Қандай болғанда да, қала ескі заманнан-ақ адамдардың өмір сүруіне қолайлы мекен болған.
 1	Қандай	қандай	PRON	prn	PronType=Int	13	advcl	_	_
 2	болғанда	бол	AUX	v	Case=Loc|Tense=Past|VerbForm=Ger	1	cop	_	_
-3	да	да	ADV	postadv	_	2	advmod	_	SpaceAfter=No
+3	да	да	ADV	postadv	_	1	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	1	punct	_	_
 5	қала	қала	NOUN	n	Case=Nom	13	nsubj	_	_
 6	ескі	ескі	ADJ	adj	_	7	amod	_	_
