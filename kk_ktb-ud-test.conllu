@@ -5791,11 +5791,11 @@
 
 # sent_id = kdt.tagged.txt:183:2927
 # text = Әлде орыстар өлтіріп тастады?
-1	Әлде	әлде	CCONJ	cnjcoo	_	3	cc	_	_
-2	орыстар	орыс	NOUN	n	Case=Nom|Number=Plur	3	nsubj	_	_
-3	өлтіріп	өлтір	VERB	v	Aspect=Perf|VerbForm=Inf	0	root	_	_
-4	тастады	таста	AUX	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	SpaceAfter=No
-5	?	?	PUNCT	sent	_	3	punct	_	_
+1	Әлде	әлде	CCONJ	cnjcoo	_	4	cc	_	_
+2	орыстар	орыс	NOUN	n	Case=Nom|Number=Plur	4	nsubj	_	_
+3	өлтіріп	өлтір	VERB	v	Aspect=Perf|VerbForm=Inf	4	xcomp	_	_
+4	тастады	таста	VERB	vaux	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = kdt.tagged.txt:184:2938
 # text = Әлдебір сары орыспен құшақтасып отыр?
