@@ -16,9 +16,8 @@
 13	сыз	сыз	ADP	post	_	12	case	_	_
 14	өмірдің	өмір	NOUN	n	Case=Gen	15	nmod:poss	_	_
 15	қызығы	қызық	ADJ	adj	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	16	nsubj	_	_
-16-17	жоқ қой	_	_	_	_	_	_	_	SpaceAfter=No
 16	жоқ	жоқ	ADJ	adj	_	21	ccomp	_	_
-17	қой	ғой	PART	mod_ass	_	16	discourse	_	_
+17	қой	ғой	PART	mod_ass	_	16	discourse	_	SpaceAfter=No
 18	»	»	PUNCT	rquot	_	16	punct	_	SpaceAfter=No
 19	,	,	PUNCT	cm	_	16	punct	_	_
 20	–	–	PUNCT	guio	_	16	punct	_	_
@@ -145,7 +144,6 @@
 10	түскен	түс	VERB	v	Tense=Past|VerbForm=Part	25	advcl	_	_
 11	соң	соң	ADP	post	_	10	case	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	10	punct	_	_
-13-14	екеуінің де	_	_	_	_	_	_	_	_
 13	екеуінің	екеу	NUM	num	Case=Gen|Number[psor]=Plur,Sing|NumType=Coll|Person[psor]=3	20	nmod:poss	_	_
 14	де	да	ADV	postadv	_	13	advmod	_	_
 15-16	жалынды	_	_	_	_	_	_	_	SpaceAfter=No
@@ -249,9 +247,8 @@
 7-8	ретті	_	_	_	_	_	_	_	_
 7	рет	рет	NOUN	n	_	20	advcl	_	_
 8	ті	лы	ADP	post	_	7	case	_	_
-9-10	болмаса да	_	_	_	_	_	_	_	SpaceAfter=No
 9	болмаса	бол	AUX	v	Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|VerbForm=Conv	7	cop	_	_
-10	да	да	ADV	postadv	_	7	advmod	_	_
+10	да	да	ADV	postadv	_	7	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	7	punct	_	_
 12	оның	ол	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
 13	жаны	жан	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	20	nsubj	_	_
@@ -391,12 +388,10 @@
 # sent_id = sholpan.tagged.txt:20:648
 # text = Қанша жалынса да, қанша жыласа да Жасаған оған бала бермеді.
 1	Қанша	қанша	PRON	prn	Case=Nom|PronType=Int	2	obl	_	_
-2-3	жалынса да	_	_	_	_	_	_	_	SpaceAfter=No
 2	жалынса	жалын	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	advcl	_	_
-3	да	да	ADV	postadv	_	2	advmod	_	_
+3	да	да	ADV	postadv	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	6	punct	_	_
 5	қанша	қанша	PRON	prn	Case=Nom|PronType=Int	6	obl	_	_
-6-7	жыласа да	_	_	_	_	_	_	_	_
 6	жыласа	жыла	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	2	conj	_	_
 7	да	да	ADV	postadv	_	6	advmod	_	_
 8	Жасаған	Жасаған	PROPN	np	Case=Nom	11	nsubj	_	_
@@ -415,21 +410,18 @@
 6	бала	бала	NOUN	n	Case=Nom	7	obj	_	_
 7	бермеуі	бер	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger	9	csubj	_	_
 8	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	9	obl	_	_
-9-10	дұрыс шығар	_	_	_	_	_	_	_	SpaceAfter=No
 9	дұрыс	дұрыс	ADJ	adj	_	2	parataxis	_	_
-10	шығар	шығар	PART	mod	_	9	discourse	_	_
+10	шығар	шығар	PART	mod	_	9	discourse	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	9	punct	_	_
 12	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	13	obl	_	_
-13-14	жөн шығар	_	_	_	_	_	_	_	SpaceAfter=No
 13	жөн	жөн	ADJ	adj	_	2	parataxis	_	_
-14	шығар	шығар	PART	mod	_	13	discourse	_	_
+14	шығар	шығар	PART	mod	_	13	discourse	_	SpaceAfter=No
 15	.	.	PUNCT	sent	_	13	punct	_	_
 
 # sent_id = sholpan.tagged.txt:22:700
 # text = Күнмен таласа Шолпан да өмірімен қоштасты.
 1	Күнмен	күн	NOUN	n	Case=Ins	2	obl	_	_
 2	таласа	талас	VERB	v	Aspect=Imp|VerbForm=Inf	6	advcl	_	_
-3-4	Шолпан да	_	_	_	_	_	_	_	_
 3	Шолпан	Шолпан	PROPN	np	Case=Nom|Gender=Fem	6	nsubj	_	_
 4	да	да	CCONJ	cnjcoo	_	3	cc	_	_
 5	өмірімен	өмір	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
