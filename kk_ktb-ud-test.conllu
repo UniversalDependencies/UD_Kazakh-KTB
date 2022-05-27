@@ -1354,8 +1354,8 @@
 7	зерттеп	зертте	VERB	v	Aspect=Perf|VerbForm=Conv	12	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	7	punct	_	_
 9	ақылға	ақылға	X	x	_	10	dep	_	_
-10	салып	сал	VERB	v	Aspect=Perf|VerbForm=Inf	12	csubj	_	_
-11	көруіміз	көр	AUX	vaux	Case=Nom|Number[psor]=Plur|Person[psor]=1|VerbForm=Ger	10	aux	_	_
+10	салып	сал	VERB	v	Aspect=Perf|VerbForm=Inf	11	xcomp	_	_
+11	көруіміз	көр	VERB	vaux	Case=Nom|Number[psor]=Plur|Person[psor]=1|VerbForm=Ger	12	csubj	_	_
 12	керек	керек	ADJ	adj	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	12	punct	_	_
 
@@ -2839,14 +2839,14 @@
 # sent_id = akorda-random.tagged.txt:244:4373
 # text = Мемлекет басшысы Алматы қаласының бірқатар нысандарын аралап көрді.
 1	Мемлекет	мемлекет	NOUN	n	Case=Nom	2	nmod:poss	_	_
-2	басшысы	басшы	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
+2	басшысы	басшы	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
 3	Алматы	Алматы	PROPN	np	Case=Nom	4	nmod:poss	_	_
 4	қаласының	қала	NOUN	n	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod:poss	_	_
 5	бірқатар	бірқатар	DET	det	PronType=Tot	6	det	_	_
 6	нысандарын	нысан	NOUN	n	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
-7	аралап	арала	VERB	v	Aspect=Perf|VerbForm=Inf	0	root	_	_
-8	көрді	көр	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
-9	.	.	PUNCT	sent	_	7	punct	_	_
+7	аралап	арала	VERB	v	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_
+8	көрді	көр	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:245:4392
 # text = Ақтау теңіз сауда портының негізі 1963 жылдың қазан айында қаланған.
