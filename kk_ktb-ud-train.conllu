@@ -390,12 +390,12 @@
 
 # sent_id = sholpan.tagged.txt:20:648
 # text = Қанша жалынса да, қанша жыласа да Жасаған оған бала бермеді.
-1	Қанша	қанша	PRON	prn	Case=Nom|PronType=Int	2	advmod	_	_
+1	Қанша	қанша	PRON	prn	Case=Nom|PronType=Int	2	obl	_	_
 2-3	жалынса да	_	_	_	_	_	_	_	SpaceAfter=No
 2	жалынса	жалын	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	11	advcl	_	_
 3	да	да	ADV	postadv	_	2	advmod	_	_
 4	,	,	PUNCT	cm	_	6	punct	_	_
-5	қанша	қанша	PRON	prn	Case=Nom|PronType=Int	6	advmod	_	_
+5	қанша	қанша	PRON	prn	Case=Nom|PronType=Int	6	obl	_	_
 6-7	жыласа да	_	_	_	_	_	_	_	_
 6	жыласа	жыла	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	2	conj	_	_
 7	да	да	ADV	postadv	_	6	advmod	_	_
@@ -414,12 +414,12 @@
 5	Шолпанға	Шолпан	PROPN	np	Case=Dat|Gender=Fem	7	obl	_	_
 6	бала	бала	NOUN	n	Case=Nom	7	obj	_	_
 7	бермеуі	бер	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|Polarity=Neg|VerbForm=Ger	9	csubj	_	_
-8	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	9	advmod	_	_
+8	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	9	obl	_	_
 9-10	дұрыс шығар	_	_	_	_	_	_	_	SpaceAfter=No
 9	дұрыс	дұрыс	ADJ	adj	_	2	parataxis	_	_
 10	шығар	шығар	PART	mod	_	9	discourse	_	_
 11	,	,	PUNCT	cm	_	9	punct	_	_
-12	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	13	advmod	_	_
+12	өзінше	өз	PRON	prn	Number[psor]=Plur,Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	13	obl	_	_
 13-14	жөн шығар	_	_	_	_	_	_	_	SpaceAfter=No
 13	жөн	жөн	ADJ	adj	_	2	parataxis	_	_
 14	шығар	шығар	PART	mod	_	13	discourse	_	_

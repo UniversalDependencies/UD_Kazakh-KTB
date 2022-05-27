@@ -1930,9 +1930,8 @@
 2	Халықтың	халық	NOUN	n	Case=Gen	4	nmod:poss	_	_
 3	әлеуметтік	әлеуметтік	ADJ	adj	_	4	amod	_	_
 4	жағдайы	жағдай	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
-5-6	ешқандай да	_	_	_	_	_	_	_	_
 5	ешқандай	ешқандай	PRON	prn	PronType=Neg	7	advmod	_	_
-6	да	да	ADV	postadv	_	5	advmod	_	_
+6	да	да	ADV	postadv	_	5	fixed	_	_
 7	нашарламайды	нашарла	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -2430,7 +2429,7 @@
 # sent_id = akorda-random.tagged.txt:207:3721
 # text = Мен олай деп санамаймын.
 1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	олай	ол	PRON	prn	PronType=Dem	3	advmod	_	_
+2	олай	ол	PRON	prn	PronType=Dem	3	obl	_	_
 3	деп	де	VERB	v	Aspect=Perf|VerbForm=Conv	4	advcl	_	_
 4	санамаймын	сана	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
@@ -4952,7 +4951,7 @@
 3	оңдап	оңда	VERB	v	Aspect=Perf|VerbForm=Conv	7	advcl	_	_
 4	елдің	ел	NOUN	n	Case=Gen	5	nmod:poss	_	_
 5	көзі	көз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	7	nsubj	_	_
-6	бір	бір	NUM	num	NumType=Card,Ord	7	advmod	_	_
+6	бір	бір	NUM	num	NumType=Card,Ord	7	obl	_	_
 7	ашылды	аш	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 8	...	...	PUNCT	sent	_	7	punct	_	_
 
@@ -4993,7 +4992,7 @@
 # sent_id = kdt.tagged.txt:105:1684
 # text = "Осылай тұр!" дегендей екі иығынан басып қалды, бес-алты адымдай жерге барып тұра қалды.
 1	"	"	PUNCT	sent	_	3	punct	_	SpaceAfter=No
-2	Осылай	осы	PRON	prn	PronType=Dem	3	advmod	_	_
+2	Осылай	осы	PRON	prn	PronType=Dem	3	obl	_	_
 3	тұр	тұр	VERB	v	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 4	!	!	PUNCT	sent	_	3	punct	_	SpaceAfter=No
 5	"	"	PUNCT	sent	_	3	punct	_	_
@@ -5119,7 +5118,7 @@
 2	қалай	қалай	ADV	adv	PronType=Int	3	advmod	_	_
 3	шықты	шық	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	8	punct	_	_
-5	солай	сол	PRON	prn	PronType=Dem	8	advmod	_	_
+5	солай	сол	PRON	prn	PronType=Dem	8	obl	_	_
 6	қасқырлардың	қасқыр	NOUN	n	Case=Gen|Number=Plur	7	nmod:poss	_	_
 7	қарасы	қара	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
 8	өше	өш	VERB	v	Aspect=Imp|VerbForm=Inf	3	parataxis	_	_
@@ -5895,7 +5894,7 @@
 11	ел	ел	NOUN	n	Case=Nom	12	nmod:poss	_	_
 12	қазағы	қазақ	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	23	nsubj	_	_
 13	"	"	PUNCT	sent	_	20	punct	_	SpaceAfter=No
-14	бір	бір	NUM	num	NumType=Card,Ord	15	advmod	_	_
+14	бір	бір	NUM	num	NumType=Card,Ord	15	obl	_	_
 15	айналып	айнал	VERB	v	Aspect=Perf|VerbForm=Conv	16	advcl	_	_
 16	соғармын	соқ	VERB	v	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	20	parataxis	_	SpaceAfter=No
 17	,	,	PUNCT	cm	_	16	punct	_	_
@@ -6012,7 +6011,7 @@
 # sent_id = kdt.tagged.txt:203:3220
 # text = Алдыңғы жылы Семейге барып оқып, мұғалім боп келген.
 1	Алдыңғы	алдыңғы	ADJ	adj	_	2	amod	_	_
-2	жылы	жыл	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	advmod	_	_
+2	жылы	жыл	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	9	obl	_	_
 3	Семейге	Семей	PROPN	np	Case=Dat	4	nmod	_	_
 4	барып	бар	VERB	v	Aspect=Perf|VerbForm=Conv	5	advcl	_	_
 5	оқып	оқы	VERB	v	Aspect=Perf|VerbForm=Conv	9	advcl	_	SpaceAfter=No
@@ -6531,7 +6530,7 @@
 5	бірі	бір	NUM	num	Case=Nom|Number[psor]=Plur,Sing|NumType=Card,Ord|Person[psor]=3	14	nsubj	_	_
 6	қошқар	қошқар	NOUN	n	Case=Nom	7	acl	_	_
 7	туған	ту	VERB	v	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
-8	қозыдай	қозы	NOUN	n	_	9	advmod	_	_
+8	қозыдай	қозы	NOUN	n	_	9	obl	_	_
 9-10	келбетті	_	_	_	_	_	_	_	SpaceAfter=No
 9	келбет	келбет	NOUN	n	_	14	amod	_	_
 10	л	лы	ADP	post	_	9	case	_	_
@@ -6724,7 +6723,7 @@
 2	губерния	губерния	NOUN	n	Case=Nom	3	nmod:poss	_	_
 3	жұмысын	жұмыс	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	7	obj	_	_
 4	үш	үш	NUM	num	NumType=Card	5	nummod	_	_
-5	есе	есе	NOUN	n	Case=Nom	6	advmod	_	_
+5	есе	есе	NOUN	n	Case=Nom	6	obl	_	_
 6	арттыра	арт	VERB	v	Aspect=Imp|VerbForm=Conv	7	advcl	_	_
 7	мақтап	мақта	VERB	v	Aspect=Perf|VerbForm=Conv	10	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	7	punct	_	_
@@ -7138,7 +7137,7 @@
 41	бостандықтарға	бостандық	NOUN	n	Case=Dat|Number=Plur	39	conj	_	_
 42	алаланбай	алала	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv|Voice=Pass	47	advcl	_	SpaceAfter=No
 43	,	,	PUNCT	cm	_	42	punct	_	_
-44	бірдей	бір	NUM	num	NumType=Card,Ord	47	advmod	_	_
+44	бірдей	бір	NUM	num	NumType=Card,Ord	47	obl	_	_
 45	тең	тең	ADJ	adj	_	47	advmod	_	_
 46	ие	ие	X	x	_	47	dep	_	_
 47	болуы	бол	VERB	v	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	48	csubj	_	_
@@ -7301,7 +7300,7 @@
 9	арқылы	арқылы	ADP	post	_	8	case	_	_
 10	алаланбай	алала	VERB	v	Aspect=Perf|Polarity=Neg|VerbForm=Conv|Voice=Pass	14	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	cm	_	10	punct	_	_
-12	бірдей	бір	NUM	num	NumType=Card,Ord	15	advmod	_	_
+12	бірдей	бір	NUM	num	NumType=Card,Ord	15	obl	_	_
 13	тең	тең	ADJ	adj	_	14	advmod	_	_
 14	қорғалуға	қорға	VERB	v	Case=Dat|VerbForm=Ger|Voice=Pass	15	advcl	_	_
 15	құқылы	құқылы	ADJ	adj	_	5	conj	_	SpaceAfter=No
@@ -7608,7 +7607,7 @@
 
 # sent_id = wikitravel.tagged.txt:7:59
 # text = Осында орыс тілінде сөйлейтін адам бар ма?
-1	Осында	осы	PRON	prn	Case=Loc|PronType=Dem	6	advmod	_	_
+1	Осында	осы	PRON	prn	Case=Loc|PronType=Dem	6	obl	_	_
 2	орыс	орыс	NOUN	n	Case=Nom	3	nmod:poss	_	_
 3	тілінде	тіл	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	4	obl	_	_
 4	сөйлейтін	сөйле	VERB	v	Aspect=Imp|VerbForm=Part	5	acl	_	_
@@ -7919,7 +7918,7 @@
 10	табу	тап	VERB	v	Case=Nom|VerbForm=Ger	11	csubj	_	_
 11	керек	керек	ADJ	adj	_	5	conj	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	18	punct	_	_
-13	онан	ол	PRON	prn	Case=Abl|PronType=Dem	18	advmod	_	_
+13	онан	ол	PRON	prn	Case=Abl|PronType=Dem	18	obl	_	_
 14	соң	соң	ADP	post	_	13	case	_	_
 15	ғараб	ғараб	NOUN	n	Case=Nom	18	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	cm	_	17	punct	_	_
@@ -7955,7 +7954,7 @@
 
 # sent_id = Жиырма_Бесінші_Сөз.tagged.txt:5:112
 # text = Онан соң білім түгіл өнер керек екен.
-1	Онан	ол	PRON	prn	Case=Abl|PronType=Dem	6	advmod	_	_
+1	Онан	ол	PRON	prn	Case=Abl|PronType=Dem	6	obl	_	_
 2	соң	соң	ADP	post	_	1	case	_	_
 3	білім	білім	NOUN	n	Case=Nom	6	nsubj	_	_
 4	түгіл	түгіл	CCONJ	cnjcoo	_	5	cc	_	_
@@ -8090,7 +8089,7 @@
 10	дінін	дін	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	conj	_	_
 11	адамшылығын	адамшылық	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	conj	_	_
 12	жаурыннан	жаурын	NOUN	n	Case=Abl	14	obl	_	_
-13	бір	бір	NUM	num	NumType=Card,Ord	14	advmod	_	_
+13	бір	бір	NUM	num	NumType=Card,Ord	14	obl	_	_
 14	қаққанға	қақ	VERB	v	Case=Dat|Tense=Past|VerbForm=Ger	15	advcl	_	_
 15	сатады	сат	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	15	punct	_	_
@@ -8150,7 +8149,7 @@
 # text = Жоқ, олай ниет керек емес.
 1	Жоқ	жоқ	INTJ	ij	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	cm	_	1	punct	_	_
-3	олай	ол	PRON	prn	PronType=Dem	5	advmod	_	_
+3	олай	ол	PRON	prn	PronType=Dem	5	obl	_	_
 4	ниет	ниет	NOUN	n	Case=Nom	5	nsubj	_	_
 5	керек	керек	ADJ	adj	_	0	root	_	_
 6	емес	е	AUX	cop	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
@@ -8202,7 +8201,7 @@
 
 # sent_id = Жиырма_Бесінші_Сөз.tagged.txt:20:507
 # text = Себебі: ата-анасы, ағайын-туғаны бір жағынан бұзып жатыр.
-1	Себебі	себебі	SCONJ	cnjadv	_	8	advmod	_	SpaceAfter=No
+1	Себебі	себебі	SCONJ	cnjadv	_	8	mark	_	SpaceAfter=No
 2	:	:	PUNCT	sent	_	1	punct	_	_
 3	ата-анасы	ата-ана	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	cm	_	5	punct	_	_
@@ -8215,8 +8214,8 @@
 
 # sent_id = Жиырма_Бесінші_Сөз.tagged.txt:21:528
 # text = Сөйтсе де осы оқыған балалар — ана оқымаған қазақ балаларынан үздік, озық.
-1	Сөйтсе	сөйтсе	X	x	_	2	dep	_	_
-2	де	де	SCONJ	cnjadv	_	13	advmod	_	_
+1	Сөйтсе	сөйтсе	SCONJ	x	_	13	advmod	_	_
+2	де	де	SCONJ	cnjadv	_	1	fixed	_	_
 3	осы	осы	DET	det	PronType=Dem	5	det	_	_
 4	оқыған	оқы	VERB	v	Tense=Past|VerbForm=Part	5	acl	_	_
 5	балалар	бала	NOUN	n	Case=Nom|Number=Plur	13	nsubj	_	_
@@ -8429,7 +8428,7 @@
 
 # sent_id = Жиырма_Бесінші_Сөз.tagged.txt:33:880
 # text = Әйтпесе, бір ит қазақ болып қалған соң, саған рақат көрсетер, өзі рақат көрер ме, яки жұртқа рақат көрсетер?
-1	Әйтпесе	әйтпесе	SCONJ	cnjadv	_	23	advmod	_	SpaceAfter=No
+1	Әйтпесе	әйтпесе	ADV	cnjadv	_	23	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	cm	_	1	punct	_	_
 3	бір	бір	NUM	num	NumType=Card	4	nummod	_	_
 4	ит	ит	NOUN	n	Case=Nom	5	nsubj	_	_
@@ -9876,7 +9875,7 @@
 
 # sent_id = Иран.tagged.txt:70:2005
 # text = Алайда, 1929 — 33 ж. болған дүниежүзілік экономикалық дағдарыс Иран экономикасын тұралатып тастады.
-1	Алайда	алайда	SCONJ	cnjadv	_	14	advmod	_	SpaceAfter=No
+1	Алайда	алайда	CCONJ	cnjadv	_	14	cc	_	SpaceAfter=No
 2	,	,	PUNCT	cm	_	1	punct	_	_
 3	1929	1929	NUM	num	NumType=Card	5	compound	_	_
 4	—	—	PUNCT	guio	_	3	punct	_	_
@@ -10594,7 +10593,7 @@
 17	қанат	қанат	NOUN	n	Case=Nom	18	obj	_	_
 18	жайды	жай	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 19	(	(	PUNCT	lpar	_	26	punct	_	SpaceAfter=No
-20	мыс.	мыс.	NOUN	abbr	_	26	advmod	_	SpaceAfter=No
+20	мыс.	мыс.	NOUN	abbr	_	26	obl	_	SpaceAfter=No
 21	,	,	PUNCT	cm	_	20	punct	_	_
 22	Нишапур	Нишапур	PROPN	np	Case=Nom	23	nmod:poss	_	_
 23	қаласы	қала	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	26	nsubj	_	_
@@ -10682,7 +10681,7 @@
 10	,	,	PUNCT	cm	_	11	punct	_	_
 11	Исфаһан	Исфаһан	PROPN	np	Case=Nom	7	conj	_	_
 12	(	(	PUNCT	lpar	_	13	punct	_	SpaceAfter=No
-13	Риза	Риза	PROPN	np	Case=Nom|Gender=Masc	11	advmod	_	_
+13	Риза	Риза	PROPN	np	Case=Nom|Gender=Masc	11	appos	_	_
 14	Аббаси	Аббаси	PROPN	np	Case=Nom	13	flat:name	_	SpaceAfter=No
 15	,	,	PUNCT	cm	_	16	punct	_	_
 16	т.б.	т.б.	NOUN	abbr	_	14	conj	_	SpaceAfter=No
@@ -12545,7 +12544,7 @@
 7	,	,	PUNCT	cm	_	11	punct	_	_
 8	бірақ	бірақ	CCONJ	cnjcoo	_	11	cc	_	_
 9	Азамат	Азамат	PROPN	np	Case=Nom|Gender=Masc	11	nsubj	_	_
-10	онда	ол	PRON	prn	Case=Loc|PronType=Dem	11	advmod	_	_
+10	онда	ол	PRON	prn	Case=Loc|PronType=Dem	11	obl	_	_
 11	жоқ	жоқ	ADJ	adj	_	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	sent	_	11	punct	_	_
 
