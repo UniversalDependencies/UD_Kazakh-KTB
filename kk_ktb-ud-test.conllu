@@ -915,8 +915,8 @@
 # sent_id = akorda-random.tagged.txt:78:1385
 # text = Оны түсіндіре білу керек.
 1	Оны	ол	PRON	prn	Case=Acc|PronType=Dem	2	obj	_	_
-2	түсіндіре	түсіндір	VERB	v	Aspect=Imp|VerbForm=Inf	4	csubj	_	_
-3	білу	біл	AUX	vaux	Case=Nom|VerbForm=Ger	2	aux	_	_
+2	түсіндіре	түсіндір	VERB	v	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_
+3	білу	біл	VERB	vaux	Case=Nom|VerbForm=Ger	4	csubj	_	_
 4	керек	керек	ADJ	adj	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
