@@ -624,7 +624,7 @@
 10-11	балалы	_	_	_	_	_	_	_	_
 10	бала	бала	NOUN	n	_	8	conj	_	_
 11	лы	лы	ADP	post	_	10	case	_	_
-12	болуға	болуға	AUX	v	Case=Dat|VerbForm=Ger	10	cop	_	_
+12	болуға	бол	AUX	v	Case=Dat|VerbForm=Ger	10	cop	_	_
 13	тиіс	тиіс	ADJ	adj	_	4	conj	_	_
 14	болғандықтан	бол	AUX	v	Case=Abl|VerbForm=Ger	13	cop	_	SpaceAfter=No
 15	,	,	PUNCT	cm	_	13	punct	_	_

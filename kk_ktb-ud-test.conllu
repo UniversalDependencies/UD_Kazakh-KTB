@@ -269,11 +269,11 @@
 # text = Тұрғын үй кешені 487 пәтерден тұрады.
 1	Тұрғын	тұрғын	ADJ	adj	_	2	amod	_	_
 2	үй	үй	NOUN	n	Case=Nom	3	nmod:poss	_	_
-3	кешені	кешен	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
+3	кешені	кешен	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	_
 4	487	487	NUM	num	NumType=Card	5	nummod	_	_
-5	пәтерден	пәтер	NOUN	n	Case=Abl	0	root	_	_
-6	тұрады	тұр	AUX	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
-7	.	.	PUNCT	sent	_	5	punct	_	_
+5	пәтерден	пәтер	NOUN	n	Case=Abl	6	obl	_	_
+6	тұрады	тұр	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:23:389
 # text = Біздің өңір үшін – бұл стратегиялық жол.
@@ -5669,7 +5669,7 @@
 4	жіберуге	жібер	VERB	v	Case=Dat|VerbForm=Ger	3	aux	_	_
 5	кім	кім	PRON	prn	Case=Nom|PronType=Int	6	nsubj	_	_
 6	даяр	даяр	ADJ	adj	_	0	root	_	_
-7	тұр	тұр	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+7	тұр	тұр	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
 8	?	?	PUNCT	sent	_	6	punct	_	_
 
 # sent_id = kdt.tagged.txt:170:2716
@@ -11900,11 +11900,11 @@
 # sent_id = wikipedia.tagged.txt:71:1163
 # text = Чемпионаттың жеңімпазы Швеция құрамасы атанды.
 1	Чемпионаттың	чемпионат	NOUN	n	Case=Gen	2	nmod:poss	_	_
-2	жеңімпазы	жеңімпаз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
+2	жеңімпазы	жеңімпаз	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	xcomp	_	_
 3	Швеция	Швеция	PROPN	np	Case=Nom	4	nmod:poss	_	_
-4	құрамасы	құрама	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	0	root	_	_
-5	атанды	атан	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
-6	.	.	PUNCT	sent	_	4	punct	_	_
+4	құрамасы	құрама	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
+5	атанды	атан	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = wikipedia.tagged.txt:72:1176
 # text = Чуваш, қазақ және орыс тілдерін біледі.
@@ -13157,8 +13157,8 @@
 8	,	,	PUNCT	cm	_	7	punct	_	_
 9	шаңырақтың	шаңырақ	NOUN	n	Case=Gen	10	nmod:poss	_	_
 10	күлдіреуішінде	күлдіреуіш	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	17	obl	_	_
-11	керулі	керулі	ADJ	adj	_	15	acl	_	_
-12	тұрған	тұр	AUX	v	Tense=Past|VerbForm=Part	11	cop	_	_
+11	керулі	керулі	ADJ	adj	_	12	xcomp	_	_
+12	тұрған	тұр	VERB	v	Tense=Past|VerbForm=Part	15	acl	_	_
 13	кер	кер	ADJ	adj	_	14	amod	_	_
 14	биенің	бие	NOUN	n	Case=Gen	15	nmod:poss	_	_
 15	төстігі	төстік	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	17	nsubj	_	_
