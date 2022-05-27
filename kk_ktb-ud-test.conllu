@@ -4302,7 +4302,7 @@
 16	-	-	PUNCT	guio	_	15	punct	_	SpaceAfter=No
 17	сайман	сайман	NOUN	n	Case=Nom	7	conj	_	_
 18	алып	ал	VERB	v	Aspect=Perf|VerbForm=Inf	20	acl:relcl	_	_
-19	жүрген	жүр	VERB	v	Tense=Past|VerbForm=Part	18	aux	_	_
+19	жүрген	жүр	AUX	v	Tense=Past|VerbForm=Part	18	aux	_	_
 20	ақтардың	ақ	ADJ	adj	Case=Gen|Number=Plur	21	nmod:poss	_	_
 21	адамына	адам	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	22	nmod	_	_
 22	жолығып	жолық	VERB	v	Aspect=Perf|VerbForm=Conv	29	advcl	_	SpaceAfter=No
@@ -4386,7 +4386,7 @@
 3	,	,	PUNCT	cm	_	5	punct	_	_
 4	шылымдарын	шылым	NOUN	n	Case=Acc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	obj	_	_
 5	тартысып	тарт	VERB	v	Aspect=Perf|VerbForm=Conv|Voice=Rcp	2	conj	_	_
-6	болған	бол	VERB	v	Case=Nom|Tense=Past|VerbForm=Ger	5	aux	_	_
+6	болған	бол	AUX	v	Case=Nom|Tense=Past|VerbForm=Ger	5	aux	_	_
 7	соң	соң	ADP	post	_	5	case	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	5	punct	_	_
 9	өзгелері	өзге	ADJ	adj	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
@@ -5157,7 +5157,7 @@
 12	түлік	түлік	NOUN	n	Case=Nom	8	conj	_	_
 13	алып	ал	VERB	v	Aspect=Perf|VerbForm=Conv	14	advcl	_	_
 14	келе	кел	VERB	v	Aspect=Imp|VerbForm=Inf	4	conj	_	_
-15	жатқан	жат	VERB	v	Tense=Past|VerbForm=Part	14	aux	_	_
+15	жатқан	жат	AUX	v	Tense=Past|VerbForm=Part	14	aux	_	_
 16	орыстарды	орыс	NOUN	n	Case=Acc|Number=Plur	18	obj	_	_
 17	талай	талай	ADJ	adj	_	18	advmod	_	_
 18	көрген	көр	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5645,7 +5645,7 @@
 1	Қызды	қыз	NOUN	n	Case=Acc	3	obj	_	_
 2	біреуге	біреу	PRON	prn	Case=Dat|PronType=Ind	3	nmod	_	_
 3	беріп	бер	VERB	v	Aspect=Perf|VerbForm=Inf	6	advcl	_	_
-4	жіберуге	жібер	VERB	v	Case=Dat|VerbForm=Ger	3	aux	_	_
+4	жіберуге	жібер	AUX	v	Case=Dat|VerbForm=Ger	3	aux	_	_
 5	кім	кім	PRON	prn	Case=Nom|PronType=Int	6	nsubj	_	_
 6	даяр	даяр	ADJ	adj	_	0	root	_	_
 7	тұр	тұр	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
@@ -6171,7 +6171,7 @@
 5	бір	бір	NUM	num	NumType=Card	6	nummod	_	_
 6	кісі	кісі	NOUN	n	Case=Nom	7	obj	_	_
 7	қосып	қос	VERB	v	Aspect=Perf|VerbForm=Conv	16	ccomp	_	_
-8	берейік	бер	VERB	v	Mood=Opt|Number=Plur|Person=1|VerbForm=Fin	7	aux	_	SpaceAfter=No
+8	берейік	бер	AUX	v	Mood=Opt|Number=Plur|Person=1|VerbForm=Fin	7	aux	_	SpaceAfter=No
 9	,	,	PUNCT	cm	_	12	punct	_	_
 10	өздерің	өз	PRON	prn	Case=Nom|Number[psor]=Plur|Person[psor]=2|PronType=Prs|Reflex=Yes	12	nsubj	_	_
 11	кісі	кісі	NOUN	n	Case=Nom	12	obj	_	_
@@ -9507,7 +9507,7 @@
 9	халықтың	халық	NOUN	n	Case=Gen	10	nmod:poss	_	_
 10	жағдайы	жағдай	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
 11	нашарлап	нашарла	VERB	v	Aspect=Perf|VerbForm=Inf	0	root	_	_
-12	кетті	кет	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+12	кетті	кет	AUX	v	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	sent	_	11	punct	_	_
 
 # sent_id = Иран.tagged.txt:53:1508
