@@ -10635,9 +10635,9 @@
 10	бұйымдар	бұйым	NOUN	n	Case=Nom|Number=Plur	11	obj	_	_
 11	жасау	жаса	VERB	v	Case=Nom|VerbForm=Ger	19	csubj	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	17	punct	_	_
-13	жүн	жүн	NOUN	n	Case=Nom	15	cc	_	_
-14	және	және	CCONJ	cnjcoo	_	13	conj	_	_
-15	жібек	жібек	NOUN	n	Case=Nom	16	compound	_	_
+13	жүн	жүн	NOUN	n	Case=Nom	16	compound	_	_
+14	және	және	CCONJ	cnjcoo	_	15	cc	_	_
+15	жібек	жібек	NOUN	n	Case=Nom	13	conj	_	_
 16	мата	мата	NOUN	n	Case=Nom	17	obj	_	_
 17	тоқу	тоқ	VERB	v	Case=Nom|VerbForm=Ger	11	conj	_	_
 18	өркен	өркен	X	x	_	19	dep	_	_
