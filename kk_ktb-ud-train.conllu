@@ -22,7 +22,6 @@
 19	,	,	PUNCT	cm	_	16	punct	_	_
 20	–	–	PUNCT	guio	_	16	punct	_	_
 21	деп	де	VERB	v	Aspect=Perf|VerbForm=Conv	24	advcl	_	_
-22-23	аузымен ғана	_	_	_	_	_	_	_	_
 22	аузымен	ауыз	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	24	obl	_	_
 23	ғана	ғана	ADV	postadv	_	22	advmod	_	_
 24	айтушы	айт	VERB	v	Mood=Pot|VerbForm=Part	0	root	_	_
