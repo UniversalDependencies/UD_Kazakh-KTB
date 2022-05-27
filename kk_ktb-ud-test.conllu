@@ -2042,17 +2042,17 @@
 
 # sent_id = akorda-random.tagged.txt:175:3137
 # text = Өкінішке орай, олар бұл мәселені шешуге қабілетсіз болып шықты.
-1	Өкінішке	өкініш	NOUN	n	Case=Dat	8	obl	_	_
+1	Өкінішке	өкініш	NOUN	n	Case=Dat	10	obl	_	_
 2	орай	орай	ADP	post	_	1	case	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	1	punct	_	_
-4	олар	олар	PRON	prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+4	олар	олар	PRON	prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
 5	бұл	бұл	DET	det	PronType=Dem	6	det	_	_
 6	мәселені	мәселе	NOUN	n	Case=Acc	7	obj	_	_
 7	шешуге	шеш	VERB	v	Case=Dat|VerbForm=Ger	8	advcl	_	_
-8	қабілетсіз	қабілетсіз	ADJ	adj	_	0	root	_	_
+8	қабілетсіз	қабілетсіз	ADJ	adj	_	10	xcomp	_	_
 9	болып	бол	AUX	v	Aspect=Perf|VerbForm=Inf	8	cop	_	_
-10	шықты	шық	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
-11	.	.	PUNCT	sent	_	8	punct	_	_
+10	шықты	шық	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	sent	_	10	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:176:3160
 # text = Банктік қызмет көрсету мәдениеті айтарлықтай өсті», деп атап өтті.
@@ -2567,11 +2567,11 @@
 1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 2	Малайзияның	Малайзия	PROPN	np	Case=Gen	4	nmod:poss	_	_
 3	әр	әр	DET	det	PronType=Tot	4	det	_	_
-4	азаматына	азамат	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	7	obl	_	_
+4	азаматына	азамат	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	8	obl	_	_
 5	осы	осы	DET	det	PronType=Dem	6	det	_	_
 6	кітапты	кітап	NOUN	n	Case=Acc	7	obj	_	_
-7	оқып	оқы	VERB	v	Aspect=Perf|VerbForm=Inf	9	ccomp	_	_
-8	шығуды	шық	AUX	vaux	Case=Acc|VerbForm=Ger	7	aux	_	_
+7	оқып	оқы	VERB	v	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_
+8	шығуды	шық	VERB	vaux	Case=Acc|VerbForm=Ger	9	ccomp	_	_
 9	ұсынғым	ұсын	VERB	v	Mood=Des|Number=Sing|Person=1|VerbForm=Inf	0	root	_	_
 10	келеді	кел	AUX	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	sent	_	9	punct	_	_
@@ -3491,14 +3491,14 @@
 
 # sent_id = akorda-random.tagged.txt:301:5387
 # text = Юрий Лужков жаңа туындының қолжазбасымен танысып шығыпты.
-1	Юрий	Юрий	PROPN	np	Case=Nom|Gender=Masc	6	nsubj	_	_
+1	Юрий	Юрий	PROPN	np	Case=Nom|Gender=Masc	7	nsubj	_	_
 2	Лужков	Лужков	PROPN	np	Case=Nom|Gender=Masc	1	flat:name	_	_
 3	жаңа	жаңа	ADJ	adj	_	5	amod	_	_
 4	туындының	туынды	ADJ	adj	Case=Gen	5	nmod:poss	_	_
 5	қолжазбасымен	қолжазба	NOUN	n	Case=Ins|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	_
-6	танысып	тан	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Rcp	0	root	_	_
-7	шығыпты	шық	AUX	vaux	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
-8	.	.	PUNCT	sent	_	6	punct	_	_
+6	танысып	тан	VERB	v	Aspect=Perf|VerbForm=Inf|Voice=Rcp	7	xcomp	_	_
+7	шығыпты	шық	VERB	vaux	Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:302:5404
 # text = Бүгін Мемлекет басшысы Назарбаев Университетінде болды.
@@ -5135,10 +5135,10 @@
 3	жығатынын	жық	VERB	v	Aspect=Imp|Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|VerbForm=Ger	5	ccomp	_	_
 4	кім	кім	PRON	prn	Case=Nom|PronType=Int	5	nsubj	_	_
 5	білсін	біл	VERB	v	Mood=Opt|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	cm	_	8	punct	_	_
+6	,	,	PUNCT	cm	_	9	punct	_	_
 7	әйтеуір	әйтеуір	ADV	adv	_	8	advmod	_	_
-8	ала	ал	VERB	v	Aspect=Imp|VerbForm=Inf	5	parataxis	_	_
-9	шықты	шық	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+8	ала	ал	VERB	v	Aspect=Imp|VerbForm=Inf	9	xcomp	_	_
+9	шықты	шық	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 10	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = kdt.tagged.txt:122:1945
@@ -7765,8 +7765,8 @@
 1	Маған	мен	PRON	prn	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
 2	алдымен	алдымен	ADV	adv	_	4	advmod	_	_
 3	бөлмені	бөлме	NOUN	n	Case=Acc	4	obj	_	_
-4	қарап	қара	VERB	v	Aspect=Perf|VerbForm=Inf	6	csubj	_	_
-5	шығуға	шық	AUX	vaux	Case=Dat|VerbForm=Ger	4	aux	_	_
+4	қарап	қара	VERB	v	Aspect=Perf|VerbForm=Inf	5	xcomp	_	_
+5	шығуға	шық	VERB	vaux	Case=Dat|VerbForm=Ger	6	csubj	_	_
 6	бола	бол	VERB	v	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ма	ма	PART	qst	_	6	discourse	_	SpaceAfter=No
 8	?	?	PUNCT	sent	_	6	punct	_	_
