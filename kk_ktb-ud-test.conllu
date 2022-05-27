@@ -881,14 +881,14 @@
 2	Үмітсіз	үмітсыз	ADJ	adj	_	4	amod	_	SpaceAfter=No
 3	»	»	PUNCT	rquot	_	2	punct	_	_
 4	кредиттердің	кредит	NOUN	n	Case=Gen|Number=Plur	5	nmod:poss	_	_
-5	үлесі	үлес	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	_
+5	үлесі	үлес	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
 6	–	–	PUNCT	guio	_	5	punct	_	_
 7	7,2	7,2	NUM	num	NumType=Card	8	nummod	_	_
-8	пайызға	пайыз	NOUN	n	Case=Dat	10	obl	_	_
+8	пайызға	пайыз	NOUN	n	Case=Dat	11	obl	_	_
 9	дейін	дейін	ADP	post	_	8	case	_	_
-10	арта	арт	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-11	түскен	түс	AUX	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
-12	.	.	PUNCT	sent	_	10	punct	_	_
+10	арта	арт	VERB	v	Aspect=Imp|VerbForm=Inf	11	compound	_	_
+11	түскен	түс	VERB	vaux	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	sent	_	11	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:76:1351
 # text = Бұл барлық әкімдер мен ауыл шаруашылығы тауар өндірушілерінің міндеті.
@@ -1541,10 +1541,10 @@
 # text = Осының барлығы бізді жігерлендіре түседі.
 1	Осының	осы	PRON	prn	Case=Gen|PronType=Dem	2	nmod:poss	_	_
 2	барлығы	барлық	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Tot	3	nmod:poss	_	_
-3	бізді	біз	PRON	prn	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
-4	жігерлендіре	жігерлендір	VERB	v	Aspect=Imp|VerbForm=Inf	0	root	_	_
-5	түседі	түс	AUX	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
-6	.	.	PUNCT	sent	_	4	punct	_	_
+3	бізді	біз	PRON	prn	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+4	жігерлендіре	жігерлендір	VERB	v	Aspect=Imp|VerbForm=Inf	5	compound	_	_
+5	түседі	түс	VERB	vaux	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = akorda-random.tagged.txt:133:2368
 # text = Қазақстан өз жетістіктерімен мақтануға тиіс.
