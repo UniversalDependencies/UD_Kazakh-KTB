@@ -599,7 +599,7 @@
 17	Ұлыбритания	Ұлыбритания	PROPN	np	Case=Nom	18	nmod:poss	_	_
 18	королі	король	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	appos	_	_
 19	—	—	PUNCT	guio	_	18	punct	_	_
-20	VIII	VIII	NUM	num	NumType=Ord	10	appos	_	_
+20	VIII	VIII	NUM	num	NumType=Ord	18	appos	_	_
 21	Эдуард	Эдуард	NOUN	n	Case=Nom|Gender=Masc	20	flat:name	_	SpaceAfter=No
 22	)	)	PUNCT	rpar	_	18	punct	_	_
 23	мен	мен	CCONJ	cnjcoo	_	24	cc	_	_
