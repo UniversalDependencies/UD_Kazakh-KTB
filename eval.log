@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Kazakh-KTB:
-commit d1a29b96b1a19ffacfe0c52182a6b452cde3a53f
-Merge: ce28a00 7181c6e
+commit 76bcb16722f296b0c8762020c18632a897003236
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 14 11:42:18 2022 +0100
 Size: counted 10536 of 10536 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.70959592888196.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,9 +24,9 @@ Udapi:
 Udapi: found 13 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 10536 words.
 Genres: found 3 out of 17 known.
-validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-test.conllu
 *** PASSED ***
-validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
