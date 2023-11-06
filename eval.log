@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Kazakh-KTB:
-commit 76bcb16722f296b0c8762020c18632a897003236
+commit 48fff215c47aa31b2a4f401062c076094a1f7ff7
+Merge: 4e680a5 ccac31d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 11:42:18 2022 +0100
 Size: counted 10536 of 10536 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.70959592888196.
 Size: maximum value 13.815511 is for 1000000 words or more.
