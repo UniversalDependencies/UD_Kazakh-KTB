@@ -15,7 +15,7 @@
   <fusions unique="34" /><!-- қуаныштымын, Жасаған-ау, балалы, кімдікі, көрсетер, Баласыз, Елсіз, айтшы, білмейміз-ау, бітімді, бұзылады-ау, дайынбыз, екпінді, емсіз, ертең-ақ -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">826</tag><!-- бар, үлкен, жаңа, керек, жоқ, тиіс, жақсы, ұлттық, экономикалық, басқа -->
+    <tag name="ADJ">827</tag><!-- бар, үлкен, жаңа, керек, жоқ, тиіс, жақсы, ұлттық, экономикалық, басқа -->
     <tag name="ADP">175</tag><!-- үшін, кейін, бойынша, лы, соң, дейін, қарсы, сыз, қарай, басқа -->
     <tag name="ADV">304</tag><!-- да, қайда, бүгін, енді, қазір, ғана, тағы, қайдан, өте, тек -->
     <tag name="AUX">361</tag><!-- бол, е, жат, ал, отыр, кел, тұр, бер, қал, жүр -->
@@ -31,7 +31,7 @@
     <tag name="SCONJ">21</tag><!-- сондықтан, алайда, да, егер, яғни, де, демек, кейін, себебі, себептен -->
     <tag name="SYM">3</tag><!-- / -->
     <tag name="VERB">1643</tag><!-- де, бол, ал, кел, біл, баста, кет, бер, шық, көр -->
-    <tag name="X">115</tag><!-- жүзеге, жұмыс, ие, пайда, іске, қол, ауыл, жауап, назар, өмір -->
+    <tag name="X">114</tag><!-- жүзеге, жұмыс, ие, пайда, іске, қол, ауыл, жауап, назар, өмір -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="55">
@@ -95,7 +95,7 @@
   <deps unique="36">
     <dep name="acl">108</dep>
     <dep name="acl:relcl">95</dep>
-    <dep name="advcl">375</dep>
+    <dep name="advcl">376</dep>
     <dep name="advmod">310</dep>
     <dep name="amod">708</dep>
     <dep name="appos">87</dep>
@@ -106,10 +106,10 @@
     <dep name="clf">3</dep>
     <dep name="compound">123</dep>
     <dep name="compound:lvc">7</dep>
-    <dep name="conj">406</dep>
+    <dep name="conj">405</dep>
     <dep name="cop">184</dep>
     <dep name="csubj">75</dep>
-    <dep name="dep">114</dep>
+    <dep name="dep">113</dep>
     <dep name="det">218</dep>
     <dep name="discourse">54</dep>
     <dep name="fixed">11</dep>
@@ -128,6 +128,6 @@
     <dep name="punct">2096</dep>
     <dep name="root">1078</dep>
     <dep name="vocative">10</dep>
-    <dep name="xcomp">76</dep>
+    <dep name="xcomp">77</dep>
   </deps>
 </treebank>
