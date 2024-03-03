@@ -58,6 +58,7 @@ Please, cite the following papers if you use Kazakh UD treebank:
   * Added 150 more trees annotated for morpho-lexical features (in addition to POS, lemmata, and syntax).
   * Several annotation errors have been fixed.
 
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.3
 License: CC BY-SA 4.0
@@ -72,3 +73,4 @@ Contributors: Makazhanov, Aibek; Washington, Jonathan North; Tyers, Francis
 Contributing: elsewhere
 Contact: aibek.makazhanov@nu.edu.kz, jonathan.north.washington@gmail.com, ftyers@prompsit.com
 ===============================================================================
+</pre>
