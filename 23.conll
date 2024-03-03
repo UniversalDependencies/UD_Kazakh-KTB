@@ -1,0 +1,13 @@
+1	Біз	_	PRON	PRON	_	11	nsubj	_	_
+2	мына	_	DET	DET	_	3	det	_	_
+3	пластикті	_	NOUN	NOUN	_	4	dobj	_	_
+4	жинап	_	VERB	VERB	_	8	parataxis	_	SpaceAfter=No
+5	,	_	PUNCT	PUNCT	_	4	punct	_	_
+6	оны	_	PRON	PRON	_	8	dobj	_	_
+7	мөлшермен	_	NOUN	NOUN	_	_	_	_	_
+8	үгітіп	_	VERB	VERB	_	11	ccomp	_	SpaceAfter=No
+9	,	_	PUNCT	PUNCT	_	8	punct	_	_
+10	мұхиттан	_	NOUN	NOUN	_	11	advcl	_	_
+11	таптық	_	VERB	VERB	_	_	_	_	SpaceAfter=No
+12	.	_	PUNCT	PUNCT	_	11	punct	_	_
+

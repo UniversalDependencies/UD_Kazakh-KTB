@@ -1,0 +1,9 @@
+1	Балалар	_	NOUN	NOUN	_	3	nsubj	_	_
+2	электр	_	ADJ	ADJ	_	3	amod	_	_
+3	құрылғыны	_	NOUN	NOUN	_	4	dobj	_	_
+4	ұстап	_	VERB	VERB	_	_	_	_	_
+5	тұрса	_	AUX	AUX	_	4	aux	_	_
+6	да	_	CONJ	CONJ	_	5	cc	_	_
+7	қауіпсіз	_	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+8	.	_	PUNCT	PUNCT	_	7	punct	_	_
+

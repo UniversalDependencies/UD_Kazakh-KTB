@@ -1,0 +1,9 @@
+1	Жұмысым	_	NOUN	NOUN	_	7	nsubj	_	_
+2	-	_	PUNCT	PUNCT	_	1	punct	_	_
+3	балалардың	_	NOUN	NOUN	_	4	acl	_	_
+4	идеясының	_	NOUN	NOUN	_	5	acl	_	_
+5	үздігін	_	ADJ	ADJ	_	6	dobj	_	_
+6	жинақтау	_	VERB	VERB	_	_	_	_	_
+7	болатын	_	AUX	AUX	_	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
