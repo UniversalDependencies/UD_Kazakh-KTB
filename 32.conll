@@ -1,0 +1,15 @@
+1	Жылдам	_	ADJ	ADJ	_	3	amod	_	_
+2	қайта	_	ADJ	ADJ	_	3	amod	_	_
+3	бейнелеп	_	VERB	VERB	_	5	advcl	_	_
+4	жатып	_	AUX	AUX	_	3	aux	_	_
+5	таңғы	_	ADJ	ADJ	_	6	compound	_	_
+6	ас	_	NOUN	NOUN	_	7	compound	_	_
+7	қорабын	_	NOUN	NOUN	_	8	dobj	_	_
+8	кескенде	_	VERB	VERB	_	13	ccomp	_	SpaceAfter=No
+9	,	_	PUNCT	PUNCT	_	8	punct	_	_
+10	ішінде	_	ADV	ADV	_	12	advcl	_	_
+11	тағам	_	NOUN	NOUN	_	12	nsubj	_	_
+12	бар	_	ADJ	ADJ	_	_	_	_	_
+13	болды	_	AUX	AUX	_	12	aux	_	SpaceAfter=No
+14	.	_	_	_	_	_	_	_	_
+

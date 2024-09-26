@@ -1,0 +1,14 @@
+1	Бірақ	_	SCONJ	SCONJ	_	7	mark	_	_
+2	қиялым	_	NOUN	NOUN	_	12	nsubj	_	_
+3	мені	_	PRON	PRON	_	12	dobj	_	_
+4	барлық	_	DET	DET	_	5	det	_	_
+5	нәрсе	_	NOUN	NOUN	_	6	nsubj	_	_
+6	мүмкін	_	ADJ	ADJ	_	_	_	_	_
+7	болған	_	AUX	AUX	_	12	ccomp	_	SpaceAfter=No
+8	,	_	PUNCT	PUNCT	_	7	punct	_	_
+9	тамаша	_	ADJ	ADJ	_	10	amod	_	_
+10	әлемге	_	NOUN	NOUN	_	12	nmod	_	_
+11	алып	_	AUX	AUX	_	12	aux	_	_
+12	барады	_	VERB	VERB	_	_	_	_	SpaceAfter=No
+13	.	_	PUNCT	PUNCT	_	12	punct	_	_
+

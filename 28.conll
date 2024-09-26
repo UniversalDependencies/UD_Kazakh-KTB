@@ -1,0 +1,9 @@
+1	Сенімдірек	_	ADJ	ADJ	_	3	advcl	_	_
+2	жұмыс	_	NOUN	NOUN	_	3	dobj	_	_
+3	істеу	_	VERB	VERB	_	6	ccomp	_	_
+4	үшін	_	SCONJ	SCONJ	_	3	cc	_	_
+5	идеяны	_	NOUN	NOUN	_	6	dobj	_	_
+6	біріктіруге	_	VERB	VERB	_	_	_	_	_
+7	тырыстық	_	VERB	VERB	_	6	compound	_	SpaceAfter=No
+8	.	_	PUNCT	PUNCT	_	7	punct	_	_
+

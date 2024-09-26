@@ -1,0 +1,9 @@
+1	Өкініштісі	_	ADJ	ADJ	_	7	discourse	_	SpaceAfter=No
+2	,	_	PUNCT	PUNCT	_	1	punct	_	_
+3	елімде	_	NOUN	NOUN	_	7	iobj	_	_
+4	қыздар	_	NOUN	NOUN	_	5	amod	_	_
+5	тұратын	_	VERB	VERB	_	6	acl	_	_
+6	жатақхана	_	NOUN	NOUN	_	7	nsubj	_	_
+7	болмады	_	VERB	VERB	_	_	_	_	SpaceAfter=No
+8	.	_	PUNCT	PUNCT	_	7	punct	_	_
+

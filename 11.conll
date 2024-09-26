@@ -1,0 +1,14 @@
+1	Және	_	CONJ	CONJ	_	2	сс	_	_
+2	бұны	_	DET	DET	_	3	det	_	_
+3	айту	_	VERB	VERB	_	12	parataxis	_	_
+4	өкінішті	_	ADJ	ADJ	_	3	amod	_	_
+5	бірақ	_	SCONJ	SCONJ	_	4	mark	_	_
+6	бүгінде	_	ADV	ADV	_	12	advmod	_	_
+7	теңізде	_	NOUN	NOUN	_	12	iobj	_	_
+8	80	_	NUM	NUM	_	_	_	_	SpaceAfter=No
+9	%	_	SYM	SYM	_	8	cop	_	_
+10	көп	_	PRON	PRON	_	11	det	_	_
+11	пластик	_	NOUN	NOUN	_	12	nsubj	_	_
+12	бар	_	VERB	VERB	_	_	_	_	SpaceAfter=No
+13	.	_	sent	sent	_	12	punct	_	_
+
