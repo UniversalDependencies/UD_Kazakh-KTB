@@ -63,6 +63,7 @@ Please, cite the following papers if you use Kazakh UD treebank:
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: wiki fiction news
 Lemmas: manual native
 UPOS: converted from manual
