@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Kazakh-KTB:
-commit 2fa7306daa69909089c7a8b789dfeec7221883b5
-Merge: e9f3b87 c850e53
+commit 0accc11d5ecd9612968cb0c74a5284580bffe88e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:08:29 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'kk_ktb'
 Language code (from CoNLL-U file name) = 'kk'
@@ -25,27 +25,28 @@ Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 3 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-test.conllu
-[Line 781 Sent akorda-random.tagged.txt:67:1159]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'толғаныспен') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1348 Sent akorda-random.tagged.txt:115:2056]: [L3 Warning fixed-without-extpos] Fixed expression 'Сондықтан да' does not have the 'ExtPos' feature
-[Line 1922 Sent akorda-random.tagged.txt:164:2942]: [L3 Warning fixed-without-extpos] Fixed expression 'ешқандай да' does not have the 'ExtPos' feature
-[Line 1922 Sent akorda-random.tagged.txt:164:2942]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('ешқандай')
-[Line 3318 Sent akorda-random.tagged.txt:286:5111]: [L3 Warning fixed-without-extpos] Fixed expression 'Сондықтан да' does not have the 'ExtPos' feature
-[Line 7133 Sent udhr.tagged.txt:4:156]: [L3 Warning fixed-without-extpos] Fixed expression 'не болмаса' does not have the 'ExtPos' feature
-[Line 7146 Sent udhr.tagged.txt:4:156]: [L3 Warning fixed-without-extpos] Fixed expression 'және де' does not have the 'ExtPos' feature
-[Line 7265 Sent udhr.tagged.txt:10:391]: [L3 Warning fixed-without-extpos] Fixed expression 'және де' does not have the 'ExtPos' feature
-[Line 8155 Sent Жиырма_Бесінші_Сөз.tagged.txt:21:528]: [L3 Warning fixed-without-extpos] Fixed expression 'Сөйтсе де' does not have the 'ExtPos' feature
-[Line 8155 Sent Жиырма_Бесінші_Сөз.tagged.txt:21:528]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('Сөйтсе')
-[Line 8209 Sent Жиырма_Бесінші_Сөз.tagged.txt:25:614]: [L3 Warning fixed-without-extpos] Fixed expression 'Және де' does not have the 'ExtPos' feature
-[Line 8262 Sent Жиырма_Бесінші_Сөз.tagged.txt:27:708]: [L3 Warning fixed-without-extpos] Fixed expression 'Сонда да' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 10553 Sent Иран.tagged.txt:110:3282]: [L3 Syntax leaf-det] 'det' not expected to have children (9:түрлі:det --> 8:әр:dep)
-[Line 12064 Sent story.tagged.txt:5:47]: [L3 Syntax rel-upos-cc] 'cc' should not be 'DET' ('Осы')
-Syntax errors: 4
-Warnings: 14
-*** FAILED *** with 4 errors
+[Line 781 Sent akorda-random.tagged.txt:67:1159]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'толғаныспен') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1348 Sent akorda-random.tagged.txt:115:2056]: [L3 WARNING fixed-without-extpos] Fixed expression 'Сондықтан да' does not have the 'ExtPos' feature
+[Line 1922 Sent akorda-random.tagged.txt:164:2942]: [L3 WARNING fixed-without-extpos] Fixed expression 'ешқандай да' does not have the 'ExtPos' feature
+[Line 1922 Sent akorda-random.tagged.txt:164:2942]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('ешқандай')
+[Line 3318 Sent akorda-random.tagged.txt:286:5111]: [L3 WARNING fixed-without-extpos] Fixed expression 'Сондықтан да' does not have the 'ExtPos' feature
+[Line 7133 Sent udhr.tagged.txt:4:156]: [L3 WARNING fixed-without-extpos] Fixed expression 'не болмаса' does not have the 'ExtPos' feature
+[Line 7146 Sent udhr.tagged.txt:4:156]: [L3 WARNING fixed-without-extpos] Fixed expression 'және де' does not have the 'ExtPos' feature
+[Line 7265 Sent udhr.tagged.txt:10:391]: [L3 WARNING fixed-without-extpos] Fixed expression 'және де' does not have the 'ExtPos' feature
+[Line 8155 Sent Жиырма_Бесінші_Сөз.tagged.txt:21:528]: [L3 WARNING fixed-without-extpos] Fixed expression 'Сөйтсе де' does not have the 'ExtPos' feature
+[Line 8155 Sent Жиырма_Бесінші_Сөз.tagged.txt:21:528]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('Сөйтсе')
+[Line 8209 Sent Жиырма_Бесінші_Сөз.tagged.txt:25:614]: [L3 WARNING fixed-without-extpos] Fixed expression 'Және де' does not have the 'ExtPos' feature
+[Line 8262 Sent Жиырма_Бесінші_Сөз.tagged.txt:27:708]: [L3 WARNING fixed-without-extpos] Fixed expression 'Сонда да' does not have the 'ExtPos' feature
+[Line 10553 Sent Иран.tagged.txt:110:3282]: [L3 SYNTAX leaf-det] 'det' not expected to have children (9:түрлі:det --> 8:әр:dep)
+[Line 10584 Sent Иран.tagged.txt:112:3346]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'әсер') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12064 Sent story.tagged.txt:5:47]: [L3 WARNING fixed-without-extpos] Fixed expression 'Осы себептен' does not have the 'ExtPos' feature
+[Line 12064 Sent story.tagged.txt:5:47]: [L3 SYNTAX rel-upos-cc] 'cc' should not be 'DET' ('Осы')
+Warnings: 10
+SYNTAX errors: 6
+*** FAILED *** with 6 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang kk --max-err=10 UD_Kazakh-KTB/kk_ktb-ud-train.conllu
-[Line 312 Sent sholpan.tagged.txt:15:516]: [L3 Warning fixed-without-extpos] Fixed expression 'қалай да' does not have the 'ExtPos' feature
+[Line 312 Sent sholpan.tagged.txt:15:516]: [L3 WARNING fixed-without-extpos] Fixed expression 'қалай да' does not have the 'ExtPos' feature
 Warnings: 1
 *** PASSED ***
 Validity: 0.01
