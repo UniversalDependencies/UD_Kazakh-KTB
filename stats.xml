@@ -116,12 +116,12 @@
     <dep name="flat:name">90</dep>
     <dep name="iobj">5</dep>
     <dep name="mark">3</dep>
-    <dep name="nmod">221</dep>
+    <dep name="nmod">225</dep>
     <dep name="nmod:poss">819</dep>
     <dep name="nsubj">1049</dep>
     <dep name="nummod">121</dep>
     <dep name="obj">517</dep>
-    <dep name="obl">799</dep>
+    <dep name="obl">795</dep>
     <dep name="obl:own">7</dep>
     <dep name="orphan">13</dep>
     <dep name="parataxis">80</dep>
